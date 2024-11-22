@@ -1,5 +1,5 @@
 ---
-title: Contribute (Add Item)
+title: 🤝 Contribute (Add Item)
 nav_order: 10
 layout: home
 ---
