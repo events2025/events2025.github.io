@@ -21,14 +21,6 @@ We provide:
 6. 🟣 **Notable Papers and Methods**: Significant publications and methodologies.
 
 
-
-1. 🔴 <span style="color: red; font-weight: bold;">Tutorials</span>: Easy-to-follow guides that introduce users to event processing and showcase interesting datasets of events and contextual data, such as meteorological information.
-2. 🟠 <span style="color: orange; font-weight: bold;">Websites</span>: Useful resources to help you get started in the field.
-3. 🟡 <span style="color: yellow; font-weight: bold;">Tools</span>: Tools ranging from point process analysis to GIS that assist in event data processing.
-4. 🟢 <span style="color: green; font-weight: bold;">Datasets</span>: Collections that can be used to benchmark novel methods or explore new insights.
-5. 🔵 <span style="color: blue; font-weight: bold;">Conferences and Journals</span>: Information about relevant conferences and journals in the field.
-6. 🟣 <span style="color: purple; font-weight: bold;">Notable Papers and Methods</span>: Significant publications and methodologies.
-
 ## Mission and Scope
 
 Our mission is to lower entrance barriers and improve the quality of benchmarks in event data analysis. We aim to create a comprehensive resource for researchers and practitioners to access tutorials, datasets, tools, and literature in the field.

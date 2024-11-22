@@ -4,7 +4,7 @@ nav_order: 6
 layout: home
 ---
 
-# 🔵 Conferences and Journals
+<h1 style="color: darkblue;">Conferences and Journals</h1>
 
 
 <div style="max-width: 100%;">
