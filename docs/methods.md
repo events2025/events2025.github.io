@@ -1,6 +1,6 @@
 ---
-title: Websites
-nav_order: 3
+title: Notable Papers and Methods
+nav_order: 7
 layout: home
 ---
 This contains a list of websites and a frame.

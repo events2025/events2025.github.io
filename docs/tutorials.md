@@ -1,6 +1,6 @@
 ---
-title: Websites
-nav_order: 3
+title: Tutorials
+nav_order: 2
 layout: home
 ---
 This contains a list of websites and a frame.
