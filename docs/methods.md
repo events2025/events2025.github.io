@@ -4,7 +4,7 @@ nav_order: 7
 layout: home
 ---
 
-# 🟣 Notable Papers and Methods
+<h1 style="color: purple;">Notable Papers and Methods</h1>
 
 
 <div style="max-width: 100%;">
