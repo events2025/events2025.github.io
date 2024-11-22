@@ -4,7 +4,7 @@ nav_order: 2
 layout: home
 ---
 
-# Tutorials
+<h1 style="color:rgb(194 30 86);">Tutorials</h1>
 
 
 <div style="max-width: 100%;">
