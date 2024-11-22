@@ -21,7 +21,7 @@ else:
     paramtext_block = ''
 
 # Step 3: Read the CSV file
-csv_file_path = 'data/input.csv'
+csv_file_path = 'data/Add Item to "Events in Context" Knowledge Base.csv'
 df = pd.read_csv(csv_file_path, encoding='utf-8')
 
 # Filter rows where Type equals 'Method/Paper'
