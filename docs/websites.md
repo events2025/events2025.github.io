@@ -1,6 +1,5 @@
 ---
 title: Websites
-layout: home
 nav_order: 5
 ---
 This contains a list of websites and a frame.
