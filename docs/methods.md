@@ -1,9 +1,10 @@
 ---
-title: Notable Papers and Methods
+title: 🟣 Notable Papers and Methods
 nav_order: 7
 layout: home
 ---
-This contains a list of websites and a frame.
+
+# 🟣 Notable Papers and Methods
 
 
 <div style="max-width: 100%;">

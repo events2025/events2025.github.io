@@ -1,9 +1,10 @@
 ---
-title: Conferences and Journals
+title: 🔵 Conferences and Journals
 nav_order: 6
 layout: home
 ---
-This contains a list of websites and a frame.
+
+# 🔵 Conferences and Journals
 
 
 <div style="max-width: 100%;">
