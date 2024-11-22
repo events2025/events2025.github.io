@@ -24,7 +24,7 @@ We provide:
 
 Our mission is to lower entrance barriers and improve the quality of benchmarks in event data analysis. We aim to create a comprehensive resource for researchers and practitioners to access tutorials, datasets, tools, and literature in the field.
 
-## Contribute
+## 🤝 Contribute
 
 This project is community-driven. Everyone is welcome to contribute by adding new items to the website. After submission, your contribution will be reviewed and added to the site.
 
