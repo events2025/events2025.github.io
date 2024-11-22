@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# Events in Context
+# 🛰️ Events in Context
 
 An event represents any occurrence of interest at a specific point in space and time.
 
