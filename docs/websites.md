@@ -11,7 +11,7 @@ This contains a list of websites and a frame.
   <!-- Spatio-temporal -->
   <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0;"><strong>Peculiarities of Counterfactual Point Process Generation </strong></p>
         <p style="margin: 0;">G. Großmann, S. Mukherjee, S. Vollmer</p>
@@ -25,7 +25,7 @@ This contains a list of websites and a frame.
   <!-- Pirate -->
   <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0;"><strong>GRIP: Physics-Informed Neural Network for Gradient Retention Time Prediction in Liquid Chromatography</strong></p>
         <p style="margin: 0;">K. George, F.P. J. Haeckl, G. Großmann, A. Gurevich, A. Tagirdzhanov</p>
