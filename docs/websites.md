@@ -12,9 +12,9 @@ This contains a list of websites and a frame.
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0;"><strong>Title</strong></p>
-        <p style="margin: 0;">Description</p>
-        <p style="margin: 0;"><a href="URL"><i class="fa-regular fa-file-pdf"></i>URL</a> </p>
+        <p style="margin: 0;"><strong>((TITLE))</strong></p>
+        <p style="margin: 0;">((Description))</p>
+        <p style="margin: 0;"><a href="((URL))"><i class="fa-regular fa-file-pdf"></i>((URL))</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
