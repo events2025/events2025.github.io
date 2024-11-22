@@ -1,9 +1,10 @@
 ---
-title: Software
+title: 🟡 Tools
 nav_order: 4
 layout: home
 ---
-This contains a list of websites and a frame.
+
+# 🟡 Tools
 
 
 <div style="max-width: 100%;">

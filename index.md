@@ -13,12 +13,12 @@ An event represents any occurrence of interest at a specific point in space and 
 
 We provide:
 
-1. 💡 **Tutorials**: Easy-to-follow guides that introduce users to event processing and showcase interesting datasets of events and contextual data, such as meteorological information.
-2. 🔗 **Websites**: Useful resources to help you get started in the field.
-3. 🛠️ **Software**: Tools ranging from point process analysis to GIS that assist in event data processing.
-4. 💾 **Datasets**: Collections that can be used to benchmark novel methods or explore new insights.
-5. 📖 **Conferences and Journals**: Information about relevant conferences and journals in the field.
-6. 🤖 **Notable Papers and Methods**: Significant publications and methodologies.
+1. 🔴 **Tutorials**: Easy-to-follow guides that introduce users to event processing and showcase interesting datasets of events and contextual data, such as meteorological information.
+2. 🟠 **Websites**: Useful resources to help you get started in the field.
+3. 🟡 **Tools**: Tools ranging from point process analysis to GIS that assist in event data processing.
+4. 🟢 **Datasets**: Collections that can be used to benchmark novel methods or explore new insights.
+5. 🔵 **Conferences and Journals**: Information about relevant conferences and journals in the field.
+6. 🟣 **Notable Papers and Methods**: Significant publications and methodologies.
 
 ## Mission and Scope
 
