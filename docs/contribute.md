@@ -1,6 +1,7 @@
 ---
 title: Contribute (Add Item)
 nav_order: 6
+layout: home
 ---
 
 # Contribute (Add Item)
