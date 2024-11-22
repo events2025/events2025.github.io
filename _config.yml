@@ -3,3 +3,7 @@ description: Event data and where to find it and how to use it
 theme: just-the-docs
 
 url: https://events2025.github.io
+
+logo: "/assets/images/logo.jpg"
+
+favicon_ico: "/assets/images/icon.ico"
