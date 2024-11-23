@@ -3,8 +3,9 @@ title: 🟣 Notable Papers and Methods
 nav_order: 7
 layout: home
 ---
-
+<br>
 <h1 style="color: purple;">Notable Papers and Methods</h1>
+<br>
 
 
 <div style="max-width: 100%;">
