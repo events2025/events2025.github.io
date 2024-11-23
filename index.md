@@ -36,7 +36,7 @@ Our mission is to lower entrance barriers and improve the quality of benchmarks 
 
 This project is community-driven. Everyone is welcome to contribute by adding new items to the website. After submission, your contribution will be reviewed and added to the site.
 You can submit via:
-- a [form](docs/contribute/)
+- a [form](docs/contribute.html)
 - by creating a [Pull Request](https://github.com/events2025/) where you create a new '.csv' file within the data folder (this also allows adding more than one fiel at once). 
 
 
