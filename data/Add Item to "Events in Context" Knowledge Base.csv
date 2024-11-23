@@ -1,6 +1,6 @@
 "Timestamp","Type","Title","URL","Description","Image"
 "2024/11/23 9:55:18 AM GMT+1","🟠 Website","EPIDE","https://cs.emory.edu/~lzhao41/projects/event_prediction_site/","Website for events in the big data era. ",""
 "2024/11/23 9:59:31 AM GMT+1","🔴 Tutorial","NYC Motor Vehicle Collisions ","https://www.kaggle.com/code/skhiearth/nyc-motor-vehicle-collisions","Tutorial for visualization of car crashes",""
-"2024/11/23 10:00:18 AM GMT+1","🟡 Tool","EasyTPP","https://github.com/ant-research/EasyTemporalPointProcess","Python library for processing temporal point processes. ",""
+"2024/11/23 10:00:18 AM GMT+1","🟡 Tool","EasyTPP","https://github.com/ant-research/EasyTemporalPointProcess","Python library for processing temporal point processes. ","/assets/images/thumb/EasyTPP.jpg"
 "2024/11/23 10:01:04 AM GMT+1","🔵 Conference or Journal","ACM Sigspatial","https://sigspatial2024.sigspatial.org/","International Conference on Advances in Geographic Information Systems.",""
 "2024/11/23 10:02:17 AM GMT+1","🟣 Paper or Method","In data we trust? A comparison of UCDP GED and ACLED conflict events datasets","https://journals.sagepub.com/doi/10.1177/0010836711434463","Comparing the data quality of Acled and Uppsala UCDP GED",""
