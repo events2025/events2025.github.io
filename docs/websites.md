@@ -1,10 +1,9 @@
 ---
-title: Websites
+title: 🟠 Websites
 nav_order: 3
 layout: home
 ---
 
-<br>
 <h1 style="color:rgb(255, 95, 31);">Websites</h1>
 <br>
 
