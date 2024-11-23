@@ -28,7 +28,7 @@ jobs:
 
       - name: Run process_files.py
         run: |
-          python process_files.py
+          python process_data.py
 
       - name: Commit and Push Changes
         run: |
