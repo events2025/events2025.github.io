@@ -1,0 +1,25 @@
+---
+title: 🟢 Datasets
+nav_order: 5
+layout: home
+---
+<br>
+<h1 style="color:rgb(64, 130, 109);">Datasets</h1>
+<br>
+
+
+<div style="max-width: 100%;">
+  <!-- START -->
+  <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0;"><strong>((Title))</strong></p>
+        <p style="margin: 0;">((Description))</p>
+        <p style="margin: 0;"><a href="((URL))"><i class="fa-regular fa-file-pdf"></i>((URL))</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+  <!-- STOP -->
+</div>
