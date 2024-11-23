@@ -25,7 +25,8 @@ csv_file_path = 'data/Add Item to "Events in Context" Knowledge Base.csv'
 df = pd.read_csv(csv_file_path, encoding='utf-8')
 
 # Filter rows where Type equals 'Method/Paper'
-df_papers = df[df['Type'] == 'Method/Paper']
+df_websites = df[df['Type'].str.lower().str.contains('website', na=False)]
+
 
 # Function to replace placeholders with actual values
 def substitute_placeholders(text, row):
@@ -48,12 +49,12 @@ def substitute_placeholders(text, row):
 
 # Generate the new content by instantiating the paramtext block for each relevant CSV row
 generated_blocks = ''
-for idx, row in df_papers.iterrows():
+for idx, row in df_websites.iterrows():
     block = substitute_placeholders(paramtext_block, row)
     generated_blocks += block + '\n\n'  # Add spacing between blocks if necessary
 
 # If there are zero entries, set generated_blocks to an empty string
-if df_papers.empty:
+if df_websites.empty:
     generated_blocks = ''
 
 # Replace the original paramtext block in the markdown content with the generated content
