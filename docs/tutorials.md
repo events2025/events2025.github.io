@@ -3,7 +3,7 @@ title: 🔴 Tutorials
 nav_order: 2
 layout: home
 ---
-<br>
+
 <h1 style="color:rgb(194 30 86);">Tutorials</h1>
 <br>
 
