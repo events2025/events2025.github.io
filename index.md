@@ -29,10 +29,19 @@ Our mission is to lower entrance barriers and improve the quality of benchmarks 
 - Fix images
 - More content
 - better URL
+- clean input code automatically
 
 
 ## 🤝 Contribute
 
 This project is community-driven. Everyone is welcome to contribute by adding new items to the website. After submission, your contribution will be reviewed and added to the site.
+You can submit via:
+- a [form](docs/contribute/)
+- by creating a [Pull Request](https://github.com/events2025/) where you create a new '.csv' file within the data folder (this also allows adding more than one fiel at once). 
 
-If you want to report an error please use [this Form]. 
+
+If you want to report, please raise an issue on [GitHub](https://github.com/events2025/).
+
+
+## Funding
+This work was funded by the Bundesministerium für Bildung und Forschung (BMBF) under Grant 01IW23005 and is part of the [eventful](https://dsa.dfki.de/research/eventful/) project.
