@@ -30,6 +30,8 @@ Our mission is to lower entrance barriers and improve the quality of benchmarks 
 - More content
 - better URL
 - clean input code automatically
+- automate forms input: https://gist.github.com/jaredhowland/ea0258cd49bed45a41d1c671eb4b245b
+- have individual forms for each data modality
 
 
 ## 🤝 Contribute
