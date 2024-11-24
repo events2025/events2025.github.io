@@ -25,14 +25,6 @@ We provide:
 
 Our mission is to lower entrance barriers and improve the quality of benchmarks in event data analysis. We aim to create a comprehensive resource for researchers and practitioners to access tutorials, datasets, tools, and literature in the field.
 
-### TODOs
-- Fix images
-- More content
-- better URL
-- clean input code automatically
-- automate forms input: https://gist.github.com/jaredhowland/ea0258cd49bed45a41d1c671eb4b245b
-- have individual forms for each data modality
-
 
 ## 🤝 Contribute
 
