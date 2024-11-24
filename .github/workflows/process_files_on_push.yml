@@ -28,10 +28,12 @@ jobs:
 
       - name: Run process_files.py
         run: |
-          rm Gemfile
-          rm Gemfile.lock
-          cp data/Gemfile Gemfile
-          cp data/Gemfile.lock Gemfile.lock
+          #rm Gemfile
+          #rm Gemfile.lock
+          #cp data/Gemfile Gemfile
+          #cp data/Gemfile.lock Gemfile.lock
+          touch Gemfile
+          touch Gemfile.lock
           python process_data.py
 
       - name: Commit and Push Changes
