@@ -48,7 +48,7 @@ for idx, row in df.iterrows():
         title = row['Title']
         cleaned_title = clean_title(title)
         new_image_path = f'assets/images/thumb/{cleaned_title}.jpg'
-        df.at[idx, 'Image'] = new_image_path
+        df.at[idx, 'Image'] = "/"+new_image_path
 
         # Create the image file if it doesn't exist
         src_image_path = 'assets/images/logo.jpg'
