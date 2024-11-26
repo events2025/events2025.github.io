@@ -29,9 +29,9 @@ except Exception as e:
     print(f"An error occurred while reading the CSV file: {e}")
     exit(1)
 
-# df['Image'] = df['Image'].replace('', '/assets/image/logo.jpg').replace(' ', '/assets/image/logo.jpg').fillna('/assets/image/logo.jpg')
-# TODO if "/assets/image/thumb" not in the Image entry, replace it with a cleaned <title>.jpg (no special characters or spaces) where title is the entry in the title column
-# also create the corresponding image (if it does not exists) by copying /assets/image/logo.jpg' to /assets/image/<title>.jpg'
+# df['Image'] = df['Image'].replace('', '/assets/images/logo.jpg').replace(' ', '/assets/images/logo.jpg').fillna('/assets/images/logo.jpg')
+# TODO if "/assets/images/thumb" not in the Image entry, replace it with a cleaned <title>.jpg (no special characters or spaces) where title is the entry in the title column
+# also create the corresponding image (if it does not exists) by copying /assets/images/logo.jpg' to /assets/images/<title>.jpg'
 
 # Define a function to clean the title
 def clean_title(title):
@@ -44,14 +44,14 @@ def clean_title(title):
 # Process each row in the DataFrame
 for idx, row in df.iterrows():
     image = str(row['Image'])
-    if "/assets/image/thumb" not in image:
+    if "assets/images/thumb" not in image:
         title = row['Title']
         cleaned_title = clean_title(title)
-        new_image_path = f'assets/image/{cleaned_title}.jpg'
+        new_image_path = f'assets/images/{cleaned_title}.jpg'
         df.at[idx, 'Image'] = new_image_path
 
         # Create the image file if it doesn't exist
-        src_image_path = 'assets/image/logo.jpg'
+        src_image_path = 'assets/images/logo.jpg'
         dst_image_path = new_image_path
         if not os.path.exists(dst_image_path):
             try:
