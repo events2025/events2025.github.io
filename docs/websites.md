@@ -12,7 +12,7 @@ layout: home
   <!-- START -->
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="assets/images/thumb/epide.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/epide.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">EPIDE</p>
         <p style="margin: 0;">The EPIDE (Event Prediction in the Big Data Era) website serves as a comprehensive repository for resources related to event prediction, aiming to facilitate research and application in this rapidly evolving field. It offers systematic reviews, tutorials, datasets, and code to address challenges such as heterogeneous outputs, complex dependencies, and streaming data feeds. The platform provides access to a wide array of datasets across various domains, including healthcare (e.g., COVID-19 and influenza outbreaks), media (e.g., multimedia-based next action prediction), transportation (e.g., NYU Yellow Taxi datasets), engineering systems (e.g., global energy forecasting), cyber systems (e.g., cyber attack prediction), political events (e.g., civil unrests), natural events (e.g., geophysics and atmospherics), business (e.g., customer activity prediction), and crimes (e.g., global terrorism database).</p>
@@ -24,7 +24,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="assets/images/thumb/large_language_models_and_foundation_models_llm_lm_fm_for_time_series_and_spatio-temporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/large_language_models_and_foundation_models_llm_lm_fm_for_time_series_and_spatio-temporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Large (Language) Models and Foundation Models (LLM, LM, FM) for Time Series and Spatio-Temporal Data</p>
         <p style="margin: 0;">This github repository offers a curated list compiles resources on large language and foundation models for temporal data, including time series, spatio-temporal, and event data, aiming to systematically summarize recent advancements in this field.</p>
