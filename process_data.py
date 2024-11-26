@@ -14,6 +14,10 @@ files_to_process = [
 # Path to the CSV file
 csv_file_path = 'data/Add Item to "Events in Context" Knowledge Base.csv'
 
+
+df['Image'] = df['Image'].replace('', '/assets/image/logo.jpg').replace(' ', '/assets/image/logo.jpg').fillna('/assets/image/logo.jpg')
+
+
 # Read the CSV file once
 try:
     df = pd.read_csv(csv_file_path, encoding='utf-8')
