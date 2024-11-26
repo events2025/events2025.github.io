@@ -23,7 +23,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="assets/images/spatial-kfold.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="assets/images/thumb/spatial-kfold.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">spatial-kfold</p>
         <p style="margin: 0;">Spatial-kfold is a Python library that improves cross-validation in spatial studies by offering spatial clustering and block resampling techniques. It facilitates "Leave Region Out" cross-validation, aiding in model generalization to new locations and improving the reliability of feature selection and hyperparameter tuning.</p>
