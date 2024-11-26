@@ -47,11 +47,11 @@ for idx, row in df.iterrows():
     if "/assets/image/thumb" not in image:
         title = row['Title']
         cleaned_title = clean_title(title)
-        new_image_path = f'/assets/image/{cleaned_title}.jpg'
+        new_image_path = f'assets/image/{cleaned_title}.jpg'
         df.at[idx, 'Image'] = new_image_path
 
         # Create the image file if it doesn't exist
-        src_image_path = '/assets/image/logo.jpg'
+        src_image_path = 'assets/image/logo.jpg'
         dst_image_path = new_image_path
         if not os.path.exists(dst_image_path):
             try:

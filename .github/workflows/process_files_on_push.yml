@@ -34,7 +34,7 @@ jobs:
           cp data/Gemfile.lock Gemfile.lock
           touch Gemfile
           touch Gemfile.lock
-          python 2_create_website.py
+          python main_create_website.py
 
       - name: Commit and Push Changes
         run: |
