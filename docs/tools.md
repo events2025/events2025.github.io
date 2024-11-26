@@ -11,7 +11,7 @@ layout: home
   <!-- START -->
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/image/easytpp.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="assets/image/easytpp.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">EasyTPP</p>
         <p style="margin: 0;">EasyTPP is a comprehensive benchmarking tool designed to advance research in temporal point processes (TPPs), which are crucial for modeling continuous-time event sequences across domains like healthcare, finance, and social networks. The motivation behind EasyTPP is to address the lack of a standardized framework, which impedes fair comparison, reproducibility, and progress in TPP research. The tool offers a unified interface for datasets, an array of evaluation methods, implementations of popular neural TPP models, and modular components for building and extending new models, supporting both PyTorch and TensorFlow frameworks. Some of the included datasets are synthetic Hawkes process data, Amazon user reviews, NYC taxi events, Taobao user clicks, Retweet sequences, and StackOverflow badges.</p>
@@ -23,7 +23,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/image/spatial-kfold.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="assets/image/spatial-kfold.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">spatial-kfold</p>
         <p style="margin: 0;">Spatial-kfold is a Python library that improves cross-validation in spatial studies by offering spatial clustering and block resampling techniques. It facilitates "Leave Region Out" cross-validation, aiding in model generalization to new locations and improving the reliability of feature selection and hyperparameter tuning.</p>
