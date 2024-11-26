@@ -21,5 +21,41 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spatiotemporal Datasets</p>
+        <p style="margin: 0;">This repository collects datasets for network science, deep learning, and general machine learning research. It includes data such as weekly chickenpox cases in Hungary and bicycle deliveries in London.</p>
+        <p style="margin: 0;"><a href="https://github.com/benedekrozemberczki/spatiotemporal_datasets?tab=readme-ov-file"><i class="fa-regular fa-file-pdf"></i>https://github.com/benedekrozemberczki/spatiotemporal_datasets?tab=readme-ov-file</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Crimes in Vancouver</p>
+        <p style="margin: 0;">Individual events with time (minute, hour, day, month, year) and latitude and longitude is provided, freely available.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/wosaku/crime-in-vancouver"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/wosaku/crime-in-vancouver</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Motor Vehicle Collisions - Crashes</p>
+        <p style="margin: 0;">Individual events with time, latitude, longitude and marks, freely available.</p>
+        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>

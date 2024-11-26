@@ -20,5 +20,29 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Working with Spatio-temporal data in Python</p>
+        <p style="margin: 0;">This tutorial introduce Python for analyzing and visualizing spatial-temporal data. And uses datasets from the environmental sciences that are freely available.</p>
+        <p style="margin: 0;"><a href="https://annefou.github.io/metos_python/"><i class="fa-regular fa-file-pdf"></i>https://annefou.github.io/metos_python/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/logo.jpg" alt="Dis preview" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Neural TPP Model : Tutorial</p>
+        <p style="margin: 0;">This tutorial introduces Neural Temporal Point Processes, it talks about how to parameterise TPPs with Neural Networks, derives the likelihood function for Neural TPPs and demonstrates how to train a model in Pytorch with the given loss function based on the likelihood derived. </p>
+        <p style="margin: 0;"><a href="https://shchur.github.io/blog/2021/tpp2-neural-tpps/"><i class="fa-regular fa-file-pdf"></i>https://shchur.github.io/blog/2021/tpp2-neural-tpps/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
