@@ -1,5 +1,7 @@
 import pandas as pd
 import re
+import os
+import shutil
 
 # Define the mapping between Markdown files and their corresponding filter terms
 files_to_process = [
@@ -12,11 +14,7 @@ files_to_process = [
 ]
 
 # Path to the CSV file
-csv_file_path = 'data/data_processed.csv'
-
-
-df['Image'] = df['Image'].replace('', '/assets/image/logo.jpg').replace(' ', '/assets/image/logo.jpg').fillna('/assets/image/logo.jpg')
-
+csv_file_path = 'data/Add Item to "Events in Context" Knowledge Base.csv'
 
 # Read the CSV file once
 try:
@@ -30,6 +28,36 @@ except pd.errors.EmptyDataError:
 except Exception as e:
     print(f"An error occurred while reading the CSV file: {e}")
     exit(1)
+
+# df['Image'] = df['Image'].replace('', '/assets/image/logo.jpg').replace(' ', '/assets/image/logo.jpg').fillna('/assets/image/logo.jpg')
+# TODO if "/assets/image/thumb" not in the Image entry, replace it with a cleaned <title>.jpg (no special characters or spaces) where title is the entry in the title column
+# also create the corresponding image (if it does not exists) by copying /assets/image/logo.jpg' to /assets/image/<title>.jpg'
+
+# Define a function to clean the title
+def clean_title(title):
+    # Remove special characters and spaces
+    title = re.sub(r'[^\w\s-]', '', str(title))
+    # Replace spaces with underscores and convert to lowercase
+    title = title.replace(' ', '_').lower()
+    return title
+
+# Process each row in the DataFrame
+for idx, row in df.iterrows():
+    image = str(row['Image'])
+    if "/assets/image/thumb" not in image:
+        title = row['Title']
+        cleaned_title = clean_title(title)
+        new_image_path = f'/assets/image/{cleaned_title}.jpg'
+        df.at[idx, 'Image'] = new_image_path
+
+        # Create the image file if it doesn't exist
+        src_image_path = '/assets/image/logo.jpg'
+        dst_image_path = new_image_path
+        if not os.path.exists(dst_image_path):
+            try:
+                shutil.copy(src_image_path, dst_image_path)
+            except Exception as e:
+                print(f"Error copying image for '{title}': {e}")
 
 # Function to replace placeholders with actual values
 def substitute_placeholders(text, row):
