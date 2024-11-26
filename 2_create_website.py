@@ -12,7 +12,7 @@ files_to_process = [
 ]
 
 # Path to the CSV file
-csv_file_path = 'data/Add Item to "Events in Context" Knowledge Base.csv'
+csv_file_path = 'data/data_processed.csv'
 
 
 df['Image'] = df['Image'].replace('', '/assets/image/logo.jpg').replace(' ', '/assets/image/logo.jpg').fillna('/assets/image/logo.jpg')
