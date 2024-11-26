@@ -30,8 +30,8 @@ jobs:
         run: |
           #rm Gemfile
           #rm Gemfile.lock
-          #cp data/Gemfile Gemfile
-          #cp data/Gemfile.lock Gemfile.lock
+          cp data/Gemfile Gemfile
+          cp data/Gemfile.lock Gemfile.lock
           touch Gemfile
           touch Gemfile.lock
           python process_data.py
