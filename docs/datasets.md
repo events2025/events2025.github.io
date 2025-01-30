@@ -57,5 +57,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/conflict_in_centeral_africa.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Centeral Africa</p>
+        <p style="margin: 0;">This Dataset contains the time and location of the conflicts happening in centeral Africa</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
