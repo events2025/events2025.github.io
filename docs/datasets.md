@@ -60,10 +60,10 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/conflict_in_centeral_africa.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="assets/images/thumb/conflict_in_centeral_africa.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Centeral Africa</p>
-        <p style="margin: 0;">This Dataset contains the time and location of the conflicts happening in centeral Africa</p>
+        <p style="margin: 0;">This Dataset contains the date year, month and day it also contains longitude and latitude of the conflicts happening in centeral Africa among other factors such as the type of violence and number of deaths</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic</a> </p>
       </div>
     </div>
