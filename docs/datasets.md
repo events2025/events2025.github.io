@@ -69,5 +69,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/conflict_in_brazil.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Brazil</p>
+        <p style="margin: 0;">This dataset contains around 63 thousand records, it contains longitude and latitudes from January 2018 to January 2023, it contains event types such as protest or violence or battles or other things like Riots, it also contains some comments in column NOTES</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/justin2028/brazil-conflict-tracker-20182023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/justin2028/brazil-conflict-tracker-20182023</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
