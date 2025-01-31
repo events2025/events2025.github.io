@@ -105,5 +105,53 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_earth_quakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earth Quakes</p>
+        <p style="margin: 0;">This dataset contains around 37 thousand records for the world recorded eatherquakes, it contains the time and dates as early as the year 1900 and ending with the year 2023, it contains the longitude and latitude locations and other relevant information related to the earth quake such as the depth of the earth quake and the depth error and the place, but it might contain some nulls in some features but not the longitude, nor the latitude and the not the date</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
+        <p style="margin: 0;">This dataset contains around 700 records for fireballs in the sky, Fireballs and bolides are astronomical terms for exceptionally bright meteors that are spectacular enough to to be seen over a very wide area. A world map shows a visual representation of the data table that provides a chronological data summary of fireball and bolide events provided by U.S. Government sensors. Ground-based observers sometimes also witness these events at night, or much more rarely in daylight, as impressive atmospheric light displays. Only the brightest fireballs are noted. this data contains the time, longitude and latitude and time of observations</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/nasa/fireballs"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/nasa/fireballs</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/new_york_city_shooting.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">New York City Shooting</p>
+        <p style="margin: 0;">This dataset contains around 21 Thousand records. This is a breakdown of every shooting incident that occurred in NYC going back to 2006 through the end of 2019. It contains information around both the shooting time and location from longitude and latitude and the shooter (age, gender, race).</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thaddeussegura/new-york-city-shooting-dataset"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thaddeussegura/new-york-city-shooting-dataset</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_airplane_crashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Airplane Crashes</p>
+        <p style="margin: 0;">This dataset contains around 5 Thousand records. The dataset contains information on aircraft accidents WITH casualties from 1908 through to Feb 2020 and it doesn't include the longitude and latitude locations but contains the location in text format and a free use API can be used to retrieve the longitude and latitudes of the crash location for analytics, it also contains the date and contains the time, but not all the times are filled and contains some nulls, it also contains extra information regarding the crash, such as the operator whether it's military and which military or private or if its just unknown, overall it's a good data if the longitude and latitudes are aquired and for other purposed it contains decent information but contains quite a few nulls .</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
