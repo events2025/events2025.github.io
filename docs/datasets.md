@@ -81,5 +81,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/conflict_in_pakistan.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Pakistan</p>
+        <p style="margin: 0;">This dataset contains around 5700 records, it contains a data that goes back as early as the year 1989, it contains the conflict name which is like a headline for the conflict itself, it contains the source of the article such as BBC for example which can be helpful for future information retrieval for the articles if needed to be used for another problem, it contains the number of deaths and relevant information regarding the conflict outcomes, and it includes the longitude and latitude locations, it also contains the start date and end date of that conflict</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/imadali595/pakistan-data-on-conflict-events"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/imadali595/pakistan-data-on-conflict-events</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
