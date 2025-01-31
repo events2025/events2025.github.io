@@ -93,5 +93,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/conflict_in_ukraine.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Ukraine</p>
+        <p style="margin: 0;">This dataset contains around 12 thousand records for the conflicts in Ukraine from 2014 to 2019, it contains the conflict name, it contains a source headline which is the headline of the entire conflict but more detailed, it contains the longitude and latitude, the number of deaths and other relevant information to the conflict</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/vardhansiramdasu/ukraine-russia-conflict-events?select=conflict_data_Ukraine.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/vardhansiramdasu/ukraine-russia-conflict-events?select=conflict_data_Ukraine.csv</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
