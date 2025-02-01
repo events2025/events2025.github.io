@@ -201,5 +201,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_natural_disasters.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Natural Disasters</p>
+        <p style="margin: 0;">This dataset contains 16,000 records of various types of natural disasters in the world ranging from as early as 1900 to 2021, It includes mainly the years of the occurence of the natural disaster and it includes the month and day but these 2 include a lot of nulls, this data includes longitude and latitude and various types of natural disasters such as droughts, volcanos, earhtquakes, it includes other factors such as number of people injured, total deaths and damages costs</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
