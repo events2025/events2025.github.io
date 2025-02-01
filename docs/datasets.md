@@ -153,5 +153,53 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/usa_gun_violence.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Gun Violence</p>
+        <p style="margin: 0;">This dataset contains around 472 thousand records.Incidents of gun violence and mass shootings in the USA from 2013 to mid 2022 but it doesn't contain the longitude and latitude of the locations but it contains the state, city and address which can be used VIA API for retrieval of the longitude and latitude</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/usa_traffic_congestion.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Traffic Congestion</p>
+        <p style="margin: 0;">This dataset contains around 3,135,5575 records, it also contains other factors such as the severity of the congestion, and the date in the start time column, and it also includes the longitude and latitude of the congestions</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/omosaad/events-dataset"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/omosaad/events-dataset</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_tsunamis.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Tsunamis</p>
+        <p style="margin: 0;">This dataset contains over 2000 records of tsunamis around the world from 1900 to 2023, This dataset contains information on tsunami events from around the world. It includes data on the date, time, location, and magnitude of each event, as well as information on the impact of the tsunami, such as the number of deaths and injuries. The dataset is also enriched with additional information, such as bathymetry data, which can be used to model the propagation of tsunami waves.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/indonesia_volcanos.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Indonesia Volcanos</p>
+        <p style="margin: 0;">This dataset contains 200 records of Volcanos in Indenosia from 1311 to 2021, It includes date, longitude and latitude and other imapcts due to the volcanic event such as the number of houses destroyed</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/corneliuskristianto/volcano-events-in-indonesia-13002021"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/corneliuskristianto/volcano-events-in-indonesia-13002021</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
