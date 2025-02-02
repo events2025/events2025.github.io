@@ -108,9 +108,9 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_earth_quakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earth Quakes</p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
         <p style="margin: 0;">This dataset contains around 37 thousand records for the world recorded eatherquakes, it contains the time and dates as early as the year 1900 and ending with the year 2023, it contains the longitude and latitude locations and other relevant information related to the earth quake such as the depth of the earth quake and the depth error and the place, but it might contain some nulls in some features but not the longitude, nor the latitude and the not the date</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a> </p>
       </div>
