@@ -188,5 +188,29 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/tensor_kernel_decovery_for_discrete_spatio-temporal_hawkes_processes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Tensor Kernel Recovery for Discrete Spatio-Temporal Hawkes Processes</p>
+        <p style="margin: 0;">This paper introduces a new discrete spatio-temporal Hawkes process model by formulating the general influence of the Hawkes process as a tensor kernel. The authors propose a discrete spatio-temporal Hawkes process model with a tensor kernel to capture the interactions between events over space and time. They formulate the estimation of the tensor kernel as a convex optimization problem using the Fourier transformed nuclear norm. The model aims to provide theoretical performance guarantees and demonstrate computational efficiency through numerical simulations on synthetic and real-world data. The research utilized both synthetic and real-world datasets: Synthetic Data: The synthetic datasets were generated to validate the model's capability in capturing spatial and temporal dependencies from discrete event data. These datasets included sequences of events with varying spatial and temporal dependencies. Real-World Data: Atlanta Burglary Data: This dataset includes 47,245 burglary incidents in Atlanta from January 1, 2015, to February 28, 2017. The events are recorded with time and geolocation (latitude and longitude). Data Link: Data is available on City of Atlanta Open Data Portal.</p>
+        <p style="margin: 0;"><a href="https://ieeexplore.ieee.org/abstract/document/10002294"><i class="fa-regular fa-file-pdf"></i>https://ieeexplore.ieee.org/abstract/document/10002294</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/unlocking_point_processes_through_point_set_diffusion.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Unlocking Point Processes Through Point Set Diffusion</p>
+        <p style="margin: 0;">This paper introduces a novel approach called Point Set Diffusion for modeling point processes on general metric spaces. The authors propose Point Set Diffusion, a diffusion-based latent variable model that can represent arbitrary point processes without relying on the intensity function. This method directly learns to stochastically interpolate between noise and data point sets, enabling efficient, parallel sampling and flexible generation for complex conditional tasks defined on the metric space. The approach aims to overcome the limitations of existing models that rely on the characteristic intensity function, which often introduces trade-offs between efficiency and flexibility. The research utilized both synthetic and real-world datasets: Japan Earthquakes: This dataset includes the location and time of all earthquakes in Japan from 1990 to 2020 with magnitudes of at least 2.5. The data was gathered from the U.S. Geological Survey. Data Link: https://earthquake.usgs.gov/earthquakes/search/  New Jersey COVID-19 Cases: This dataset records daily COVID-19 cases in New Jersey, aggregated at the county level, and publicly released by The New York Times. Data Link: https://github.com/nytimes/covid-19-data  Citibike Pickups: This dataset contains bike-sharing data in New York City, where the start of each trip is considered an event. Data Link: https://citibikenyc.com/system-data  Pinwheel: A synthetic dataset based on a multivariate Hawkes process, designed to test the ability to capture drastic changes due to event history. Data Link: This is a synthetic dataset and is not publicly available for direct download.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/abs/2410.22493"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/abs/2410.22493</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
