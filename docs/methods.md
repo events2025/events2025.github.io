@@ -68,5 +68,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/deep_mixture_point_processes:_spatio-temporal_event_prediction_with_rich_contextual_information.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Deep Mixture Point Processes: Spatio-temporal Event Prediction with Rich Contextual Information .</p>
+        <p style="margin: 0;">This paper proposes a novel method called Deep Mixture Point Processes (DMPP) for predicting spatiotemporal events by incorporating rich contextual information such as weather, social activities, geographical characteristics, and traffic. The authors propose DMPP, a point process model that leverages heterogeneous and high-dimensional context available in image and text data. The intensity of the point process model is designed as a mixture of kernels, where the mixture weights are modeled by a deep neural network. This allows the model to automatically learn the complex nonlinear effects of contextual factors on event occurrence and makes analytical integration over the intensity tractable. The research utilized several real-world datasets to validate their approach: NYC Collision Data: This dataset contains approximately 32,000 motor vehicle collisions in New York City. Each collision is recorded with the time and location (latitude and longitude coordinates). Data Link: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data  Chicago Crime Data: This dataset is a collection of reported incidents of crime in Chicago, containing approximately 13,000 records. Each record includes the time and location (latitude and longitude) of the crime. Data Link: Crimes - https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data NYC Taxi Data: This dataset consists of approximately 30 million taxi pick-up records in New York City, collected by the NYC Taxi and Limousine Commission (TLC). Each record contains the pick-up time and location (latitude and longitude coordinates). Data Link: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page . </p>
+        <p style="margin: 0;"><a href="https://dl.acm.org/doi/abs/10.1145/3292500.3330937"><i class="fa-regular fa-file-pdf"></i>https://dl.acm.org/doi/abs/10.1145/3292500.3330937</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
