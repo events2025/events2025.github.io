@@ -25,7 +25,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/working_with_spatio-temporal_data_in_python.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Working with Spatio-temporal data in Python</p>
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Working With Spatio-Temporal Data in Python</p>
         <p style="margin: 0;">This tutorial introduce Python for analyzing and visualizing spatial-temporal data. And uses datasets from the environmental sciences that are freely available.</p>
         <p style="margin: 0;"><a href="https://annefou.github.io/metos_python/"><i class="fa-regular fa-file-pdf"></i>https://annefou.github.io/metos_python/</a> </p>
       </div>
