@@ -1,10 +1,10 @@
 ---
-title: 🛰️ Home
+title: 📡 Home
 layout: home
 nav_order: 1
 ---
 
-# 🛰️ Events in Context
+# 📡 Events in Context
 
 An event represents any occurrence of interest at a specific point in space and time.
 **🛰️ Events in Context** is a community-driven knowledge base designed to explore event data and understand events within their historical, societal, or environmental contexts. Accompanied by the literature review *"Neural Spatio-Temporal Point Processes"*, this project focuses on a practical and hands-on approach to event data analysis.
