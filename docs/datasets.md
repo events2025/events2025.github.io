@@ -62,8 +62,8 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/conflict_in_centeral_africa.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Centeral Africa</p>
-        <p style="margin: 0;">This Dataset contains the date year, month and day it also contains longitude and latitude of the conflicts happening in centeral Africa among other factors such as the type of violence and number of deaths</p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in central Africa</p>
+        <p style="margin: 0;">This Dataset contains the date year, month and day it also contains longitude and latitude of the conflicts happening in central Africa among other factors such as the type of violence and number of deaths</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic</a> </p>
       </div>
     </div>
@@ -111,7 +111,7 @@ layout: home
       <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
-        <p style="margin: 0;">This dataset contains around 37 thousand records for the world recorded eatherquakes, it contains the time and dates as early as the year 1900 and ending with the year 2023, it contains the longitude and latitude locations and other relevant information related to the earth quake such as the depth of the earth quake and the depth error and the place, but it might contain some nulls in some features but not the longitude, nor the latitude and the not the date</p>
+        <p style="margin: 0;">This dataset contains around 37 thousand records for the world recorded earthquakes, it contains the time and dates as early as the year 1900 and ending with the year 2023, it contains the longitude and latitude locations and other relevant information related to the earth quake such as the depth of the earth quake and the depth error and the place, but it might contain some nulls in some features but not the longitude, latitude, or date</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a> </p>
       </div>
     </div>
@@ -123,7 +123,7 @@ layout: home
       <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
-        <p style="margin: 0;">This dataset contains around 700 records for fireballs in the sky, Fireballs and bolides are astronomical terms for exceptionally bright meteors that are spectacular enough to to be seen over a very wide area. A world map shows a visual representation of the data table that provides a chronological data summary of fireball and bolide events provided by U.S. Government sensors. Ground-based observers sometimes also witness these events at night, or much more rarely in daylight, as impressive atmospheric light displays. Only the brightest fireballs are noted. this data contains the time, longitude and latitude and time of observations</p>
+        <p style="margin: 0;">This dataset contains around 700 records for fireballs in the sky, Fireballs and bolides are astronomical terms for exceptionally bright meteors that are spectacular enough to be seen over a very wide area. A world map shows a visual representation of the data table that provides a chronological data summary of fireball and bolide events provided by U.S. Government sensors. Ground-based observers sometimes also witness these events at night, or much more rarely in daylight, as impressive atmospheric light displays. Only the brightest fireballs are noted. this data contains the time, longitude and latitude and time of observations</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/nasa/fireballs"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/nasa/fireballs</a> </p>
       </div>
     </div>
