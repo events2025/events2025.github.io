@@ -37,7 +37,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/geopy.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">geopy</p>
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeoPy</p>
         <p style="margin: 0;">GeoPy is a library that provides an API, geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources.</p>
         <p style="margin: 0;"><a href="https://pypi.org/project/geopy/"><i class="fa-regular fa-file-pdf"></i>https://pypi.org/project/geopy/</a> </p>
       </div>
@@ -49,7 +49,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">open meteo</p>
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Open Meteo</p>
         <p style="margin: 0;">The Open-Meteo platform provides a comprehensive Historical Weather API that offers access to a vast amount of meteorological data. Here are some key aspects of the data they provide: Temperature: Data on air temperature at 2 meters above ground level. Relative Humidity: Information on the amount of moisture in the air at 2 meters above ground level. Dew Point: The temperature at which air becomes saturated with moisture. Apparent Temperature: How hot or cold it feels to humans, considering humidity and wind speed. Precipitation: Data on total precipitation, including rain and snow. Rain and Snowfall: Specific measurements for rain and snow. Snow Depth: The depth of snow on the ground. Weather Code: Codes representing different weather conditions. Pressure: Atmospheric pressure at sea level and surface level. Cloud Cover: Information on total cloud cover and its distribution across low, mid, and high levels. Evapotranspiration: Reference evapotranspiration (ET₀) values. Vapour Pressure Deficit: The difference between the amount of moisture in the air and how much moisture the air can hold when it is saturated. Wind Speed: Wind speed measurements at 10 meters and 100 meters above ground level. Wind Direction: Direction of the wind at 10 meters and 100 meters above ground level. Wind Gusts: Maximum wind speed recorded over a short period. Soil Temperature: Temperature measurements at various soil depths (0-7 cm, 7-28 cm, 28-100 cm, 100-255 cm). Soil Moisture: Moisture content at various soil depths (0-7 cm, 7-28 cm, 28-100 cm, 100-255 cm). The API provides data from 2000 to 2009 and offers hourly updates for various weather variables. It's a valuable resource for researchers, developers, and anyone interested in historical weather data.</p>
         <p style="margin: 0;"><a href="https://tinyurl.com/322bve8j"><i class="fa-regular fa-file-pdf"></i>https://tinyurl.com/322bve8j</a> </p>
       </div>

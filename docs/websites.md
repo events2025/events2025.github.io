@@ -62,7 +62,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency(epa)</p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency(EPA)</p>
         <p style="margin: 0;">The Environmental Protection Agency (EPA) provides a wealth of data related to environmental protection and public health. Here are some of the key types of data they offer: Air Quality Data: Information on air pollution levels, including data from stationary and mobile sources. Water Quality Data: Data on the quality of surface and groundwater, ensuring they are safe for drinking, fishing, and swimming. Chemical Data: Information on chemicals produced domestically and imported into the United States under the Toxic Substances Control Act. Geospatial Data: Environmental data organized by location to help users search for environmental issues affecting their local communities. Superfund Data: Information on contaminated sites and efforts to clean them up. Toxics Release Inventory: Data on the industrial management of toxic chemicals that may harm human health and the environment. The EPA also provides various tools and applications to interact with and analyze this data, such as AirNow, ECHO, and EJScreen</p>
         <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/</a> </p>
       </div>
@@ -74,7 +74,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (ghsl)</p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
         <p style="margin: 0;">The Global Human Settlement Layer (GHSL) is a project by the European Commission's Joint Research Centre that provides open and free data and tools for assessing human presence on Earth. Here are some key aspects of the GHSL: Built-up Surface Data: Information on the share of land surface covered by roofed built-up structures, distinguishing between residential and non-residential uses. Population Data: Detailed spatial information on population distribution and density. Urbanization Data: Data on the degree of urbanization, including definitions and classifications of cities and urban areas. Geospatial Data: High-resolution satellite imagery and other Earth observation data used to analyze human settlements. Temporal Data: Data spanning from 1975 to 2030, with future predictions based on past trends. The GHSL data is organized into epochs (every 5 years) and is available for download in various resolutions and coordinate systems. The platform also offers visual analytics tools for exploring and visualizing the data</p>
         <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i>https://human-settlement.emergency.copernicus.eu/</a> </p>
       </div>
@@ -110,7 +110,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Google Health Covid-19 Open Data Repository</p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Google Health COVID-19 Open Data Repository</p>
         <p style="margin: 0;">The Google Health COVID-19 Open Data Repository is a comprehensive collection of up-to-date COVID-19-related information. Here are some key aspects of the repository: Data Sources: The repository aggregates data from hundreds of sources, including governmental, health, university, news media, publications, and crowdsourcing. Data Types: It provides data on COVID-19 cases, deaths, vaccination rates, hospitalizations, and more. Visualization Tools: Users can explore and visualize the data using multi-layered graphs and charts. Download Options: The data can be downloaded in various formats, such as CSV and JSON, for analysis and integration into other systems. Customization: Users can customize their search with queries on weather, geography, and other variables. The repository aims to help public health professionals, researchers, policymakers, and others understand and manage the virus</p>
         <p style="margin: 0;"><a href="https://health.google.com/covid-19/open-data/raw-data"><i class="fa-regular fa-file-pdf"></i>https://health.google.com/covid-19/open-data/raw-data</a> </p>
       </div>
