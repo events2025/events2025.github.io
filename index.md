@@ -11,7 +11,7 @@ An event represents any occurrence of interest at a specific point in space and 
 
 ## Content
 
-We provide:
+
 
 1. 🔴 **Tutorials**: Easy-to-follow guides that introduce users to event processing and showcase interesting datasets of events and contextual data, such as meteorological information.
 2. 🟠 **Websites**: Useful resources to help you get started in the field.
