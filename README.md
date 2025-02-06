@@ -6,6 +6,7 @@ Event knowlege base using the [Just the Docs](https://github.com/just-the-docs/j
 ### How to run
 - The website compiles automatically atfter each _push_ to GitHub based on the '.csv' file in the 'docs' folder.
 - The '.csv' databse is based on Google Forms but needs to be curated manually.
+- the github action files are modified so that the translation .csv -> markdown runs before the jekyll 
 
 ### TODOs
 - Fix images
