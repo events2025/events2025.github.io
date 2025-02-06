@@ -7,8 +7,10 @@
 name: Deploy Jekyll site to Pages
 
 on:
-  push:
-    branches: ["main"]
+  workflow_run:
+    workflows: ["Run process_files.py on Push"]
+    types:
+      - completed
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
