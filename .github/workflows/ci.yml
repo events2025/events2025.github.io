@@ -1,8 +1,10 @@
 name: CI
 
 on:
-  push:
-    branches: ["main"]
+  workflow_run:
+    workflows: ["Run process_files.py on Push"]
+    types:
+      - completed
   pull_request:
 
 jobs:
