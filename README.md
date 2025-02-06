@@ -14,3 +14,6 @@ Event knowlege base using the [Just the Docs](https://github.com/just-the-docs/j
 - clean input code automatically
 - automate forms input: https://gist.github.com/jaredhowland/ea0258cd49bed45a41d1c671eb4b245b
 - have individual forms for each data modality
+
+
+Our github: https://github.com/events2025/events2025.github.io
