@@ -266,7 +266,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Citi Bike Trips</p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
         <p style="margin: 0;">This dataset contains date, longitude and latitude also start time, longitude, latitude and ending of them as well from 2013 to 2025.</p>
         <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i>https://citibikenyc.com/system-data</a> </p>
       </div>
