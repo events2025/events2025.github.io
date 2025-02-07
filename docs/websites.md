@@ -62,7 +62,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency(EPA)</p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency (EPA)</p>
         <p style="margin: 0;">The Environmental Protection Agency (EPA) provides a wealth of data related to environmental protection and public health. some types of data they offer: Air Quality Data. Water Quality Data. Chemical Data. Geospatial Data.</p>
         <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/</a> </p>
       </div>
@@ -86,7 +86,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Nasa open Data Portal</p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Nasa Open Data Portal</p>
         <p style="margin: 0;">The NASA Open Data Portal is a comprehensive resource that provides access to a vast array of publicly available NASA datasets. The portal hosts tens of thousands of datasets, covering various domains such as Earth science, atmospheric science, planetary science, and more.</p>
         <p style="margin: 0;"><a href="https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1"><i class="fa-regular fa-file-pdf"></i>https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1</a> </p>
       </div>
