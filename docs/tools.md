@@ -38,7 +38,7 @@ layout: home
       <img src="/assets/images/thumb/geopy.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeoPy</p>
-        <p style="margin: 0;">GeoPy is a library that provides an API, geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources.</p>
+        <p style="margin: 0;">GeoPy is a library that provides an API, it easy for developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party geocoders and other data sources.</p>
         <p style="margin: 0;"><a href="https://pypi.org/project/geopy/"><i class="fa-regular fa-file-pdf"></i>https://pypi.org/project/geopy/</a> </p>
       </div>
     </div>
