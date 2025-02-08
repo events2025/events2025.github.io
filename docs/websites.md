@@ -50,18 +50,6 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency (EPA)</p>
-        <p style="margin: 0;">The Environmental Protection Agency (EPA) provides a wealth of data related to environmental protection and public health. Some types of data they offer include air quality data, water quality data, chemical data, and geospatial data. Geospatial Data.</p>
-        <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
         <p style="margin: 0;">The Global Human Settlement Layer (GHSL) is a project by the European Commission's Joint Research Centre that provides open and free data and tools for assessing human presence on Earth. Some key types of data they provide include built-up surface data, population data, and temporal data</p>
         <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i>https://human-settlement.emergency.copernicus.eu/</a> </p>
