@@ -405,5 +405,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/nasa_open_data_portal.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NASA Open Data Portal</p>
+        <p style="margin: 0;">The NASA Open Data Portal is a comprehensive resource that provides access to a vast array of publicly available NASA datasets covering various domains such as Earth science, atmospheric science, planetary science, and more.</p>
+        <p style="margin: 0;"><a href="https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1"><i class="fa-regular fa-file-pdf"></i>https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
