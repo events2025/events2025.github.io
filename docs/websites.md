@@ -51,7 +51,7 @@ layout: home
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">UK Biobank</p>
-        <p style="margin: 0;">The UK Biobank is a large-scale biomedical database and research resource containing in-depth genetic and health information from half a million UK participants. key types of data they provide: Demographic Information. Health and Medical Records. Questionnaire Data.</p>
+        <p style="margin: 0;">The UK Biobank is a large-scale biomedical database and research resource containing in-depth genetic and health information from half a million UK participants. Key types of data they provide: Demographic Information. Health and Medical Records. Questionnaire Data.</p>
         <p style="margin: 0;"><a href="https://www.ukbiobank.ac.uk/"><i class="fa-regular fa-file-pdf"></i>https://www.ukbiobank.ac.uk/</a> </p>
       </div>
     </div>
@@ -63,7 +63,7 @@ layout: home
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency (EPA)</p>
-        <p style="margin: 0;">The Environmental Protection Agency (EPA) provides a wealth of data related to environmental protection and public health. some types of data they offer: Air Quality Data. Water Quality Data. Chemical Data. Geospatial Data.</p>
+        <p style="margin: 0;">The Environmental Protection Agency (EPA) provides a wealth of data related to environmental protection and public health. Some types of data they offer include air quality data, water quality data, chemical data, and geospatial data. Geospatial Data.</p>
         <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/</a> </p>
       </div>
     </div>
@@ -75,7 +75,7 @@ layout: home
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
-        <p style="margin: 0;">The Global Human Settlement Layer (GHSL) is a project by the European Commission's Joint Research Centre that provides open and free data and tools for assessing human presence on Earth. Some key types of data they provide: Built-up Surface. Population Data. Temporal Data. </p>
+        <p style="margin: 0;">The Global Human Settlement Layer (GHSL) is a project by the European Commission's Joint Research Centre that provides open and free data and tools for assessing human presence on Earth. Some key types of data they provide include built-up surface data, population data, and temporal data</p>
         <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i>https://human-settlement.emergency.copernicus.eu/</a> </p>
       </div>
     </div>
@@ -86,7 +86,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Nasa Open Data Portal</p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">NASA Open Data Portal</p>
         <p style="margin: 0;">The NASA Open Data Portal is a comprehensive resource that provides access to a vast array of publicly available NASA datasets. The portal hosts tens of thousands of datasets, covering various domains such as Earth science, atmospheric science, planetary science, and more.</p>
         <p style="margin: 0;"><a href="https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1"><i class="fa-regular fa-file-pdf"></i>https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1</a> </p>
       </div>
@@ -98,8 +98,8 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Food and Agriculture Organization of the United Nations</p>
-        <p style="margin: 0;">The Food and Agriculture Organization of the United Nations (FAO) provides a wealth of data related to food and agriculture for over 245 countries and territories from 1961 to the most recent year available. </p>
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Food and Agriculture Organization of the United Nations (FAO)</p>
+        <p style="margin: 0;">The Food and Agriculture Organization of the United Nations (FAO). FAO offers comprehensive data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available. </p>
         <p style="margin: 0;"><a href="https://www.fao.org/faostat/en/#data"><i class="fa-regular fa-file-pdf"></i>https://www.fao.org/faostat/en/#data</a> </p>
       </div>
     </div>

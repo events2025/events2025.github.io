@@ -267,7 +267,7 @@ layout: home
       <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
-        <p style="margin: 0;">This dataset contains date, longitude and latitude also start time, longitude, latitude and ending of them as well from 2013 to 2025.</p>
+        <p style="margin: 0;">his dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude, and latitude coordinates.</p>
         <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i>https://citibikenyc.com/system-data</a> </p>
       </div>
     </div>
@@ -279,7 +279,7 @@ layout: home
       <img src="/assets/images/thumb/armed_conflict_location_and_event_dataset_(ACLED).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Armed Conflict Location and Event Dataset (ACLED)</p>
-        <p style="margin: 0;">This provides multiple datasets for Armed conflicts dates, longitude and latitude.</p>
+        <p style="margin: 0;">This provides multiple datasets for Armed conflicts dates, longitude, and latitude.</p>
         <p style="margin: 0;"><a href="https://acleddata.com/data-export-tool/"><i class="fa-regular fa-file-pdf"></i>https://acleddata.com/data-export-tool/</a> </p>
       </div>
     </div>
