@@ -50,18 +50,6 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">UK Biobank</p>
-        <p style="margin: 0;">The UK Biobank is a large-scale biomedical database and research resource containing in-depth genetic and health information from half a million UK participants. Key types of data they provide: Demographic Information. Health and Medical Records. Questionnaire Data.</p>
-        <p style="margin: 0;"><a href="https://www.ukbiobank.ac.uk/"><i class="fa-regular fa-file-pdf"></i>https://www.ukbiobank.ac.uk/</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency (EPA)</p>
         <p style="margin: 0;">The Environmental Protection Agency (EPA) provides a wealth of data related to environmental protection and public health. Some types of data they offer include air quality data, water quality data, chemical data, and geospatial data. Geospatial Data.</p>
         <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/</a> </p>

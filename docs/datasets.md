@@ -350,7 +350,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/science_for_a_changing_world_(USGS).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Science for a Changing World (USGS)</p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Geological Survey (USGS)</p>
         <p style="margin: 0;">The USGS provides information on natural hazards that occur every day. They monitor everything from earthquakes to volcanoes, landslides, flooding, and so much more.</p>
         <p style="margin: 0;"><a href="https://www.usgs.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.usgs.gov/</a> </p>
       </div>
@@ -377,6 +377,18 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Atlanta Police Department Crimes</p>
         <p style="margin: 0;">Atlanta Police Department (APD) is an open data portal from 1997 to 2025 containing historical crime data for the city of Atlanta.</p>
         <p style="margin: 0;"><a href="https://opendata.atlantapd.org/"><i class="fa-regular fa-file-pdf"></i>https://opendata.atlantapd.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/uk_biobank.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">UK Biobank</p>
+        <p style="margin: 0;">The UK Biobank is a comprehensive biomedical research resource containing genetic, lifestyle, and health information from 500,000 participants.</p>
+        <p style="margin: 0;"><a href="https://www.ukbiobank.ac.uk/"><i class="fa-regular fa-file-pdf"></i>https://www.ukbiobank.ac.uk/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
