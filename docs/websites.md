@@ -38,18 +38,6 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Data World</p>
-        <p style="margin: 0;">Data World is a data catalog platform that provides a wide variety of data types to support data discovery, governance, and DataOps</p>
-        <p style="margin: 0;"><a href="https://data.world/"><i class="fa-regular fa-file-pdf"></i>https://data.world/</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Google Health COVID-19 Open Data Repository</p>
         <p style="margin: 0;">The Google Health COVID-19 Open Data Repository is a comprehensive collection of up-to-date COVID-19-related information. </p>
         <p style="margin: 0;"><a href="https://health.google.com/covid-19/open-data/raw-data"><i class="fa-regular fa-file-pdf"></i>https://health.google.com/covid-19/open-data/raw-data</a> </p>
