@@ -417,5 +417,29 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/global_human_settlment_layer_(GHSL).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
+        <p style="margin: 0;">GHSL  provides open and free data and tools for assessing human presence on Earth such as built-up surface data, population data, and temporal data</p>
+        <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i>https://human-settlement.emergency.copernicus.eu/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/food_and_agriculture_organization_of_the_united_nations_(FAO).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Food and Agriculture Organization of the United Nations (FAO)</p>
+        <p style="margin: 0;">FAO offers comprehensive data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available. </p>
+        <p style="margin: 0;"><a href="https://www.fao.org/faostat/en/#data"><i class="fa-regular fa-file-pdf"></i>https://www.fao.org/faostat/en/#data</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
