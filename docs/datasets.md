@@ -465,5 +465,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/correlates_of_war_(COW).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Correlates of War (COW)</p>
+        <p style="margin: 0;">COW project provides datasets for international relations, conflicts, wars, militarized disputes, alliances, territorial changes, and trade relationships between states. COW data spans several centuries.</p>
+        <p style="margin: 0;"><a href="https://correlatesofwar.org/data-sets/"><i class="fa-regular fa-file-pdf"></i>https://correlatesofwar.org/data-sets/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
