@@ -477,5 +477,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/united_states_large_scale_solar_photovoltaic_database_(USPVDB).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Large-Scale Solar Photovoltaic Database (USPVDB)</p>
+        <p style="margin: 0;">USPVDB provides data on performance of large-scale solar photovoltaic systems across the U.S. It includes information on system specifications, operational metrics, and geographic locations.</p>
+        <p style="margin: 0;"><a href="https://www.nrel.gov/pv/us-pv-database.html"><i class="fa-regular fa-file-pdf"></i>https://www.nrel.gov/pv/us-pv-database.html</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
