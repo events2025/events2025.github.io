@@ -435,7 +435,7 @@ layout: home
       <img src="/assets/images/thumb/food_and_agriculture_organization_of_the_united_nations_(FAO).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Food and Agriculture Organization of the United Nations (FAO)</p>
-        <p style="margin: 0;">FAO offers comprehensive data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available, it includes date, longitude, and latitude. Some datasets may require free registration for access to specific tools or services.</p>
+        <p style="margin: 0;">FAO offers comprehensive data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available, it includes date, longitude, and latitude. Some datasets may require free registration for access to specific tools or services. Some datasetsmay require free registration for access to specific tools or services.</p>
         <p style="margin: 0;"><a href="https://www.fao.org/faostat/en/#data"><i class="fa-regular fa-file-pdf"></i>https://www.fao.org/faostat/en/#data</a> </p>
       </div>
     </div>
