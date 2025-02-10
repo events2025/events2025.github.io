@@ -495,7 +495,7 @@ layout: home
       <img src="/assets/images/thumb/mass_mobilization_in_autocracies_database_(MMAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mass Mobilization in Autocracies Database (MMAD)</p>
-        <p style="margin: 0;">MMAD provides data on protests on a city level location and daily basis from 2003 to 2012.</p>
+        <p style="margin: 0;">MMAD provides data on protests on a city level location on daily basis from 2003 to 2012.</p>
         <p style="margin: 0;"><a href="https://mmadatabase.org/"><i class="fa-regular fa-file-pdf"></i>https://mmadatabase.org/</a> </p>
       </div>
     </div>
