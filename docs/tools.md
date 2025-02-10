@@ -50,7 +50,7 @@ layout: home
       <img src="/assets/images/thumb/open_meteo.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Open Meteo</p>
-        <p style="margin: 0;">The Open-Meteo platform provides a comprehensive Historical Weather API that offers access to a vast amount of meteorological data. some key features: Temperature, Relative Humidity. Cloud Cover. Wind Speed</p>
+        <p style="margin: 0;">The Open-Meteo platform provides a comprehensive Historical Weather API that offers access to a vast amount of meteorological data. some key features: Temperature, Relative Humidity. Cloud Cover. Wind Speed.</p>
         <p style="margin: 0;"><a href="https://tinyurl.com/322bve8j"><i class="fa-regular fa-file-pdf"></i>https://tinyurl.com/322bve8j</a> </p>
       </div>
     </div>

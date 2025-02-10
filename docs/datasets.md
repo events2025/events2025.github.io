@@ -63,7 +63,7 @@ layout: home
       <img src="/assets/images/thumb/conflict_in_centeral_africa.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Central Africa</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1991 to 2018 for around 1400 records of the conflicts happening in central Africa among other factors such as the type of violence and number of deaths</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1991 to 2018 for around 1400 records of the conflicts happening in central Africa among other factors such as the type of violence and number of deaths.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic</a> </p>
       </div>
     </div>
@@ -75,7 +75,7 @@ layout: home
       <img src="/assets/images/thumb/conflict_in_brazil.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Brazil</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 2018 to 2023 for around 62 thousand records for the conflicts in Brazil among other factors such as event types such as protest, violence, battles, or riots</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 2018 to 2023 for around 62 thousand records for the conflicts in Brazil among other factors such as event types such as protest, violence, battles, or riots.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/justin2028/brazil-conflict-tracker-20182023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/justin2028/brazil-conflict-tracker-20182023</a> </p>
       </div>
     </div>
@@ -87,7 +87,7 @@ layout: home
       <img src="/assets/images/thumb/conflict_in_pakistan.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Pakistan</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1989 to 2018 for around 6 thousand records for the conflicts in Pakistan among other factors such as the number of deaths and information regarding the conflict outcomes</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1989 to 2018 for around 6 thousand records for the conflicts in Pakistan among other factors such as the number of deaths and information regarding the conflict outcomes.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/imadali595/pakistan-data-on-conflict-events"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/imadali595/pakistan-data-on-conflict-events</a> </p>
       </div>
     </div>
@@ -99,7 +99,7 @@ layout: home
       <img src="/assets/images/thumb/conflict_in_ukraine.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Ukraine</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 2014 to 2019 for around 1 thousand records for the conflicts in Ukraine among other factors such as the number of deaths and other relevant information about the conflict</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 2014 to 2019 for around 1 thousand records for the conflicts in Ukraine among other factors such as the number of deaths and other relevant information about the conflict.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/vardhansiramdasu/ukraine-russia-conflict-events?select=conflict_data_Ukraine.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/vardhansiramdasu/ukraine-russia-conflict-events?select=conflict_data_Ukraine.csv</a> </p>
       </div>
     </div>
@@ -111,7 +111,7 @@ layout: home
       <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1900 to 2023 for around 37 thousand records for the world recorded earthquakes among relevant information related to the earthquake such as the depth of the earthquake, this dataset contains nulls in some features but, not in longitude, latitude, or date</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1900 to 2023 for around 37 thousand records for the world recorded earthquakes among relevant information related to the earthquake such as the depth of the earthquake, this dataset contains nulls in some features but, not in longitude, latitude, or date.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a> </p>
       </div>
     </div>
@@ -171,7 +171,7 @@ layout: home
       <img src="/assets/images/thumb/usa_traffic_congestion.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Traffic Congestion</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 2016 to 2021 for around 3 million records for traffic congestion in the USA, among relevant information such as the severity of the congestion</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 2016 to 2021 for around 3 million records for traffic congestion in the USA, among relevant information such as the severity of the congestion.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/omosaad/events-dataset"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/omosaad/events-dataset</a> </p>
       </div>
     </div>
@@ -195,7 +195,7 @@ layout: home
       <img src="/assets/images/thumb/indonesia_volcanos.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Indonesia Volcanoes</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1300 to 2021 for around 200 records of volcanoes in Indonesia among relevant information such as impacts like the number of houses destroyed</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1300 to 2021 for around 200 records of volcanoes in Indonesia among relevant information such as impacts like the number of houses destroyed.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/corneliuskristianto/volcano-events-in-indonesia-13002021"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/corneliuskristianto/volcano-events-in-indonesia-13002021</a> </p>
       </div>
     </div>
@@ -207,7 +207,7 @@ layout: home
       <img src="/assets/images/thumb/world_natural_disasters.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Natural Disasters</p>
-        <p style="margin: 0;">This dataset contains date, longitude, and latitude from 1900 to 2021 for around 16 thousand records of various types of natural disasters in the world such as droughts, volcanoes, earthquakes among relevant information such as the number of people injured, total deaths and damage costs</p>
+        <p style="margin: 0;">This dataset contains date, longitude, and latitude from 1900 to 2021 for around 16 thousand records of various types of natural disasters in the world such as droughts, volcanoes, earthquakes among relevant information such as the number of people injured, total deaths and damage costs.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis</a> </p>
       </div>
     </div>
@@ -231,7 +231,7 @@ layout: home
       <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
-        <p style="margin: 0;">This dataset contains year, county-level location from 2016 to 2021 for the USA County Population, it contains measurements for 3,222 different locations</p>
+        <p style="margin: 0;">This dataset contains year, county-level location from 2016 to 2021 for the USA County Population, it contains measurements for 3,222 different locations.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a> </p>
       </div>
     </div>
@@ -243,7 +243,7 @@ layout: home
       <img src="/assets/images/thumb/global_suicide_rates.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Suicide Rates</p>
-        <p style="margin: 0;">This dataset contains year and country-level location from 2000 to 2015 for the rates of suicide around the globe </p>
+        <p style="margin: 0;">This dataset contains year and country-level location from 2000 to 2015 for the rates of suicide around the globe.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mexwell/global-suicide-rates"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/mexwell/global-suicide-rates</a> </p>
       </div>
     </div>
@@ -255,7 +255,7 @@ layout: home
       <img src="/assets/images/thumb/wolrd_wildfires.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Wildfires</p>
-        <p style="margin: 0;">This dataset contains date, longitude, and latitude from 2000 to 2020 for measuring the light brightness and whether a fire happened or not</p>
+        <p style="margin: 0;">This dataset contains date, longitude, and latitude from 2000 to 2020 for measuring the light brightness and whether a fire happened or not.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset</a> </p>
       </div>
     </div>
@@ -267,7 +267,7 @@ layout: home
       <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
-        <p style="margin: 0;">his dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude, and latitude coordinates. Freely available</p>
+        <p style="margin: 0;">his dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude, and latitude coordinates. Freely available.</p>
         <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i>https://citibikenyc.com/system-data</a> </p>
       </div>
     </div>
@@ -279,7 +279,7 @@ layout: home
       <img src="/assets/images/thumb/armed_conflict_location_and_event_dataset_(ACLED).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Armed Conflict Location and Event Dataset (ACLED)</p>
-        <p style="margin: 0;">ACLED provides multiple datasets for Armed conflicts dates, longitude, and latitude. It contains all events from around the world such as conflicts in Central Africa, Brazil, and Pakistan. Free registration required. </p>
+        <p style="margin: 0;">ACLED provides multiple datasets for Armed conflicts dates, longitude, and latitude. It contains all events from around the world such as conflicts in Central Africa, Brazil, and Pakistan. Free registration required.</p>
         <p style="margin: 0;"><a href="https://acleddata.com/data-export-tool/"><i class="fa-regular fa-file-pdf"></i>https://acleddata.com/data-export-tool/</a> </p>
       </div>
     </div>
@@ -303,7 +303,7 @@ layout: home
       <img src="/assets/images/thumb/chicago_crimes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Chicago Crimes</p>
-        <p style="margin: 0;">This dataset contains the Chicago crimes from 2001 to present except the past 7 days with date, longitude, and latitude. Freely available</p>
+        <p style="margin: 0;">This dataset contains the Chicago crimes from 2001 to present except the past 7 days with date, longitude, and latitude. Freely available.</p>
         <p style="margin: 0;"><a href="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data</a> </p>
       </div>
     </div>
@@ -315,7 +315,7 @@ layout: home
       <img src="/assets/images/thumb/911_emergency_calls.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">911 Emergency Calls</p>
-        <p style="margin: 0;">This dataset contains the date, longitude and latitude for 911-Emergency calls from 2015 to 2016 for around 99 thousand records</p>
+        <p style="margin: 0;">This dataset contains the date, longitude and latitude for 911-Emergency calls from 2015 to 2016 for around 99 thousand records.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv</a> </p>
       </div>
     </div>
@@ -351,7 +351,7 @@ layout: home
       <img src="/assets/images/thumb/science_for_a_changing_world_(USGS).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Geological Survey (USGS)</p>
-        <p style="margin: 0;">The USGS provides information on natural hazards that occur every day such as earthquakes and volcanoes. Freely available </p>
+        <p style="margin: 0;">The USGS provides information on natural hazards that occur every day such as earthquakes and volcanoes. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.usgs.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.usgs.gov/</a> </p>
       </div>
     </div>
@@ -387,7 +387,7 @@ layout: home
       <img src="/assets/images/thumb/uk_biobank.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">UK Biobank</p>
-        <p style="margin: 0;">The UK Biobank is a comprehensive biomedical research resource containing health information from 500,000 participants. Requires a special request per dataset and are typically granted to approved researchers after an application and approval proces</p>
+        <p style="margin: 0;">The UK Biobank is a comprehensive biomedical research resource containing health information from 500,000 participants. Requires a special request per dataset and are typically granted to approved researchers after an application and approval proces.</p>
         <p style="margin: 0;"><a href="https://www.ukbiobank.ac.uk/"><i class="fa-regular fa-file-pdf"></i>https://www.ukbiobank.ac.uk/</a> </p>
       </div>
     </div>
@@ -399,7 +399,7 @@ layout: home
       <img src="/assets/images/thumb/environmental_protection_agency_(EPA).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency (EPA)</p>
-        <p style="margin: 0;">The Environmental Protection Agency (EPA) provides extensive data related to environmental protection and public health. Key datasets cover areas such as air quality, water quality, and geospatial information, and pollution monitoring. Freely available </p>
+        <p style="margin: 0;">The Environmental Protection Agency (EPA) provides extensive data related to environmental protection and public health. Key datasets cover areas such as air quality, water quality, and geospatial information, and pollution monitoring. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/</a> </p>
       </div>
     </div>
@@ -411,7 +411,7 @@ layout: home
       <img src="/assets/images/thumb/nasa_open_data_portal.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NASA Open Data Portal</p>
-        <p style="margin: 0;">The NASA Open Data Portal is a comprehensive resource that provides access to various datasets, such as oceanography datasets and more with dates, longitudes, and latitudes. Freely available </p>
+        <p style="margin: 0;">The NASA Open Data Portal is a comprehensive resource that provides access to various datasets, such as oceanography datasets and more with dates, longitudes, and latitudes. Freely available.</p>
         <p style="margin: 0;"><a href="https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1"><i class="fa-regular fa-file-pdf"></i>https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1</a> </p>
       </div>
     </div>
@@ -423,7 +423,7 @@ layout: home
       <img src="/assets/images/thumb/global_human_settlment_layer_(GHSL).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
-        <p style="margin: 0;">GHSL  provides open and free data for assessing human presence on Earth such as built-up surface data, population data, and temporal data with date, longitude, and latitude. freely available </p>
+        <p style="margin: 0;">GHSL  provides open and free data for assessing human presence on Earth such as built-up surface data, population data, and temporal data with date, longitude, and latitude. freely available.</p>
         <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i>https://human-settlement.emergency.copernicus.eu/</a> </p>
       </div>
     </div>
@@ -435,7 +435,7 @@ layout: home
       <img src="/assets/images/thumb/food_and_agriculture_organization_of_the_united_nations_(FAO).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Food and Agriculture Organization of the United Nations (FAO)</p>
-        <p style="margin: 0;">FAO offers comprehensive data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available, it includes date, longitude, and latitude. Some datasets may require free registration for access to specific tools or services </p>
+        <p style="margin: 0;">FAO offers comprehensive data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available, it includes date, longitude, and latitude. Some datasets may require free registration for access to specific tools or services.</p>
         <p style="margin: 0;"><a href="https://www.fao.org/faostat/en/#data"><i class="fa-regular fa-file-pdf"></i>https://www.fao.org/faostat/en/#data</a> </p>
       </div>
     </div>
@@ -483,7 +483,7 @@ layout: home
       <img src="/assets/images/thumb/Social Conflict Analysis Database (SCAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Social Conflict Analysis Database (SCAD)</p>
-        <p style="margin: 0;">SCAD provides protests, riots, and other social conflicts with date, longitude, and latitude from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean. Freely available </p>
+        <p style="margin: 0;">SCAD provides protests, riots, and other social conflicts with date, longitude, and latitude from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/"><i class="fa-regular fa-file-pdf"></i>https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/</a> </p>
       </div>
     </div>
@@ -507,7 +507,7 @@ layout: home
       <img src="/assets/images/thumb/global_terrorism_database_(GTD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Terrorism Database (GTD)</p>
-        <p style="margin: 0;">GTD provides dates and city level location on terrorism from 1970 yo 2020 with over 200 thousand records. Requires free registration </p>
+        <p style="margin: 0;">GTD provides dates and city level location on terrorism from 1970 yo 2020 with over 200 thousand records. Requires free registration.</p>
         <p style="margin: 0;"><a href="http://apps.start.umd.edu/gtd/"><i class="fa-regular fa-file-pdf"></i>http://apps.start.umd.edu/gtd/</a> </p>
       </div>
     </div>
