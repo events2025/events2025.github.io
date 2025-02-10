@@ -456,18 +456,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/data_world.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Data.World</p>
-        <p style="margin: 0;">Data.World provides data that contains timestamps, longitude, and latitude for various kinds of datasets.</p>
-        <p style="margin: 0;"><a href="https://data.world/"><i class="fa-regular fa-file-pdf"></i>https://data.world/</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/correlates_of_war_(COW).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Correlates of War (COW)</p>
@@ -485,6 +473,18 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Large-Scale Solar Photovoltaic Database (USPVDB)</p>
         <p style="margin: 0;">USPVDB provides data on performance of large-scale solar photovoltaic systems across the U.S. It includes information on system specifications, operational metrics, and geographic locations.</p>
         <p style="margin: 0;"><a href="https://www.nrel.gov/pv/us-pv-database.html"><i class="fa-regular fa-file-pdf"></i>https://www.nrel.gov/pv/us-pv-database.html</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Social Conflict Analysis Database (SCAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Social Conflict Analysis Database (SCAD)</p>
+        <p style="margin: 0;">SCAD provies protests, riots, and other social conflicts from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean</p>
+        <p style="margin: 0;"><a href="https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/"><i class="fa-regular fa-file-pdf"></i>https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
