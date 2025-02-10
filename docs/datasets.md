@@ -471,7 +471,7 @@ layout: home
       <img src="/assets/images/thumb/united_states_large_scale_solar_photovoltaic_database_(USPVDB).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Large-Scale Solar Photovoltaic Database (USPVDB)</p>
-        <p style="margin: 0;">USPVDB provides data on performance of large-scale solar photovoltaic systems across the U.S. with dates, longitude, and latitude. requires a special request per dataset for access.</p>
+        <p style="margin: 0;">USPVDB provides data on performance of large-scale solar photovoltaic systems across the U.S. with dates, longitude, and latitude. Requires a special request per dataset for access.</p>
         <p style="margin: 0;"><a href="https://www.nrel.gov/pv/us-pv-database.html"><i class="fa-regular fa-file-pdf"></i>https://www.nrel.gov/pv/us-pv-database.html</a> </p>
       </div>
     </div>
