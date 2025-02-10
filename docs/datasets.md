@@ -183,7 +183,7 @@ layout: home
       <img src="/assets/images/thumb/world_tsunamis.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Tsunamis</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1900 to 2023 for around 2 thousand records of tsunamis around the world. It also includes among relevant information such as the magnitude of each event, impact of the tsunami such as the number of deaths and injuries.</p>
+        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1900 to 2023 for around 2 thousand records of tsunamis around the world. It also includes relevant information such as the magnitude of each event, impact of the tsunami such as the number of deaths and injuries.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present</a> </p>
       </div>
     </div>
@@ -497,6 +497,18 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mass Mobilization in Autocracies Database (MMAD)</p>
         <p style="margin: 0;">MMAD provides data on protests on a city level location and daily basis from 2003 to 2012.</p>
         <p style="margin: 0;"><a href="https://mmadatabase.org/"><i class="fa-regular fa-file-pdf"></i>https://mmadatabase.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/global_terrorism_database_(GTD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Terrorism Database (GTD)</p>
+        <p style="margin: 0;">GTD provides dates and city level location on terrorism from 1970 yo 2020 with over 200 thousand records.</p>
+        <p style="margin: 0;"><a href="http://apps.start.umd.edu/gtd/"><i class="fa-regular fa-file-pdf"></i>http://apps.start.umd.edu/gtd/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
