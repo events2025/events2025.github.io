@@ -483,8 +483,20 @@ layout: home
       <img src="/assets/images/thumb/Social Conflict Analysis Database (SCAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Social Conflict Analysis Database (SCAD)</p>
-        <p style="margin: 0;">SCAD provies protests, riots, and other social conflicts from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean</p>
+        <p style="margin: 0;">SCAD provides protests, riots, and other social conflicts from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean</p>
         <p style="margin: 0;"><a href="https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/"><i class="fa-regular fa-file-pdf"></i>https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/mass_mobilization_in_autocracies_database_(MMAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mass Mobilization in Autocracies Database (MMAD)</p>
+        <p style="margin: 0;">MMAD provides data on protests on a city level location and daily basis from 2003 to 2012.</p>
+        <p style="margin: 0;"><a href="https://mmadatabase.org/"><i class="fa-regular fa-file-pdf"></i>https://mmadatabase.org/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
