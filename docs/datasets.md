@@ -39,7 +39,7 @@ layout: home
       <img src="/assets/images/thumb/crimes_in_vancouver.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Crimes in Vancouver</p>
-        <p style="margin: 0;">Individual events with time (minute, hour, day, month, year) and latitude and longitude is provided, freely available.</p>
+        <p style="margin: 0;">Individual events with time (minute, hour, day, month, year) and latitude and longitude is provided.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/wosaku/crime-in-vancouver"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/wosaku/crime-in-vancouver</a> </p>
       </div>
     </div>
@@ -51,7 +51,7 @@ layout: home
       <img src="/assets/images/thumb/motor_vehicle_collisions_rashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Motor Vehicle Collisions - Crashes</p>
-        <p style="margin: 0;">Individual events with time, latitude, longitude and marks, freely available.</p>
+        <p style="margin: 0;">Individual events with time, latitude, longitude and marks. Freely available.</p>
         <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data</a> </p>
       </div>
     </div>
@@ -509,6 +509,18 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Terrorism Database (GTD)</p>
         <p style="margin: 0;">GTD provides events datasets for terrorism with dates and city level location on terrorism from 1970 yo 2020 with over 200 thousand records. Requires free registration.</p>
         <p style="margin: 0;"><a href="http://apps.start.umd.edu/gtd/"><i class="fa-regular fa-file-pdf"></i>http://apps.start.umd.edu/gtd/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/gun_violence_archive_(GVA).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Gun Violence Archive (GVA)</p>
+        <p style="margin: 0;">GVA provides events datasets for gun violence for the USA with dates, city level location and addresses from 2013 to the present and it is updated on a regular basis. Freely available.</p>
+        <p style="margin: 0;"><a href="https://www.gunviolencearchive.org/"><i class="fa-regular fa-file-pdf"></i>https://www.gunviolencearchive.org/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
