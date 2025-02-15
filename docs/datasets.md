@@ -489,5 +489,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/google_maps.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Maps Platform</p>
+        <p style="margin: 0;">Google Maps Platform provides contexts dataset for planet earth (air quality for example) with longitude and latitude and is regularly updated. Possible payments required.</p>
+        <p style="margin: 0;"><a href="https://mapsplatform.google.com/?utm_experiment=13102196"><i class="fa-regular fa-file-pdf"></i>https://mapsplatform.google.com/?utm_experiment=13102196</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
