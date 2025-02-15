@@ -60,54 +60,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/conflict_in_centeral_africa.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Central Africa</p>
-        <p style="margin: 0;">This dataset contains the date, longitude, and latitude from 1991 to 2018 for around 1400 records of the conflicts happening in central Africa among other factors such as the type of violence and number of deaths.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thedevastator/conflict-events-in-the-central-african-republic</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/conflict_in_brazil.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Brazil</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 2018 to 2023 for around 62 thousand records for the conflicts in Brazil among other factors such as event types such as protest, violence, battles, or riots.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/justin2028/brazil-conflict-tracker-20182023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/justin2028/brazil-conflict-tracker-20182023</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/conflict_in_pakistan.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Pakistan</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1989 to 2018 for around 6 thousand records for the conflicts in Pakistan among other factors such as the number of deaths and information regarding the conflict outcomes.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/imadali595/pakistan-data-on-conflict-events"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/imadali595/pakistan-data-on-conflict-events</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/conflict_in_ukraine.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Conflict in Ukraine</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 2014 to 2019 for around 1 thousand records for the conflicts in Ukraine among other factors such as the number of deaths and other relevant information about the conflict.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/vardhansiramdasu/ukraine-russia-conflict-events?select=conflict_data_Ukraine.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/vardhansiramdasu/ukraine-russia-conflict-events?select=conflict_data_Ukraine.csv</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
