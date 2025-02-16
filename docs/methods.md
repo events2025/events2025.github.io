@@ -56,5 +56,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">An Empirical Study: Extensive Deep Temporal Point Process</p>
+        <p style="margin: 0;">This paper, released in December 2024 discusses Neural TPPs, this paper mainly focuses on the temporal point process </p>
+        <p style="margin: 0;"><a href="https://arxiv.org/abs/2110.09823"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/abs/2110.09823</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
