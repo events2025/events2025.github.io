@@ -32,5 +32,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Spatiotemporal Point Processes: Trends and Challenges</p>
+        <p style="margin: 0;">This paper, released in Febraury 2025 discusses STPPs, probabilistic models for events occurring in continuous space and time; they categorize existing approaches, unify key design choices, explain the challenges of working with this data modality, identify open challenges, and gaps in the litreature. They describe the applications possible in various datasets, such as natural disasters, crimes, and traffic.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/abs/2502.09341v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/abs/2502.09341v1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
