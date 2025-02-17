@@ -92,5 +92,29 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications</p>
+        <p style="margin: 0;">This paper, published in August 2018 describes the basic theory, survey related estimation and inference techniques, highlights several key applications, and suggests directions for future research. and highlights self-exciting models when spatio-temporal point process can be divided into clusters of events triggered by common causes </p>
+        <p style="margin: 0;"><a href="https://www.jstor.org/stable/26770999?casa_token=9zW4WBxUsZgAAAAA%3AazR863PhUcvwaGKs_DmQ8ciNz9SUUSHV0fIBhRQsosVEOt_AHQoVy5fNUTZBNCAVxD1gaE58usc_EeAqo_jIlh5guAySYqkc10YbAzjA80PAz-9PH-VPFw&seq=1"><i class="fa-regular fa-file-pdf"></i>https://www.jstor.org/stable/26770999?casa_token=9zW4WBxUsZgAAAAA%3AazR863PhUcvwaGKs_DmQ8ciNz9SUUSHV0fIBhRQsosVEOt_AHQoVy5fNUTZBNCAVxD1gaE58usc_EeAqo_jIlh5guAySYqkc10YbAzjA80PAz-9PH-VPFw&seq=1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical deep learning for spatial and spatiotemporal data</p>
+        <p style="margin: 0;">This paper, published 2023 provides a review on traditional and machine learning spatial and spatial-temporal data with focus on variety of hybrid models that integrate statistical models with deep learning models and give an overview of computational technologies that proven useful</p>
+        <p style="margin: 0;"><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-033021-112628"><i class="fa-regular fa-file-pdf"></i>https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-033021-112628</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
