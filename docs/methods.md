@@ -110,7 +110,7 @@ layout: home
       <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published september 2024 provides background on major aspects of Hawkes processes with focus on simulations methods and estimation techniques among ovewview of stochastic processes and the challenges of Hawkes processes.</p>
+        <p style="margin: 0;">This paper, published september 2024 provides background on major aspects of Hawkes processes with focus on simulations methods and estimation techniques among overview of stochastic processes and the challenges of Hawkes processes.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-024-00653-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-024-00653-7</a> </p>
       </div>
     </div>
