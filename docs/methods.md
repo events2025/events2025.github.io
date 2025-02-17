@@ -35,11 +35,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Spatiotemporal Point Processes: Trends and Challenges</p>
         <p style="margin: 0;">This paper, published in Febraury 2025 discusses STPPs, probabilistic models for events occurring in continuous space and time; they categorize existing approaches, unify key design choices, explain the challenges of working with this data modality, identify open challenges, and gaps in the litreature. They describe the applications possible in various datasets, such as natural disasters, crimes, and traffic.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/abs/2502.09341v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/abs/2502.09341v1</a> </p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2502.09341v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2502.09341v1</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -47,11 +47,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Temporal Point Processes: A Review</p>
         <p style="margin: 0;">This paper, published in August 2021 discusses Neural TPPs, for merging for combining deep learning with Temporal Point Process models. They focus on design choices for this topic, applications and datasets such as earthquake occurrences; they discuss the open challenges such as the lack of standardized experimental setups and high-quality benchmark datasets whcih makes a problematic challenege for the comparison of different neural TPP architectures</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/abs/2104.03528"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/abs/2104.03528</a> </p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2104.03528"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2104.03528</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -59,11 +59,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">An Empirical Study: Extensive Deep Temporal Point Process</p>
         <p style="margin: 0;">This paper, published in December 2024 discusses Neural TPPs, this paper mainly focuses on the temporal point process using deep learning</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/abs/2110.09823"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/abs/2110.09823</a> </p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2110.09823"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2110.09823</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -71,11 +71,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-temporal point process statistics: A review</p>
         <p style="margin: 0;">This paper, published in November 2016 provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterise certain spatio-temporal point processes</p>
-        <p style="margin: 0;"><a href="https://www.sciencedirect.com/science/article/abs/pii/S2211675316301130"><i class="fa-regular fa-file-pdf"></i>https://www.sciencedirect.com/science/article/abs/pii/S2211675316301130</a> </p>
+        <p style="margin: 0;"><a href="https://surl.li/ofjlkm"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ofjlkm</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -83,11 +83,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications</p>
         <p style="margin: 0;">This paper, published in August 2018 the basic theory, survey related estimation and inference techniques, highlights several key applications, and suggests directions for future research. and highlights self-exciting models when spatio-temporal point process can be divided into clusters of events triggered by common causes </p>
-        <p style="margin: 0;"><a href="https://www.jstor.org/stable/26770999?casa_token=9zW4WBxUsZgAAAAA%3AazR863PhUcvwaGKs_DmQ8ciNz9SUUSHV0fIBhRQsosVEOt_AHQoVy5fNUTZBNCAVxD1gaE58usc_EeAqo_jIlh5guAySYqkc10YbAzjA80PAz-9PH-VPFw&seq=1"><i class="fa-regular fa-file-pdf"></i>https://www.jstor.org/stable/26770999?casa_token=9zW4WBxUsZgAAAAA%3AazR863PhUcvwaGKs_DmQ8ciNz9SUUSHV0fIBhRQsosVEOt_AHQoVy5fNUTZBNCAVxD1gaE58usc_EeAqo_jIlh5guAySYqkc10YbAzjA80PAz-9PH-VPFw&seq=1</a> </p>
+        <p style="margin: 0;"><a href="https://surl.li/oekoqa"><i class="fa-regular fa-file-pdf"></i>https://surl.li/oekoqa</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -95,23 +95,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications</p>
-        <p style="margin: 0;">This paper, published in August 2018 describes the basic theory, survey related estimation and inference techniques, highlights several key applications, and suggests directions for future research. and highlights self-exciting models when spatio-temporal point process can be divided into clusters of events triggered by common causes </p>
-        <p style="margin: 0;"><a href="https://www.jstor.org/stable/26770999?casa_token=9zW4WBxUsZgAAAAA%3AazR863PhUcvwaGKs_DmQ8ciNz9SUUSHV0fIBhRQsosVEOt_AHQoVy5fNUTZBNCAVxD1gaE58usc_EeAqo_jIlh5guAySYqkc10YbAzjA80PAz-9PH-VPFw&seq=1"><i class="fa-regular fa-file-pdf"></i>https://www.jstor.org/stable/26770999?casa_token=9zW4WBxUsZgAAAAA%3AazR863PhUcvwaGKs_DmQ8ciNz9SUUSHV0fIBhRQsosVEOt_AHQoVy5fNUTZBNCAVxD1gaE58usc_EeAqo_jIlh5guAySYqkc10YbAzjA80PAz-9PH-VPFw&seq=1</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical deep learning for spatial and spatiotemporal data</p>
         <p style="margin: 0;">This paper, published 2023 provides a review on traditional and machine learning spatial and spatial-temporal data with focus on variety of hybrid models that integrate statistical models with deep learning models and give an overview of computational technologies that proven useful</p>
-        <p style="margin: 0;"><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-033021-112628"><i class="fa-regular fa-file-pdf"></i>https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-033021-112628</a> </p>
+        <p style="margin: 0;"><a href="https://surl.li/ygwloy"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ygwloy</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -119,7 +107,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
         <p style="margin: 0;">This paper, published september 2024 provides background on major aspects of Hawkes processes with focus on simulations methods and estimation techniques among ovewview of stochastic processes and the challenges of Hawkes processes.</p>
