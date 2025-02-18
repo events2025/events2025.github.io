@@ -71,7 +71,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/spatio_temporal_point_process_statistics_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-temporal point process statistics: A review</p>
         <p style="margin: 0;">This paper, published in November 2016 provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterise certain spatio-temporal point processes</p>
@@ -83,7 +83,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/a_review-of_self_exciting_spatio_temporalpoint_processes_and_their_applications.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications</p>
         <p style="margin: 0;">This paper, published in August 2018 the basic theory, survey related estimation and inference techniques, highlights several key applications, and suggests directions for future research. and highlights self-exciting models when spatio-temporal point process can be divided into clusters of events triggered by common causes </p>
