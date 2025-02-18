@@ -99,7 +99,7 @@ layout: home
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical deep learning for spatial and spatiotemporal data</p>
         <p style="margin: 0;">This paper, published 2023 provides a review on traditional and machine learning spatial and spatial-temporal data with focus on variety of hybrid models that integrate statistical models with deep learning models and give an overview of computational technologies that proven useful</p>
-        <p style="margin: 0;"><a href="https://surl.li/ygwloy"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ygwloy</a> </p>
+        <p style="margin: 0;"><a href="https://surl.li/tkiigr"><i class="fa-regular fa-file-pdf"></i>https://surl.li/tkiigr</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -107,7 +107,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/spatio_temporal_hawkes_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
         <p style="margin: 0;">This paper, published september 2024 provides background on major aspects of Hawkes processes with focus on simulations methods and estimation techniques among overview of stochastic processes and the challenges of Hawkes processes.</p>
