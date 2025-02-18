@@ -549,5 +549,30 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/humanitarian_data_exchange_(HDX).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Humanitarian Data Exchange (HDX)</p>
+        <p style="margin: 0;">HDX offers vast collection of humanitarian datasets such as crisis data and contains date, longitude, and latitude. It includes varying historical depths. Some datasets provide information spanning several years, while others focus on more recent data. Freely available with soem data needing request for access.</p>
+        <p style="margin: 0;"><a href="https://data.humdata.org/"><i class="fa-regular fa-file-pdf"></i>https://data.humdata.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/esri_demographics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Esri Demographics</p>
+        <p style="margin: 0;">Esri offers vast collection of datasets from population count, income per capita and more. it contains date, longitude, and latitude and with dates going back 5 years and more. 
+The date update frequency various from 1 dataset to another. It requires a subscription or purchase.</p>
+        <p style="margin: 0;"><a href="https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics"><i class="fa-regular fa-file-pdf"></i>https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>

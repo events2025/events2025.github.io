@@ -95,7 +95,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/statistical_deep_learning_for_spatial_and_spatiotemporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical deep learning for spatial and spatiotemporal data</p>
         <p style="margin: 0;">This paper, published 2023 provides a review on traditional and machine learning spatial and spatial-temporal data with focus on variety of hybrid models that integrate statistical models with deep learning models and give an overview of computational technologies that proven useful</p>

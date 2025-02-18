@@ -62,7 +62,7 @@ layout: home
       <img src="/assets/images/thumb/pytorch_geometric_temporal.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Pytorch Geometric Temporal</p>
-        <p style="margin: 0;">This tutorial introduces various dynamic and temporal geometric deep learning, embedding, and spatio-temporal regression methods from a variety of published research papers.</p>
+        <p style="margin: 0;">This tool introduces various dynamic and temporal geometric deep learning, embedding, and spatio-temporal regression methods from a variety of published research papers.</p>
         <p style="margin: 0;"><a href="https://github.com/benedekrozemberczki/pytorch_geometric_temporal"><i class="fa-regular fa-file-pdf"></i>https://github.com/benedekrozemberczki/pytorch_geometric_temporal</a> </p>
       </div>
     </div>
@@ -74,8 +74,20 @@ layout: home
       <img src="/assets/images/thumb/generative_neural_temporal_point_proces_(gntpp).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Generative Neural Temporal Point Proces (GNTPP)</p>
-        <p style="margin: 0;">This tutorial introduces a PyTorch implementation of GNTPP in the paper GNTPP: `Exploring Generative Neural Temporal Point Process' (TMLR).</p>
+        <p style="margin: 0;">This tool introduces a PyTorch implementation of GNTPP in the paper GNTPP: `Exploring Generative Neural Temporal Point Process' (TMLR).</p>
         <p style="margin: 0;"><a href="https://github.com/EDAPINENUT/GNTPP"><i class="fa-regular fa-file-pdf"></i>https://github.com/EDAPINENUT/GNTPP</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/GIS_OPS.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GIS OPS</p>
+        <p style="margin: 0;">This tool provides routing information from sources like OpenStreetMap (OSM), TomTom, and HERE.</p>
+        <p style="margin: 0;"><a href="https://gis-ops.com/de/"><i class="fa-regular fa-file-pdf"></i>https://gis-ops.com/de/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
