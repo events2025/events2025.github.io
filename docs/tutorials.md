@@ -44,5 +44,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/numpyro_figure.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for Epidemiology</p>
+        <p style="margin: 0;">This tutorial introduces exploring a range of topics in Bayesian modelling, such as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations (ODEs) and agent-based models (ABMs) for disease transmission modelling using NumPyro.</p>
+        <p style="margin: 0;"><a href="https://elizavetasemenova.github.io/prob-epi/01_intro.html"><i class="fa-regular fa-file-pdf"></i>https://elizavetasemenova.github.io/prob-epi/01_intro.html</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
