@@ -75,7 +75,7 @@ layout: home
       <img src="/assets/images/thumb/armed_conflict_location_and_event_dataset_(ACLED).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Armed Conflict Location and Event Dataset (ACLED)</p>
-        <p style="margin: 0;">ACLED provides multiple events datasets for Armed conflicts dates, longitude, and latitude. It contains all events from around the world such as conflicts in Central Africa, Brazil, and Pakistan. Free registration required.</p>
+        <p style="margin: 0;">ACLED provides multiple events datasets for Armed conflicts dates, longitude, and latitude. It contains all events from around the world such as conflicts in Central Africa, Brazil, and Pakistan.</p>
         <p style="margin: 0;"><a href="https://acleddata.com/data-export-tool/"><i class="fa-regular fa-file-pdf"></i>https://acleddata.com/data-export-tool/</a> </p>
       </div>
     </div>
@@ -87,7 +87,7 @@ layout: home
       <img src="/assets/images/thumb/uppsala_conflict_data_progam(UCDP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">The Uppsala Conflict Data Program (UCDP)</p>
-        <p style="margin: 0;">UCDP provides multiple events datasets for Armed conflicts dates, longitude, and latitude. (UCDP) provides data on organized violence with a history of almost 40 years. Freely available.</p>
+        <p style="margin: 0;">UCDP provides multiple events datasets for Armed conflicts dates, longitude, and latitude. (UCDP) provides data on organized violence with a history of almost 40 years.</p>
         <p style="margin: 0;"><a href="https://ucdp.uu.se/encyclopedia"><i class="fa-regular fa-file-pdf"></i>https://ucdp.uu.se/encyclopedia</a> </p>
       </div>
     </div>
