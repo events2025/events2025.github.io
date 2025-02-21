@@ -36,30 +36,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/motor_vehicle_collisions_rashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Motor Vehicle Collisions - Crashes</p>
-        <p style="margin: 0;">Individual events with time, latitude, longitude and marks. Freely available.</p>
-        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1900 to 2023 for around 37 thousand records for the world recorded earthquakes among relevant information related to the earthquake such as the depth of the earthquake, this dataset contains nulls in some features but, not in longitude, latitude, or date.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
@@ -216,11 +192,35 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_airplane_crashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/atlanta_police_department_crimes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Airplane Crashes</p>
-        <p style="margin: 0;">This events dataset contains the date, and country-level locations of the incident for around 5 thousand records from 1908 to 2020 among relevant information such as casualties, the operator (whether private or something else).</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv</a> </p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Atlanta Police Department Crimes</p>
+        <p style="margin: 0;">Atlanta Police Department (APD) is an open data portal for crime events from 1997 to 2025 with timestamps and address level locations. It containing historical crime data for the city of Atlanta. Freely available.</p>
+        <p style="margin: 0;"><a href="https://opendata.atlantapd.org/"><i class="fa-regular fa-file-pdf"></i>https://opendata.atlantapd.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/911_emergency_calls.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">911 Emergency Calls</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude and latitude for 911-Emergency calls from 2015 to 2016 for around 99 thousand records.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/nyc_complaints.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NYC Complaints</p>
+        <p style="margin: 0;">This events dataset includes all crimes reported to the New York City Police Department (NYPD) by date, longitude, and latitude from 2016 to 2025. Freely available.</p>
+        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -233,6 +233,54 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Traffic Congestion</p>
         <p style="margin: 0;">This dataset contains events of traffic congestion with context of weather severity, it contains the date, longitude, and latitude from 2016 to 2021 for around 3 million records for traffic congestion in the USA, among relevant information such as the severity of the congestion.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/omosaad/events-dataset"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/omosaad/events-dataset</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
+        <p style="margin: 0;">This events dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude, and latitude coordinates. Freely available.</p>
+        <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i>https://citibikenyc.com/system-data</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/motor_vehicle_collisions_rashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Motor Vehicle Collisions - Crashes</p>
+        <p style="margin: 0;">Individual events with time, latitude, longitude and marks. Freely available.</p>
+        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_airplane_crashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Airplane Crashes</p>
+        <p style="margin: 0;">This events dataset contains the date, and country-level locations of the incident for around 5 thousand records from 1908 to 2020 among relevant information such as casualties, the operator (whether private or something else).</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1900 to 2023 for around 37 thousand records for the world recorded earthquakes among relevant information related to the earthquake such as the depth of the earthquake, this dataset contains nulls in some features but, not in longitude, latitude, or date.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -348,59 +396,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
-        <p style="margin: 0;">This events dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude, and latitude coordinates. Freely available.</p>
-        <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i>https://citibikenyc.com/system-data</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/911_emergency_calls.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">911 Emergency Calls</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude and latitude for 911-Emergency calls from 2015 to 2016 for around 99 thousand records.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/nyc_complaints.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NYC Complaints</p>
-        <p style="margin: 0;">This events dataset includes all crimes reported to the New York City Police Department (NYPD) by date, longitude, and latitude from 2016 to 2025. Freely available.</p>
-        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/USA_COVID_19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA COVID-19</p>
         <p style="margin: 0;">Contains the COVID-19 events in USA with date, cases and deaths on a country-level location from 2020 to 2023. </p>
         <p style="margin: 0;"><a href="https://github.com/nytimes/covid-19-data"><i class="fa-regular fa-file-pdf"></i>https://github.com/nytimes/covid-19-data</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/atlanta_police_department_crimes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Atlanta Police Department Crimes</p>
-        <p style="margin: 0;">Atlanta Police Department (APD) is an open data portal for crime events from 1997 to 2025 with timestamps and address level locations. It containing historical crime data for the city of Atlanta. Freely available.</p>
-        <p style="margin: 0;"><a href="https://opendata.atlantapd.org/"><i class="fa-regular fa-file-pdf"></i>https://opendata.atlantapd.org/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
