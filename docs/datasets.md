@@ -432,6 +432,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/open_meteo.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Open Meteo API</p>
+        <p style="margin: 0;">The Open-Meteo platform provides a comprehensive Historical Weather API that offers access to a vast amount of meteorological data. some key features: Temperature, Relative Humidity. Cloud Cover. Wind Speed.</p>
+        <p style="margin: 0;"><a href="https://tinyurl.com/322bve8j"><i class="fa-regular fa-file-pdf"></i>https://tinyurl.com/322bve8j</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/nasa_open_data_portal.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NASA Open Data Portal</p>
@@ -459,7 +471,7 @@ layout: home
       <img src="/assets/images/thumb/food_and_agriculture_organization_of_the_united_nations_(FAO).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Food and Agriculture Organization of the United Nations (FAO)</p>
-        <p style="margin: 0;">FAO offers comprehensive context data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available, it includes date, longitude, and latitude. Some datasets may require free registration for access to specific tools or services. Some datasetsmay require free registration for access to specific tools or services.</p>
+        <p style="margin: 0;">FAO offers comprehensive context data on food and agriculture spanning over 245 countries and territories, from 1961 to the most recent year available, it includes date, longitude, and latitude. Some datasets may require free registration for access to specific tools or services. Some datasets may require free registration for access to specific tools or services.</p>
         <p style="margin: 0;"><a href="https://www.fao.org/faostat/en/#data"><i class="fa-regular fa-file-pdf"></i>https://www.fao.org/faostat/en/#data</a> </p>
       </div>
     </div>
@@ -495,7 +507,7 @@ layout: home
       <img src="/assets/images/thumb/google_earth_engine.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Earth Engine API</p>
-        <p style="margin: 0;">Google Earth Engine provides contexts dataset for planet earth (climate and weather) with longitude and latitude that goes back as early as 1979 and is updated on a daily basis. Freely available and may need free registeration.</p>
+        <p style="margin: 0;">Google Earth Engine provides contexts dataset for planet earth (climate and weather) with longitude and latitude that goes back as early as 1979 and is updated on a daily basis. Freely available and may need free registration.</p>
         <p style="margin: 0;"><a href="https://developers.google.com/earth-engine/reference/rest"><i class="fa-regular fa-file-pdf"></i>https://developers.google.com/earth-engine/reference/rest</a> </p>
       </div>
     </div>
@@ -507,7 +519,7 @@ layout: home
       <img src="/assets/images/thumb/spectus.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spectus</p>
-        <p style="margin: 0;">Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements, it dates from 2019 and provides real time data. Subscription payments required .</p>
+        <p style="margin: 0;">Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements, it dates from 2019 and provides real time data.</p>
         <p style="margin: 0;"><a href="https://docs.spectus.ai/"><i class="fa-regular fa-file-pdf"></i>https://docs.spectus.ai/</a> </p>
       </div>
     </div>
