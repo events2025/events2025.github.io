@@ -36,18 +36,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1988 to 2017 for around 800 records for exceptionally bright fireballs that are spectacular enough to be seen over a very wide area in the sky. Only the brightest fireballs are recorded.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/nasa/fireballs"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/nasa/fireballs</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/crimes_in_vancouver.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Crimes in Vancouver</p>
@@ -324,6 +312,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1988 to 2017 for around 800 records for exceptionally bright fireballs that are spectacular enough to be seen over a very wide area in the sky. Only the brightest fireballs are recorded.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/nasa/fireballs"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/nasa/fireballs</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/wolrd_wildfires.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Wildfires</p>
@@ -504,18 +504,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/google_maps.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Maps Platform</p>
-        <p style="margin: 0;">Google Maps Platform provides contexts dataset for planet earth (air quality for example) with longitude and latitude and is regularly updated. Possible payments required.</p>
-        <p style="margin: 0;"><a href="https://mapsplatform.google.com/?utm_experiment=13102196"><i class="fa-regular fa-file-pdf"></i>https://mapsplatform.google.com/?utm_experiment=13102196</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/spectus.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spectus</p>
@@ -545,6 +533,18 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">planet.com</p>
         <p style="margin: 0;">planet.com provides daily satellite earth data analytics with 200 satellites, they provide, longitude, latitude, and dates and measurements for different planetary variables (soil water, Land Surface Temperature, Forest Carbons) and it is updated daily. Payments required .</p>
         <p style="margin: 0;"><a href="https://www.planet.com/"><i class="fa-regular fa-file-pdf"></i>https://www.planet.com/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/google_maps.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Maps Platform</p>
+        <p style="margin: 0;">Google Maps Platform provides contexts dataset for planet earth (air quality for example) with longitude and latitude and is regularly updated. Possible payments required.</p>
+        <p style="margin: 0;"><a href="https://mapsplatform.google.com/?utm_experiment=13102196"><i class="fa-regular fa-file-pdf"></i>https://mapsplatform.google.com/?utm_experiment=13102196</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
