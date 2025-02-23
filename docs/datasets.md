@@ -579,7 +579,7 @@ layout: home
       <img src="/assets/images/thumb/esri_demographics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Esri Demographics</p>
-        <p style="margin: 0;">Esri offers vast collection of datasets from population count, income per capita and more. it contains date, longitude, and latitude and with dates going back 5 years and more. 
+        <p style="margin: 0;">Esri offers vast collection of datasets from population count, income per capita and more. It contains date, longitude, and latitude and with dates going back 5 years and more. 
 The date update frequency various from 1 dataset to another. It requires a subscription or purchase.</p>
         <p style="margin: 0;"><a href="https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics"><i class="fa-regular fa-file-pdf"></i>https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics</a> </p>
       </div>
