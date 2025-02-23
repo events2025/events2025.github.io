@@ -471,7 +471,7 @@ layout: home
       <img src="/assets/images/thumb/global_human_settlment_layer_(GHSL).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
-        <p style="margin: 0;">GHSL provides open and free context data for assessing human presence on Earth such as built-up surface data, population data, and temporal data with date, longitude, and latitude. freely available.</p>
+        <p style="margin: 0;">GHSL provides open and free context data for assessing human presence on Earth such as built-up surface data, population data, and temporal data with date, longitude, and latitude. Freely available.</p>
         <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i>https://human-settlement.emergency.copernicus.eu/</a> </p>
       </div>
     </div>
@@ -531,7 +531,7 @@ layout: home
       <img src="/assets/images/thumb/spectus.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spectus</p>
-        <p style="margin: 0;">Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements, it dates from 2019 and provides real time data.</p>
+        <p style="margin: 0;">Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements, it dates from 2019 and provides real time data.  Subscription payments required.</p>
         <p style="margin: 0;"><a href="https://docs.spectus.ai/"><i class="fa-regular fa-file-pdf"></i>https://docs.spectus.ai/</a> </p>
       </div>
     </div>
@@ -590,9 +590,8 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/esri_demographics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Esri Demographics</p>
-        <p style="margin: 0;">Esri offers vast collection of datasets from population count, income per capita and more. It contains date, longitude, and latitude and with dates going back 5 years and more. 
-The date update frequency various from 1 dataset to another. It requires a subscription or purchase.</p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Environmental Systems Research Institute (ESRI) Demographics</p>
+        <p style="margin: 0;">Esri offers vast collection of datasets from population count, income per capita and more. It contains date, longitude, and latitude and with dates going back 5 years and more. The date update frequency various from 1 dataset to another. It requires a subscription or purchase.</p>
         <p style="margin: 0;"><a href="https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics"><i class="fa-regular fa-file-pdf"></i>https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics</a> </p>
       </div>
     </div>
