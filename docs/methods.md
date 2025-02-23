@@ -121,7 +121,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/behaviour_based_dependency_networks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Behaviour-based dependency networks between places shape urban economic resilience</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Behaviour-Based Dependency Networks Between Places Shape Urban Economic Resilience</p>
         <p style="margin: 0;">This paper, published December 2024, explains that during disruptions like pandemics, business closures affect not just the businesses themselves but also people's movements, which then impacts other businesses. The study uses data from five US cities to measure how businesses depend on each other. It finds that behavior-based relationships improve predictions of business resilience by about 40% compared to distance-based models. Ignoring these relationships can lead to underestimating the spread of disruptions. The research highlights the need to understand human mobility patterns to boost urban economic resilience.</p>
         <p style="margin: 0;"><a href="https://www.nature.com/articles/s41562-024-02072-7"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41562-024-02072-7</a> </p>
       </div>
