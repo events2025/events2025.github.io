@@ -586,5 +586,41 @@ The date update frequency various from 1 dataset to another. It requires a subsc
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/un_refugee.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United Nations High Commissioner for Refugees (UNHCR)</p>
+        <p style="margin: 0;">UNHCR provides data for resettlement statistics, population statistics, and refugee statistics through their APIs.</p>
+        <p style="margin: 0;"><a href="https://www.unhcr.org/"><i class="fa-regular fa-file-pdf"></i>https://www.unhcr.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/beijing_traffic.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Beijing Traffic</p>
+        <p style="margin: 0;">This dataset contains traffic speeds at 5-minute granularity for 3126 roadway segments in Beijing between 2022/05/12 and 2022/07/25 and contains 3126 streets.</p>
+        <p style="margin: 0;"><a href="https://github.com/deepkashiwa20/Urban_Concept_Drift/tree/main"><i class="fa-regular fa-file-pdf"></i>https://github.com/deepkashiwa20/Urban_Concept_Drift/tree/main</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/beijing_air_pollution.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Beijing Air Quality</p>
+        <p style="margin: 0;">This dataset contains the air quality in Beijin from 12 locations from 2013 to 2017.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
