@@ -62,7 +62,7 @@ layout: home
       <img src="/assets/images/thumb/generative_neural_temporal_point_proces_(gntpp).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Generative Neural Temporal Point Proces (GNTPP)</p>
-        <p style="margin: 0;">This tool introduces a PyTorch implementation of GNTPP in the paper GNTPP: `Exploring Generative Neural Temporal Point Process' (TMLR).</p>
+        <p style="margin: 0;">This tool introduces a PyTorch implementation of GNTPP in the paper GNTPP: `Exploring Generative Neural Temporal Point Process' (TMLR). This focuses on deep generative models for generating high quality samples in the context of event occurence modeling for TPP</p>
         <p style="margin: 0;"><a href="https://github.com/EDAPINENUT/GNTPP"><i class="fa-regular fa-file-pdf"></i>https://github.com/EDAPINENUT/GNTPP</a> </p>
       </div>
     </div>
