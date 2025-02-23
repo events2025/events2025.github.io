@@ -56,5 +56,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/sentinelsat_package.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Sentinelsat Package</p>
+        <p style="margin: 0;">This tutorial explores the use of the Sentinelsat python package for using different satellites for retrieving various form of data such as, all weather data, land-surface temperature, and ocean colour and land colour with longitude and latitude locations.</p>
+        <p style="margin: 0;"><a href="https://medium.com/@gabrielagodinho/querying-and-downloading-sentinel-satellite-data-with-python-80573e4b16f5"><i class="fa-regular fa-file-pdf"></i>https://medium.com/@gabrielagodinho/querying-and-downloading-sentinel-satellite-data-with-python-80573e4b16f5</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
