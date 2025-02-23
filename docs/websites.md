@@ -45,5 +45,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/modis.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">NASA Moderate Resolution Imaging Spectroradiometer (MODIS)</p>
+        <p style="margin: 0;">MODIS provides various datasets such as land data, atmospheric, ocean, and thermal data. It also provides various tools such as accessing analysis-ready data from land MODIS.</p>
+        <p style="margin: 0;"><a href="https://modis.gsfc.nasa.gov/"><i class="fa-regular fa-file-pdf"></i>https://modis.gsfc.nasa.gov/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
