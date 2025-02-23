@@ -396,6 +396,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/default_image.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Health COVID-19 Open Data Repository</p>
+        <p style="margin: 0;">The Google Health COVID-19 Open Data Repository is a comprehensive collection of up-to-date COVID-19-related information. </p>
+        <p style="margin: 0;"><a href="https://health.google.com/covid-19/open-data/raw-data"><i class="fa-regular fa-file-pdf"></i>https://health.google.com/covid-19/open-data/raw-data</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/USA_COVID_19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA COVID-19</p>
