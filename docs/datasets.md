@@ -339,7 +339,7 @@ layout: home
       <img src="/assets/images/thumb/northern_california_earthquake_data_center_(NCEDC).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Northern California Earthquake Data Center (NCEDC)</p>
-        <p style="margin: 0;">NCEDC provides dates, longitude, and latitude and other relevant information about the earthquakes events in central and northern California. Some datasets may require special requests for access based on specific terms.</p>
+        <p style="margin: 0;">NCEDC provides dates, longitude, latitude, and other relevant information about the earthquakes events in central and northern California. Some datasets may require special requests for access based on specific terms.</p>
         <p style="margin: 0;"><a href="https://ncedc.org/"><i class="fa-regular fa-file-pdf"></i>https://ncedc.org/</a> </p>
       </div>
     </div>
@@ -351,7 +351,7 @@ layout: home
       <img src="/assets/images/thumb/science_for_a_changing_world_(USGS).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Geological Survey (USGS)</p>
-        <p style="margin: 0;">The USGS provides information on natural hazards events that occur every day such as earthquakes and volcanoes. Freely available.</p>
+        <p style="margin: 0;">The USGS provides information on natural hazards events that occur daily such as earthquakes and volcanoes. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.usgs.gov/"><i class="fa-regular fa-file-pdf"></i>https://www.usgs.gov/</a> </p>
       </div>
     </div>
