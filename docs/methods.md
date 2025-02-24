@@ -140,5 +140,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/conflict_and_forest_loss in_colombia.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Toward Causal Inference for Spatio-Temporal Data: Conflict and Forest Loss in Colombia</p>
+        <p style="margin: 0;">This paper, published Jan 2022, discusses how armed conflict influence tropical forest loss. In this study they propose a class of causal models for spatio-temporal stochastic processes which allows to formally define and quantify the causal effects. </p>
+        <p style="margin: 0;"><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract"><i class="fa-regular fa-file-pdf"></i>https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
