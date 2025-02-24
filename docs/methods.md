@@ -128,5 +128,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/child_marriage_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Child Marriage in Conflict Settings: A Geospatial Analysis</p>
+        <p style="margin: 0;">This paper, published July 2024, highlights the impact of conflict events on the incidence of child marriage. They used georeferenced data on armed conflict and population-level microdata for marriages of more than 2 million women across 56 countries to estimate the impact of the occurrence and severity of conflict events in or before the year of marriage on the incidence of child marriage. </p>
+        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s43545-024-00940-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s43545-024-00940-7</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
