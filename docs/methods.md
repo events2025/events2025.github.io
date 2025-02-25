@@ -164,5 +164,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/spatio-remporal_field_neural_networks_for_air_quality.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Field Neural Networks for Air Quality Inference</p>
+        <p style="margin: 0;">This paper, published Jun 2024, highlights the limitation of graph neural netowkr and made a first effort to to combine two different spatio-temooral prespective.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2403.02354"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2403.02354</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
