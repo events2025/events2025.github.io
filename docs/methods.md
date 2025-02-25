@@ -152,5 +152,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/multi_modality_spatio_temporal_forecasting.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning</p>
+        <p style="margin: 0;">This paper, published May 2024, proposes a novel MoST learning framework via Self-Supervised Learning, namely MoSSL, which aims to uncover latent patterns from temporal, spatial, and modality perspectives while quantifying dynamic heterogeneity. Experiment results on two real-world MoST datasets verify the superiority of this approach compared with the state-of-the-art baselines.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2405.03255"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2405.03255</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
