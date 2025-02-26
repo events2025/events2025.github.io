@@ -206,8 +206,20 @@ layout: home
       <img src="/assets/images/thumb/comparative_eval_of_point_process_forecasts.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparative Evaluation of Point Process Forecasts</p>
-        <p style="margin: 0;">This paper, published July 2023, performs a comparative study it adapts the concept of consistent scoring functions and proper scoring rules, which are statistically principled tools for the comparative evaluation of predictive performance, to the point process setting, and place both new and existing methodology in their framework for a case study on a simulation operational earthquake forecasts for Italy..</p>
+        <p style="margin: 0;">This paper, published July 2023, performs a comparative study it adapts the concept of consistent scoring functions and proper scoring rules, which are statistically principled tools for the comparative evaluation of predictive performance, to the point process setting, and place both new and existing methodology in their framework for a case study on a simulation operational earthquake forecasts for Italy.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2103.11884"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2103.11884</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/DKMPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Integration-free Training for Spatio-temporal Multimodal Covariate Deep Kernel Point Processes</p>
+        <p style="margin: 0;">This paper, published November 2023,  proposes a novel deep spatio-temporal point process model, Deep Kernel Mixture Point Processes (DKMPP) that incorporates multimodal covariate information and it utilizes an integration-free method based on score matching, and improve efficiency by adopting a scalable denoising score matching method .</p>
+        <p style="margin: 0;"><a href="https://openreview.net/pdf?id=Yvpenkym8A"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/pdf?id=Yvpenkym8A</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
