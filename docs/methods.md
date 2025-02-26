@@ -193,9 +193,21 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/classical_stratification_for_disease_spreading.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A mathematical, classical stratification modeling approach to disentangling the impact of weather on infectious diseases: A case study using spatio-temporally disaggregated Campylobacter surveillance data for England and Wales</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Mathematical, Classical Stratification Modeling Approach to Disentangling the Impact of Weather on Infectious Diseases: A Case Study Using Spatio-Temporally Disaggregated Campylobacter Surveillance Data for England and Wales</p>
         <p style="margin: 0;">This paper, published Jan 2024, Disentangling the impact of the weather on transmission of infectious diseases is crucial for health protection, preparedness and prevention while using campylobacteriosis, a bacterial food disease, as a case study where they developed a novel conditional incidence method based on classical stratification. The predicted incidence of campylobacteriosis increased by 1 case per million people for every 5° (Celsius) increase in temperature within the range of 8°-15°.</p>
         <p style="margin: 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/38236828/"><i class="fa-regular fa-file-pdf"></i>https://pubmed.ncbi.nlm.nih.gov/38236828/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/comparative_eval_of_point_process_forecasts.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparative Evaluation of Point Process Forecasts</p>
+        <p style="margin: 0;">This paper, published July 2023, performs a comparative study it adapts the concept of consistent scoring functions and proper scoring rules, which are statistically principled tools for the comparative evaluation of predictive performance, to the point process setting, and place both new and existing methodology in their framework for a case study on a simulation operational earthquake forecasts for Italy..</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2103.11884"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2103.11884</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
