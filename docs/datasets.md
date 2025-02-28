@@ -543,7 +543,7 @@ layout: home
       <img src="/assets/images/thumb/global_database_of_events_language_and_tone_(gdelt).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Database of Events, Language, and Tone (GDELT)</p>
-        <p style="margin: 0;">GDELT provides world data with longitudes and latitudes and dates on events such as protests, and violent attacks with and contexts data  such as people's emotions from the news. It has historical data dating to 1971 and efforts to further extending it further back to 1800. It gets updated every 15 minutes. Freely available .</p>
+        <p style="margin: 0;">GDELT provides world data with longitudes and latitudes and dates on events such as protests and violent attacks with context data such as people's emotions from the news. It has historical data dating to 1971 and efforts to further extend it further back to 1800. It gets updated every 15 minutes. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.gdeltproject.org/"><i class="fa-regular fa-file-pdf"></i>https://www.gdeltproject.org/</a> </p>
       </div>
     </div>
@@ -555,7 +555,7 @@ layout: home
       <img src="/assets/images/thumb/planet_com.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">planet.com</p>
-        <p style="margin: 0;">planet.com provides daily satellite earth data analytics with 200 satellites, they provide, longitude, latitude, and dates and measurements for different planetary variables (soil water, Land Surface Temperature, Forest Carbons) and it is updated daily. Payments required .</p>
+        <p style="margin: 0;">Planet.com provides daily satellite earth data analytics with 200 satellites; they provide longitude, latitude, and dates and measurements for different planetary variables (soil water, land surface temperature, forest carbon), and it is updated daily. Payments required.</p>
         <p style="margin: 0;"><a href="https://www.planet.com/"><i class="fa-regular fa-file-pdf"></i>https://www.planet.com/</a> </p>
       </div>
     </div>
@@ -567,7 +567,7 @@ layout: home
       <img src="/assets/images/thumb/google_maps.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Maps Platform</p>
-        <p style="margin: 0;">Google Maps Platform provides contexts dataset for planet earth (air quality for example) with longitude and latitude and is regularly updated. Possible payments required.</p>
+        <p style="margin: 0;">Google Maps Platform provides a context dataset for planet Earth (air quality, for example) with longitude and latitude and is regularly updated. Possible payments required.</p>
         <p style="margin: 0;"><a href="https://mapsplatform.google.com/?utm_experiment=13102196"><i class="fa-regular fa-file-pdf"></i>https://mapsplatform.google.com/?utm_experiment=13102196</a> </p>
       </div>
     </div>
@@ -579,7 +579,7 @@ layout: home
       <img src="/assets/images/thumb/here_maps.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;"> HERE Maps</p>
-        <p style="margin: 0;">HERE Maps provides world data with longitudes and latitudes and dates for real-time traffic data, including flow, incidents, and congestion details. It gets updated regularly . Requires an API key and offers to get started for free, with usage-based pricing as needs grow.</p>
+        <p style="margin: 0;">HERE Maps provides world data with longitudes and latitudes and dates for real-time traffic data, including flow, incidents, and congestion details. It gets updated regularly. Requires an API key and offers to get started for free, with usage-based pricing as needs grow.</p>
         <p style="margin: 0;"><a href="https://www.here.com/"><i class="fa-regular fa-file-pdf"></i>https://www.here.com/</a> </p>
       </div>
     </div>
@@ -591,7 +591,7 @@ layout: home
       <img src="/assets/images/thumb/esri_demographics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Environmental Systems Research Institute (ESRI) Demographics</p>
-        <p style="margin: 0;">Esri offers vast collection of datasets from population count, income per capita and more. It contains date, longitude, and latitude and with dates going back 5 years and more. The date update frequency various from 1 dataset to another. It requires a subscription or purchase.</p>
+        <p style="margin: 0;">Esri offers a vast collection of datasets from population count, income per capita, and more. It contains dates, longitude, and latitude, with dates going back 5 years and more. The date update frequency varies from 1 dataset to another. It requires a subscription or purchase.</p>
         <p style="margin: 0;"><a href="https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics"><i class="fa-regular fa-file-pdf"></i>https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics</a> </p>
       </div>
     </div>
@@ -627,7 +627,7 @@ layout: home
       <img src="/assets/images/thumb/beijing_air_pollution.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Beijing Air Quality</p>
-        <p style="margin: 0;">This dataset contains the air quality in Beijin from 12 locations from 2013 to 2017.</p>
+        <p style="margin: 0;">This dataset contains the air quality in Beijing from 12 different country-level locations with dates from 2013 to 2017. It contains measurements for air quality such as CO₂ and O₃. The data was originally retrieved from the UCI Machine Learning Repository.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set</a> </p>
       </div>
     </div>

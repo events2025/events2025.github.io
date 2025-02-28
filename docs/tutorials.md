@@ -50,7 +50,7 @@ layout: home
       <img src="/assets/images/thumb/numpyro_figure.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative Surrogates for Epidemiology</p>
-        <p style="margin: 0;">This tutorial introduces exploring a range of topics in Bayesian modelling, such as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations (ODEs) and agent-based models (ABMs) for disease transmission modelling using NumPyro.</p>
+        <p style="margin: 0;">This tutorial introduces exploring a range of topics in Bayesian modelling, such as Bayesian inference, hierarchical modelling, Gaussian processes for spatial statistics, ordinary differential equations (ODEs), and agent-based models (ABMs) for disease transmission modelling using NumPyro.</p>
         <p style="margin: 0;"><a href="https://elizavetasemenova.github.io/prob-epi/01_intro.html"><i class="fa-regular fa-file-pdf"></i>https://elizavetasemenova.github.io/prob-epi/01_intro.html</a> </p>
       </div>
     </div>
@@ -62,7 +62,7 @@ layout: home
       <img src="/assets/images/thumb/sentinelsat_package.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Sentinelsat Package</p>
-        <p style="margin: 0;">This tutorial explores the use of the Sentinelsat python package for using different satellites for retrieving various form of data such as, all weather data, land-surface temperature, and ocean colour and land colour with longitude and latitude locations.</p>
+        <p style="margin: 0;">This tutorial explores the use of the Sentinelsat Python package for using different satellites for retrieving various forms of data, such as all weather data, land-surface temperature, and ocean color and land color with longitude and latitude locations.</p>
         <p style="margin: 0;"><a href="https://medium.com/@gabrielagodinho/querying-and-downloading-sentinel-satellite-data-with-python-80573e4b16f5"><i class="fa-regular fa-file-pdf"></i>https://medium.com/@gabrielagodinho/querying-and-downloading-sentinel-satellite-data-with-python-80573e4b16f5</a> </p>
       </div>
     </div>

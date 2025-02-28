@@ -86,7 +86,7 @@ layout: home
       <img src="/assets/images/thumb/a_review-of_self_exciting_spatio_temporalpoint_processes_and_their_applications.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications</p>
-        <p style="margin: 0;">This paper, published in August 2018 the basic theory, survey related estimation and inference techniques, highlights several key applications, and suggests directions for future research. and highlights self-exciting models when spatio-temporal point process can be divided into clusters of events triggered by common causes </p>
+        <p style="margin: 0;">This paper, published in August 2018, the basic theory, survey-related estimation, and inference techniques, highlights several key applications and suggests directions for future research. and highlights self-exciting models when spatio-temporal point processes can be divided into clusters of events triggered by common causes.</p>
         <p style="margin: 0;"><a href="https://surl.li/oekoqa"><i class="fa-regular fa-file-pdf"></i>https://surl.li/oekoqa</a> </p>
       </div>
     </div>
@@ -98,7 +98,7 @@ layout: home
       <img src="/assets/images/thumb/statistical_deep_learning_for_spatial_and_spatiotemporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical Deep Learning for Spatial and Spatiotemporal Data</p>
-        <p style="margin: 0;">This paper, published 2023 provides a review on traditional and machine learning spatial and spatial-temporal data with focus on variety of hybrid models that integrate statistical models with deep learning models and give an overview of computational technologies that proven useful</p>
+        <p style="margin: 0;">This paper, published in 2023, provides a review of traditional and machine learning spatial and spatial-temporal data with a focus on a variety of hybrid models that integrate statistical models with deep learning models and gives an overview of computational technologies that have proven useful.</p>
         <p style="margin: 0;"><a href="https://surl.li/tkiigr"><i class="fa-regular fa-file-pdf"></i>https://surl.li/tkiigr</a> </p>
       </div>
     </div>
@@ -110,7 +110,7 @@ layout: home
       <img src="/assets/images/thumb/spatio_temporal_hawkes_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published september 2024 provides background on major aspects of Hawkes processes with focus on simulations methods and estimation techniques among overview of stochastic processes and the challenges of Hawkes processes.</p>
+        <p style="margin: 0;">This paper, published in September 2024, provides background on major aspects of Hawkes processes with a focus on simulation methods and estimation techniques among an overview of stochastic processes and the challenges of Hawkes processes.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-024-00653-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-024-00653-7</a> </p>
       </div>
     </div>
@@ -122,7 +122,7 @@ layout: home
       <img src="/assets/images/thumb/behaviour_based_dependency_networks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Behaviour-Based Dependency Networks Between Places Shape Urban Economic Resilience</p>
-        <p style="margin: 0;">This paper, published December 2024, explains that during disruptions like pandemics, business closures affect not just the businesses themselves but also people's movements, which then impacts other businesses. The study uses data from five US cities to measure how businesses depend on each other. It finds that behavior-based relationships improve predictions of business resilience by about 40% compared to distance-based models. Ignoring these relationships can lead to underestimating the spread of disruptions. The research highlights the need to understand human mobility patterns to boost urban economic resilience.</p>
+        <p style="margin: 0;">This paper, published December 2024, explains that during disruptions like pandemics, business closures affect not just the businesses themselves but also people's movements, which then impact other businesses. The study uses data from five US cities to measure how businesses depend on each other. It finds that behavior-based relationships improve predictions of business resilience by about 40% compared to distance-based models. Ignoring these relationships can lead to underestimating the spread of disruptions. The research highlights the need to understand human mobility patterns to boost urban economic resilience.</p>
         <p style="margin: 0;"><a href="https://www.nature.com/articles/s41562-024-02072-7"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41562-024-02072-7</a> </p>
       </div>
     </div>
