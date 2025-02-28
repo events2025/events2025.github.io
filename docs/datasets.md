@@ -39,7 +39,7 @@ layout: home
       <img src="/assets/images/thumb/crimes_in_vancouver.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Crimes in Vancouver</p>
-        <p style="margin: 0;">Individual events with time (minute, hour, day, month, year) and latitude and longitude is provided.</p>
+        <p style="margin: 0;">Includes individual crime events with time (minute, hour, day, month, year) and latitude and longitude from 2003 to 2017 with 530 thousand records. The data was originally retrieved from city of Vancouver open data portal.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/wosaku/crime-in-vancouver"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/wosaku/crime-in-vancouver</a> </p>
       </div>
     </div>
@@ -51,7 +51,7 @@ layout: home
       <img src="/assets/images/thumb/new_york_city_shootings.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">New York City Shootings</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude for New York City Shootings from 2006 to 2019 for around 22 thousand records including relevant information about the incident such as the shooter (age, gender, race).</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude for New York City shootings from 2006 to 2019 for around 22 thousand records, including relevant information about the incident, such as the shooter (age, gender, race). The data was originally retrieved from NYC OpenData.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/thaddeussegura/new-york-city-shooting-dataset"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/thaddeussegura/new-york-city-shooting-dataset</a> </p>
       </div>
     </div>
@@ -63,7 +63,7 @@ layout: home
       <img src="/assets/images/thumb/usa_gun_violence.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Gun Violence</p>
-        <p style="margin: 0;">This events dataset contains the date and country-level locations from 2013 to 2022 for around 472 thousand records for gun violence incidents and mass shootings in the USA.</p>
+        <p style="margin: 0;">This events dataset contains the date and country-level locations from 2013 to 2022 for around 472 thousand records for gun violence incidents and mass shootings in the USA. This data was originally retrieved from the Gun Violence Archive organization.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa</a> </p>
       </div>
     </div>
@@ -75,7 +75,7 @@ layout: home
       <img src="/assets/images/thumb/armed_conflict_location_and_event_dataset_(ACLED).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Armed Conflict Location and Event Dataset (ACLED)</p>
-        <p style="margin: 0;">ACLED provides multiple events datasets for Armed conflicts dates, longitude, and latitude. It contains all events from around the world such as conflicts in Central Africa, Brazil, and Pakistan. Free registration required</p>
+        <p style="margin: 0;">ACLED provides multiple event datasets for armed conflict dates, longitude, and latitude. It contains all events from around the world, such as conflicts in Central Africa, Brazil, and Pakistan. Free registration required.</p>
         <p style="margin: 0;"><a href="https://acleddata.com/data-export-tool/"><i class="fa-regular fa-file-pdf"></i>https://acleddata.com/data-export-tool/</a> </p>
       </div>
     </div>
@@ -87,7 +87,7 @@ layout: home
       <img src="/assets/images/thumb/uppsala_conflict_data_progam(UCDP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">The Uppsala Conflict Data Program (UCDP)</p>
-        <p style="margin: 0;">UCDP provides multiple events datasets for Armed conflicts dates, longitude, and latitude. (UCDP) provides data on organized violence with a history of almost 40 years. Freely available</p>
+        <p style="margin: 0;">UCDP provides multiple event datasets for armed conflict dates, longitude, and latitude. (UCDP) provides data on organized violence with a history of almost 40 years. Freely available.</p>
         <p style="margin: 0;"><a href="https://ucdp.uu.se/encyclopedia"><i class="fa-regular fa-file-pdf"></i>https://ucdp.uu.se/encyclopedia</a> </p>
       </div>
     </div>
@@ -99,7 +99,7 @@ layout: home
       <img src="/assets/images/thumb/chicago_crimes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Chicago Crimes</p>
-        <p style="margin: 0;">This events dataset contains the Chicago crimes from 2001 to present except the past 7 days with date, longitude, and latitude. Freely available.</p>
+        <p style="margin: 0;">This events dataset contains the Chicago crimes from 2001 to the present, except for the past 7 days, with date, longitude, and latitude. Freely available.</p>
         <p style="margin: 0;"><a href="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data"><i class="fa-regular fa-file-pdf"></i>https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data</a> </p>
       </div>
     </div>
@@ -111,7 +111,7 @@ layout: home
       <img src="/assets/images/thumb/correlates_of_war_(COW).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Correlates of War (COW)</p>
-        <p style="margin: 0;">COW project provides events datasets for conflicts, wars, and more. It contains dates, longitude, and latitude. COW data spans several centuries. Freely available.</p>
+        <p style="margin: 0;">The COW project provides event datasets for conflicts, wars, and more. It contains dates, longitude, and latitude. COW data spans several centuries. Freely available.</p>
         <p style="margin: 0;"><a href="https://correlatesofwar.org/data-sets/"><i class="fa-regular fa-file-pdf"></i>https://correlatesofwar.org/data-sets/</a> </p>
       </div>
     </div>
@@ -123,7 +123,7 @@ layout: home
       <img src="/assets/images/thumb/Social Conflict Analysis Database (SCAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Social Conflict Analysis Database (SCAD)</p>
-        <p style="margin: 0;">SCAD provides events datasets for protests, riots, and other social conflicts with date, longitude, and latitude from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean. Freely available.</p>
+        <p style="margin: 0;">SCAD provides event datasets for protests, riots, and other social conflicts with date, longitude, and latitude from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/"><i class="fa-regular fa-file-pdf"></i>https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/</a> </p>
       </div>
     </div>
@@ -135,7 +135,7 @@ layout: home
       <img src="/assets/images/thumb/humanitarian_data_exchange_(HDX).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Humanitarian Data Exchange (HDX)</p>
-        <p style="margin: 0;">HDX offers vast collection of humanitarian datasets such as crisis data and contains date, longitude, and latitude. It includes varying historical depths. Some datasets provide information spanning several years, while others focus on more recent data. Freely available with some data needing request for access.</p>
+        <p style="margin: 0;">HDX offers a vast collection of humanitarian datasets, such as crisis data, and contains dates, longitude, and latitude. It includes varying historical depths. Some datasets provide information spanning several years, while others focus on more recent data. Freely available with some data needing a request for access.</p>
         <p style="margin: 0;"><a href="https://data.humdata.org/"><i class="fa-regular fa-file-pdf"></i>https://data.humdata.org/</a> </p>
       </div>
     </div>
@@ -147,7 +147,7 @@ layout: home
       <img src="/assets/images/thumb/mass_mobilization_in_autocracies_database_(MMAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mass Mobilization in Autocracies Database (MMAD)</p>
-        <p style="margin: 0;">MMAD provides events data on protests on a city level location on daily basis from 2003 to 2012. Freely available.</p>
+        <p style="margin: 0;">MMAD provides event data on protests on a city-level location on a daily basis from 2003 to 2012. Freely available.</p>
         <p style="margin: 0;"><a href="https://mmadatabase.org/"><i class="fa-regular fa-file-pdf"></i>https://mmadatabase.org/</a> </p>
       </div>
     </div>
@@ -159,7 +159,7 @@ layout: home
       <img src="/assets/images/thumb/global_terrorism_database_(GTD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Terrorism Database (GTD)</p>
-        <p style="margin: 0;">GTD provides events datasets for terrorism with dates and city level location on terrorism from 1970 yo 2020 with over 200 thousand records. Requires free registration.</p>
+        <p style="margin: 0;">GTD provides event datasets for terrorism with dates and city-level locations on terrorism from 1970 to 2020 with over 200 thousand records. Requires free registration.</p>
         <p style="margin: 0;"><a href="http://apps.start.umd.edu/gtd/"><i class="fa-regular fa-file-pdf"></i>http://apps.start.umd.edu/gtd/</a> </p>
       </div>
     </div>
@@ -171,7 +171,7 @@ layout: home
       <img src="/assets/images/thumb/gun_violence_archive_(GVA).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Gun Violence Archive (GVA)</p>
-        <p style="margin: 0;">GVA provides events datasets for gun violence for the USA with dates, city level location and addresses from 2013 to the present and it is updated on a regular basis. Freely available.</p>
+        <p style="margin: 0;">GVA provides event datasets for gun violence for the USA with dates, city-level locations, and addresses from 2013 to the present, and it is updated on a regular basis. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.gunviolencearchive.org/"><i class="fa-regular fa-file-pdf"></i>https://www.gunviolencearchive.org/</a> </p>
       </div>
     </div>
@@ -183,7 +183,7 @@ layout: home
       <img src="/assets/images/thumb/atlanta_police_department_crimes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Atlanta Police Department Crimes</p>
-        <p style="margin: 0;">Atlanta Police Department (APD) is an open data portal for crime events from 1997 to 2025 with timestamps and address level locations. It containing historical crime data for the city of Atlanta. Freely available.</p>
+        <p style="margin: 0;">The Atlanta Police Department (APD) is an open data portal for crime events from 1997 to 2025 with timestamps and address-level locations. It contains historical crime data for the city of Atlanta. Freely available.</p>
         <p style="margin: 0;"><a href="https://opendata.atlantapd.org/"><i class="fa-regular fa-file-pdf"></i>https://opendata.atlantapd.org/</a> </p>
       </div>
     </div>
@@ -195,7 +195,7 @@ layout: home
       <img src="/assets/images/thumb/911_emergency_calls.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">911 Emergency Calls</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude and latitude for 911-Emergency calls from 2015 to 2016 for around 99 thousand records.</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude for 911 emergency calls from 2015 to 2016 for around 99 thousand records.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv</a> </p>
       </div>
     </div>
