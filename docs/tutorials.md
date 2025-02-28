@@ -74,7 +74,7 @@ layout: home
       <img src="/assets/images/thumb/learning_with_temporal_point_processes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Learning with Temporal Point Processes</p>
-        <p style="margin: 0;">This tutorial provides an introduction to the basic theory of temporal point processes, revisits several types of points processes, and introduce advanced concepts. This explains how temporal point processes have been used in developing a variety of recent machine learning models and control algorithms, respectively. This tutorial also visits recent advances related to deep learning and Bayesian nonparametrics</p>
+        <p style="margin: 0;">This tutorial provides an introduction to the basic theory of temporal point processes, revisits several types of point processes, and introduces advanced concepts. This explains how temporal point processes have been used in developing a variety of recent machine learning models and control algorithms, respectively. This tutorial also visits recent advances related to deep learning and Bayesian nonparametrics.</p>
         <p style="margin: 0;"><a href="https://learning.mpi-sws.org/tpp-icml18/"><i class="fa-regular fa-file-pdf"></i>https://learning.mpi-sws.org/tpp-icml18/</a> </p>
       </div>
     </div>

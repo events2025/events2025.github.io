@@ -134,7 +134,7 @@ layout: home
       <img src="/assets/images/thumb/child_marriage_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Child Marriage in Conflict Settings: A Geospatial Analysis</p>
-        <p style="margin: 0;">This paper, published July 2024, highlights the impact of conflict events on the incidence of child marriage. They used georeferenced data on armed conflict and population-level microdata for marriages of more than 2 million women across 56 countries to estimate the impact of the occurrence and severity of conflict events in or before the year of marriage on the incidence of child marriage. </p>
+        <p style="margin: 0;">This paper, published in July 2024, highlights the impact of conflict events on the incidence of child marriage. They used georeferenced data on armed conflict and population-level microdata for marriages of more than 2 million women across 56 countries to estimate the impact of the occurrence and severity of conflict events in or before the year of marriage on the incidence of child marriage.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s43545-024-00940-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s43545-024-00940-7</a> </p>
       </div>
     </div>
@@ -146,7 +146,7 @@ layout: home
       <img src="/assets/images/thumb/conflict_and_forest_loss in_colombia.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Toward Causal Inference for Spatio-Temporal Data: Conflict and Forest Loss in Colombia</p>
-        <p style="margin: 0;">This paper, published Jan 2022, discusses how armed conflict influence tropical forest loss. In this study they propose a class of causal models for spatio-temporal stochastic processes which allows to formally define and quantify the causal effects. </p>
+        <p style="margin: 0;">This paper, published in Jan 2022, discusses how armed conflict influences tropical forest loss. In this study, they propose a class of causal models for spatio-temporal stochastic processes, which allows one to formally define and quantify the causal effects.</p>
         <p style="margin: 0;"><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract"><i class="fa-regular fa-file-pdf"></i>https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract</a> </p>
       </div>
     </div>
@@ -158,7 +158,7 @@ layout: home
       <img src="/assets/images/thumb/multi_modality_spatio_temporal forecasting.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning</p>
-        <p style="margin: 0;">This paper, published May 2024, proposes a novel MoST learning framework via Self-Supervised Learning, namely MoSSL, which aims to uncover latent patterns from temporal, spatial, and modality perspectives while quantifying dynamic heterogeneity. Experiment results on two real-world MoST datasets verify the superiority of this approach compared with the state-of-the-art baselines.</p>
+        <p style="margin: 0;">This paper, published in May 2024, proposes a novel MoST learning framework via self-supervised learning, namely MoSSL, which aims to uncover latent patterns from temporal, spatial, and modality perspectives while quantifying dynamic heterogeneity. Experiment results on two real-world MoST datasets verify the superiority of this approach compared with the state-of-the-art baselines.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2405.03255"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2405.03255</a> </p>
       </div>
     </div>
@@ -170,7 +170,7 @@ layout: home
       <img src="/assets/images/thumb/spatio-remporal_field_neural_networks_for_air_quality.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Field Neural Networks for Air Quality Inference</p>
-        <p style="margin: 0;">This paper, published Jun 2024, highlights the limitation of graph neural netowkr and made a first effort to to combine two different spatio-temooral prespective.</p>
+        <p style="margin: 0;">This paper, published in June 2024, highlights the limitation of graph neural networks and makes a first effort to combine two different spatiotemporal perspectives.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2403.02354"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2403.02354</a> </p>
       </div>
     </div>
@@ -182,7 +182,7 @@ layout: home
       <img src="/assets/images/thumb/weather_impact_on_social_medial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Worse Weather Amplifies Social Media Activity</p>
-        <p style="margin: 0;">This paper, published February 2025, highlights if environmental factors alter rates of online social activity, the study was performed on the U.S.A using Facebook and X (twitter) data with over 3.5 billion posts. They found that extreme temperatures and added precipitation each independently amplified social-media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social-media activity. </p>
+        <p style="margin: 0;">This paper, published in February 2025, highlights if environmental factors alter rates of online social activity. The study was performed in the U.S.A. using Facebook and X (Twitter) data with over 3.5 billion posts. They found that extreme temperatures and added precipitation each independently amplified social media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social media activity.</p>
         <p style="margin: 0;"><a href="https://journals.sagepub.com/doi/10.1177/09567976241306099"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/doi/10.1177/09567976241306099</a> </p>
       </div>
     </div>
@@ -194,7 +194,7 @@ layout: home
       <img src="/assets/images/thumb/classical_stratification_for_disease_spreading.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Mathematical, Classical Stratification Modeling Approach to Disentangling the Impact of Weather on Infectious Diseases: A Case Study Using Spatio-Temporally Disaggregated Campylobacter Surveillance Data for England and Wales</p>
-        <p style="margin: 0;">This paper, published Jan 2024, Disentangling the impact of the weather on transmission of infectious diseases is crucial for health protection, preparedness and prevention while using campylobacteriosis, a bacterial food disease, as a case study where they developed a novel conditional incidence method based on classical stratification. The predicted incidence of campylobacteriosis increased by 1 case per million people for every 5° (Celsius) increase in temperature within the range of 8°-15°.</p>
+        <p style="margin: 0;">This paper, published in Jan 2024, disentangling the impact of the weather on transmission of infectious diseases is crucial for health protection, preparedness, and prevention while using campylobacteriosis, a bacterial food disease, as a case study where they developed a novel conditional incidence method based on classical stratification. The predicted incidence of campylobacteriosis increased by 1 case per million people for every 5° (Celsius) increase in temperature within the range of 8°-15°.</p>
         <p style="margin: 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/38236828/"><i class="fa-regular fa-file-pdf"></i>https://pubmed.ncbi.nlm.nih.gov/38236828/</a> </p>
       </div>
     </div>
@@ -206,7 +206,7 @@ layout: home
       <img src="/assets/images/thumb/comparative_eval_of_point_process_forecasts.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparative Evaluation of Point Process Forecasts</p>
-        <p style="margin: 0;">This paper, published July 2023, performs a comparative study it adapts the concept of consistent scoring functions and proper scoring rules, which are statistically principled tools for the comparative evaluation of predictive performance, to the point process setting, and place both new and existing methodology in their framework for a case study on a simulation operational earthquake forecasts for Italy.</p>
+        <p style="margin: 0;">This paper, published in July 2023, performs a comparative study. It adapts the concept of consistent scoring functions and proper scoring rules, which are statistically principled tools for the comparative evaluation of predictive performance, to the point process setting and places both new and existing methodology in their framework for a case study on a simulation operational earthquake forecast for Italy.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2103.11884"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2103.11884</a> </p>
       </div>
     </div>
@@ -218,7 +218,7 @@ layout: home
       <img src="/assets/images/thumb/DKMPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Integration-free Training for Spatio-temporal Multimodal Covariate Deep Kernel Point Processes</p>
-        <p style="margin: 0;">This paper, published November 2023,  proposes a novel deep spatio-temporal point process model, Deep Kernel Mixture Point Processes (DKMPP) that incorporates multimodal covariate information and it utilizes an integration-free method based on score matching, and improve efficiency by adopting a scalable denoising score matching method.</p>
+        <p style="margin: 0;">This paper, published in November 2023, proposes a novel deep spatio-temporal point process model, Deep Kernel Mixture Point Processes (DKMPP), that incorporates multimodal covariate information, utilizes an integration-free method based on score matching, and improves efficiency by adopting a scalable denoising score matching method.</p>
         <p style="margin: 0;"><a href="https://openreview.net/pdf?id=Yvpenkym8A"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/pdf?id=Yvpenkym8A</a> </p>
       </div>
     </div>
@@ -230,7 +230,7 @@ layout: home
       <img src="/assets/images/thumb/maya_okawa_multi_modal_model_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Deep Mixture Point Processes: Spatio-temporal Event Prediction with Rich Contextual Information</p>
-        <p style="margin: 0;">This paper, published Jun 2021, proposes DMPP (Deep Mixture Point Processes), a point process model for predicting spatio-temporal events with the use of rich contextual information; it incorporates heterogeneous and high-dimensional context available in image and text data. They design the intensity of their point process model as a mixture of kernels, where the mixture weights are modeled by a deep neural network. This allows to automatically learn the complex nonlinear effects of the contextual factors on event occurrence.</p>
+        <p style="margin: 0;">This paper, published in June 2021, proposes DMPP (Deep Mixture Point Processes), a point process model for predicting spatio-temporal events with the use of rich contextual information; it incorporates heterogeneous and high-dimensional context available in image and text data. They design the intensity of their point process model as a mixture of kernels, where the mixture weights are modeled by a deep neural network. This allows to automatically learn the complex nonlinear effects of the contextual factors on event occurrence.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/1906.08952"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/1906.08952</a> </p>
       </div>
     </div>
@@ -242,7 +242,7 @@ layout: home
       <img src="/assets/images/thumb/DeepSTPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Point Process for Learning Spatiotemporal Event Dynamics</p>
-        <p style="margin: 0;">This paper, published 2023, proposes proposes Deep Spatiotemporal Point Process (DeepSTPP), a deep dynamics model that integrates spatiotemporal point processes. This method can accurately forecast irregularly sampled events over space and time. The key construction is the nonparametric space-time intensity function, governed by a latent process. They used synthetic and real world data.</p>
+        <p style="margin: 0;">This paper, published in 2023, proposes Deep Spatiotemporal Point Process (DeepSTPP), a deep dynamics model that integrates spatiotemporal point processes. This method can accurately forecast irregularly sampled events over space and time. The key construction is the nonparametric space-time intensity function, governed by a latent process. They used synthetic and real-world data.</p>
         <p style="margin: 0;"><a href="https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf"><i class="fa-regular fa-file-pdf"></i>https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf</a> </p>
       </div>
     </div>
