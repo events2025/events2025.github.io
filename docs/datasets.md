@@ -580,7 +580,7 @@ layout: home
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;"> HERE Maps</p>
         <p style="margin: 0;">HERE Maps provides world data with longitudes and latitudes and dates for real-time traffic data, including flow, incidents, and congestion details. It gets updated regularly . Requires an API key and offers to get started for free, with usage-based pricing as needs grow.</p>
-        <p style="margin: 0;"><a href="https://www.here.com//"><i class="fa-regular fa-file-pdf"></i>https://www.here.com//</a> </p>
+        <p style="margin: 0;"><a href="https://www.here.com/"><i class="fa-regular fa-file-pdf"></i>https://www.here.com/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
