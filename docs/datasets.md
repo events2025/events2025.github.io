@@ -651,7 +651,7 @@ layout: home
       <img src="/assets/images/thumb/EEA European Water Quality Portal (WQP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">European Environment Agency (EEA) Waterbase</p>
-        <p style="margin: 0;">The European Environment Agency’s Waterbase is an open database on the status and quality of Europe’s water . It contains data for rivers, lakes, groundwater, and coastal waters on metrics such as nutrients (nitrogen, phosphorus). Freely available.</p>
+        <p style="margin: 0;">The European Environment Agency’s Waterbase is an open database on the status and quality of Europe’s water. It contains data for rivers, lakes, groundwater, and coastal waters on metrics such as nutrients (nitrogen, phosphorus) across European monitoring stations. Freely available.</p>
         <p style="margin: 0;"><a href="https://surl.gd/usolve"><i class="fa-regular fa-file-pdf"></i>https://surl.gd/usolve</a> </p>
       </div>
     </div>
