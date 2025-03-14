@@ -633,5 +633,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Water Quality Portal (WQP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">U.S. Water Quality Portal (WQP)</p>
+        <p style="margin: 0;">A large repository integrating water quality monitoring data. The WQP provides access to millions of records on parameters like pH, dissolved oxygen, temperature, salinity, nutrients, and contaminant levels across the United States from 1950 to the present and is continually updated.</p>
+        <p style="margin: 0;"><a href="https://www.usgs.gov/media/images/water-quality-portal-new"><i class="fa-regular fa-file-pdf"></i>https://www.usgs.gov/media/images/water-quality-portal-new</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
