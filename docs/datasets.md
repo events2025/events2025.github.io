@@ -669,5 +669,89 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/satbird.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">SatBird: Bird Species Distribution Modeling</p>
+        <p style="margin: 0;">SatBird is a dataset for modeling bird species distributions using satellite imagery and citizen science data (from eBird). It includes more than 2 million observations and multispectral data for 214 bird species across the U.S.</p>
+        <p style="margin: 0;"><a href="https://neurips.cc/virtual/2023/poster/73571"><i class="fa-regular fa-file-pdf"></i>https://neurips.cc/virtual/2023/poster/73571</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/tri.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Toxics Release Inventory (TRI)</p>
+        <p style="margin: 0;">The Toxics Release Inventory (TRI) tracks the management of certain toxic chemicals that may pose a threat to human health and the environment. It includes annual data reported by U.S. facilities since 1987.</p>
+        <p style="margin: 0;"><a href="https://catalog.data.gov/dataset/toxics-release-inventory-tri"><i class="fa-regular fa-file-pdf"></i>https://catalog.data.gov/dataset/toxics-release-inventory-tri</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/ecotox.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">ECOTOX Knowledgebase</p>
+        <p style="margin: 0;">The ECOTOX Knowledgebase provides single chemical environmental toxicity data for aquatic and terrestrial species. It includes data for over 12,000 chemicals and 13,000 species across hundreds of thousands of tests.</p>
+        <p style="margin: 0;"><a href="https://www.epa.gov/comptox-tools/ecotoxicology-ecotox-knowledgebase-resource-hub"><i class="fa-regular fa-file-pdf"></i>https://www.epa.gov/comptox-tools/ecotoxicology-ecotox-knowledgebase-resource-hub</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/ipchem.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Information Platform for Chemical Monitoring (IPCheM)</p>
+        <p style="margin: 0;">IPCheM is the European Commission’s central access point for chemical monitoring data collected across Europe in air, water, soil, biota, and indoor environments. Supports chemical risk assessment and policy-making.</p>
+        <p style="margin: 0;"><a href="https://ipchem.jrc.ec.europa.eu"><i class="fa-regular fa-file-pdf"></i>https://ipchem.jrc.ec.europa.eu</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/nars.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">National Aquatic Resource Survey - Rivers and Streams</p>
+        <p style="margin: 0;">This dataset from the U.S. EPA provides condition assessments of over 1,000 rivers and streams in the lower 48 U.S. states using biological, chemical, and physical indicators. Part of the National Aquatic Resource Surveys.</p>
+        <p style="margin: 0;"><a href="https://catalog.data.gov/dataset/national-aquatic-resource-survey-rivers-and-streams-data"><i class="fa-regular fa-file-pdf"></i>https://catalog.data.gov/dataset/national-aquatic-resource-survey-rivers-and-streams-data</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/germany-population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Germany Population Data (Zensus 2022)</p>
+        <p style="margin: 0;">Population dataset from the German Federal Statistical Office (Destatis), based on the Zensus 2022. Offers detailed demographic distributions by region, gender, and age groups across Germany.</p>
+        <p style="margin: 0;"><a href="https://atlas.zensus2022.de/"><i class="fa-regular fa-file-pdf"></i>https://atlas.zensus2022.de/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/kidsat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">KidSat: Satellite Imagery for Childhood Poverty</p>
+        <p style="margin: 0;">KidSat is a benchmark dataset for mapping childhood poverty using satellite imagery. It links high-resolution visual data with poverty labels across Africa and Latin America, enabling fair benchmarking for ML models.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2407.05986"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2407.05986</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
