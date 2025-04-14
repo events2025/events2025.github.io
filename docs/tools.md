@@ -80,5 +80,41 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/bstpp_bayesian_spatiotemporal_point_process.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">BSTPP: Bayesian Spatiotemporal Point Process</p>
+        <p style="margin: 0;">BSTPP is a Python package for Bayesian inference on spatiotemporal point processes. It offers three different models: Log Gaussian Cox, Hawkes, and Cox Hawkes processes. The package includes a flexible pre-trained Variational Autoencoder (VAE) to accelerate posterior inference on Gaussian processes. Users can employ predefined trigger parameterizations or implement custom trigger functions using the extendable Trigger module.</p>
+        <p style="margin: 0;"><a href="https://www.georgemohler.com/_files/ugd/9226cc_a9bc736f02bb41fa92f7021aac6fc0be.pdf"><i class="fa-regular fa-file-pdf"></i>https://www.georgemohler.com/_files/ugd/9226cc_a9bc736f02bb41fa92f7021aac6fc0be.pdf</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/geostatsjl.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeoStats.jl</p>
+        <p style="margin: 0;">GeoStats.jl is an extensible framework for geospatial data science and geostatistical modeling, fully written in Julia. It provides a unified interface for various geostatistical algorithms, including kriging, simulation, and estimation methods. The framework supports advanced geometric processing and is designed for high-performance geospatial computations.</p>
+        <p style="margin: 0;"><a href="https://github.com/JuliaEarth/GeoStats.jl"><i class="fa-regular fa-file-pdf"></i>https://github.com/JuliaEarth/GeoStats.jl</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/mlr3spatiotempcv.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">mlr3spatiotempcv</p>
+        <p style="margin: 0;">mlr3spatiotempcv is an R package that extends the mlr3 machine learning framework with spatiotemporal resampling methods. It integrates various spatiotemporal partitioning strategies, facilitating model assessment, selection, and hyperparameter tuning for spatial and spatiotemporal data. The package provides a consistent interface for implementing state-of-the-art resampling techniques, aiding in the development of robust predictive models.</p>
+        <p style="margin: 0;"><a href="https://www.jstatsoft.org/article/view/v111i07"><i class="fa-regular fa-file-pdf"></i>https://www.jstatsoft.org/article/view/v111i07</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>

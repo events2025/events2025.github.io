@@ -260,5 +260,65 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/agricultural_insecticides_threaten_surface_waters_at_the_global_scale.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Agricultural Insecticides Threaten Surface Waters at the Global Scale</p>
+        <p style="margin: 0;">This study reveals that agricultural insecticides are contaminating surface waters worldwide at levels that pose significant risks to aquatic biodiversity. The research highlights that current regulatory thresholds are often exceeded, leading to substantial declines in aquatic invertebrate populations.</p>
+        <p style="margin: 0;"><a href="https://www.pnas.org/doi/10.1073/pnas.1500232112"><i class="fa-regular fa-file-pdf"></i>https://www.pnas.org/doi/10.1073/pnas.1500232112</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/large_floods_drive_changes_in_cause-specific_mortality_in_the_united_states.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Large Floods Drive Changes in Cause-Specific Mortality in the United States</p>
+        <p style="margin: 0;">Analyzing 35.6 million U.S. death records from 2001 to 2018, this study finds that large floods are associated with increased mortality from cardiovascular and infectious diseases, as well as injuries. The research underscores the need for effective public health responses to flooding events.</p>
+        <p style="margin: 0;"><a href="https://www.nature.com/articles/s41591-024-03358-z"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41591-024-03358-z</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/exposure_to_heat_and_student_cognitive_functioning.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Exposure to Heat and Student Cognitive Functioning</p>
+        <p style="margin: 0;">This paper examines the impact of heat exposure on student cognitive performance, revealing that higher temperatures negatively affect test scores, particularly among minority and low-income students. The findings suggest that climate change could exacerbate educational inequalities.</p>
+        <p style="margin: 0;"><a href="https://custom.cvent.com/4E741122FD8B4A1B97E483EC8BB51CC4/files/event/334d210869f54ae4b976ced08c757224/e41a1af0d36440db982fd53f07879aee.pdf"><i class="fa-regular fa-file-pdf"></i>https://custom.cvent.com/4E741122FD8B4A1B97E483EC8BB51CC4/files/event/334d210869f54ae4b976ced08c757224/e41a1af0d36440db982fd53f07879aee.pdf</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/priorvae_encoding_spatial_priors_with_vaes_for_small-area_estimation.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">PriorVAE: Encoding Spatial Priors with VAEs for Small-Area Estimation</p>
+        <p style="margin: 0;">PriorVAE introduces a novel approach to spatial modeling by using variational autoencoders to approximate Gaussian process priors. This method enables efficient Bayesian inference for small-area estimation tasks, reducing computational complexity while maintaining accuracy.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2110.10422"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2110.10422</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/geographical_gaussian_process_regression_a_spatial_machine-learning_model_based_on_spatial_similarity.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Geographical Gaussian Process Regression: A Spatial Machine-Learning Model Based on Spatial Similarity</p>
+        <p style="margin: 0;">This paper presents a spatial machine-learning model that integrates geographical Gaussian process regression with spatial similarity measures. The approach enhances predictive performance in spatial data analysis by accounting for spatial dependencies and similarities.</p>
+        <p style="margin: 0;"><a href="https://onlinelibrary.wiley.com/doi/10.1111/gean.12423"><i class="fa-regular fa-file-pdf"></i>https://onlinelibrary.wiley.com/doi/10.1111/gean.12423</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
