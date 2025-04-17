@@ -116,5 +116,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/spatstat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Spatstat</p>
+        <p style="margin: 0;">Spatstat is a comprehensive R package for analyzing spatial point patterns. It supports exploratory data analysis, model fitting (e.g., Poisson, Cox, Gibbs processes), spatial covariates, and simulation. The package handles irregular windows, marks, and inhomogeneous patterns, making it widely used in ecological, epidemiological, and environmental applications.</p>
+        <p style="margin: 0;"><a href="https://spatstat.org/"><i class="fa-regular fa-file-pdf"></i>https://spatstat.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
