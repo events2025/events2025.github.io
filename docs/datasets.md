@@ -12,7 +12,7 @@ layout: home
   <!-- START -->
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/disaster_ninja.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/Disaster Ninja.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Disaster Ninja</p>
         <p style="margin: 0;">Disaster Ninja is a geospatial tool developed by Kontur Inc. to assist in disaster management by providing information on recent natural disasters, visualizing mapping gaps, and facilitating connections with local contributors for ground truth verification. It integrates various datasets, including population density, OpenStreetMap data, and active contributor information, enabling humanitarian organizations to efficiently prepare and prioritize mapping tasks</p>
@@ -24,7 +24,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spatiotemporal_datasets.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/Spatiotemporal Datasets.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spatiotemporal Datasets</p>
         <p style="margin: 0;">This repository collects datasets for network science, deep learning, and general machine learning research. It includes data such as weekly chickenpox cases in Hungary and bicycle deliveries in London.</p>
