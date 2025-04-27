@@ -23,7 +23,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spatial-kfold.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Spatial-Kfold</p>
         <p style="margin: 0;">Spatial-Kfold is a Python library that improves cross-validation in spatial studies by offering spatial clustering and block resampling techniques. It facilitates "Leave Region Out" cross-validation, aiding in model generalization to new locations and improving the reliability of feature selection and hyperparameter tuning.</p>
@@ -83,7 +83,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/bstpp_bayesian_spatiotemporal_point_process.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">BSTPP: Bayesian Spatiotemporal Point Process</p>
         <p style="margin: 0;">BSTPP is a Python package for Bayesian inference on spatiotemporal point processes. It offers three different models: Log Gaussian Cox, Hawkes, and Cox Hawkes processes. The package includes a flexible pre-trained Variational Autoencoder (VAE) to accelerate posterior inference on Gaussian processes. Users can employ predefined trigger parameterizations or implement custom trigger functions using the extendable Trigger module.</p>
@@ -95,7 +95,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/geostatsjl.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/GeoStats.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeoStats.jl</p>
         <p style="margin: 0;">GeoStats.jl is an extensible framework for geospatial data science and geostatistical modeling, fully written in Julia. It provides a unified interface for various geostatistical algorithms, including kriging, simulation, and estimation methods. The framework supports advanced geometric processing and is designed for high-performance geospatial computations.</p>
@@ -107,7 +107,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/mlr3spatiotempcv.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">mlr3spatiotempcv</p>
         <p style="margin: 0;">mlr3spatiotempcv is an R package that extends the mlr3 machine learning framework with spatiotemporal resampling methods. It integrates various spatiotemporal partitioning strategies, facilitating model assessment, selection, and hyperparameter tuning for spatial and spatiotemporal data. The package provides a consistent interface for implementing state-of-the-art resampling techniques, aiding in the development of robust predictive models.</p>
@@ -119,7 +119,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spatstat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/Spatstat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Spatstat</p>
         <p style="margin: 0;">Spatstat is a comprehensive R package for analyzing spatial point patterns. It supports exploratory data analysis, model fitting (e.g., Poisson, Cox, Gibbs processes), spatial covariates, and simulation. The package handles irregular windows, marks, and inhomogeneous patterns, making it widely used in ecological, epidemiological, and environmental applications.</p>
