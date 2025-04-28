@@ -299,7 +299,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/priorvae_encoding_spatial_priors_with_vaes_for_small-area_estimation.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/prior vae.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">PriorVAE: Encoding Spatial Priors with VAEs for Small-Area Estimation</p>
         <p style="margin: 0;">PriorVAE introduces a novel approach to spatial modeling by using variational autoencoders to approximate Gaussian process priors. This method enables efficient Bayesian inference for small-area estimation tasks, reducing computational complexity while maintaining accuracy.</p>
@@ -311,7 +311,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/geographical_gaussian_process_regression_a_spatial_machine-learning_model_based_on_spatial_similarity.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/GPR.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Geographical Gaussian Process Regression: A Spatial Machine-Learning Model Based on Spatial Similarity</p>
         <p style="margin: 0;">This paper presents a spatial machine-learning model that integrates geographical Gaussian process regression with spatial similarity measures. The approach enhances predictive performance in spatial data analysis by accounting for spatial dependencies and similarities.</p>
