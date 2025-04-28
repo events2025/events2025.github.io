@@ -263,7 +263,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/agricultural_insecticides_threaten_surface_waters_at_the_global_scale.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/Agricultural insecticides.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Agricultural Insecticides Threaten Surface Waters at the Global Scale</p>
         <p style="margin: 0;">This study reveals that agricultural insecticides are contaminating surface waters worldwide at levels that pose significant risks to aquatic biodiversity. The research highlights that current regulatory thresholds are often exceeded, leading to substantial declines in aquatic invertebrate populations.</p>
@@ -275,7 +275,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/large_floods_drive_changes_in_cause-specific_mortality_in_the_united_states.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/flood events.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Large Floods Drive Changes in Cause-Specific Mortality in the United States</p>
         <p style="margin: 0;">Analyzing 35.6 million U.S. death records from 2001 to 2018, this study finds that large floods are associated with increased mortality from cardiovascular and infectious diseases, as well as injuries. The research underscores the need for effective public health responses to flooding events.</p>
@@ -287,7 +287,7 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/exposure_to_heat_and_student_cognitive_functioning.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/Hot_classroom.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Exposure to Heat and Student Cognitive Functioning</p>
         <p style="margin: 0;">This paper examines the impact of heat exposure on student cognitive performance, revealing that higher temperatures negatively affect test scores, particularly among minority and low-income students. The findings suggest that climate change could exacerbate educational inequalities.</p>
