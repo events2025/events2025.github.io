@@ -291,7 +291,7 @@ layout: home
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Exposure to Heat and Student Cognitive Functioning</p>
         <p style="margin: 0;">This paper examines the impact of heat exposure on student cognitive performance, revealing that higher temperatures negatively affect test scores, particularly among minority and low-income students. The findings suggest that climate change could exacerbate educational inequalities.</p>
-        <p style="margin: 0;"><a href="https://custom.cvent.com/4E741122FD8B4A1B97E483EC8BB51CC4/files/event/334d210869f54ae4b976ced08c757224/e41a1af0d36440db982fd53f07879aee.pdf"><i class="fa-regular fa-file-pdf"></i>https://custom.cvent.com/4E741122FD8B4A1B97E483EC8BB51CC4/files/event/334d210869f54ae4b976ced08c757224/e41a1af0d36440db982fd53f07879aee.pdf</a> </p>
+        <p style="margin: 0;"><a href="https://yabogv.github.io/research/heat_executive_function/"><i class="fa-regular fa-file-pdf"></i>https://yabogv.github.io/research/heat_executive_function/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
