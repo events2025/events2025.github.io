@@ -325,7 +325,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/airstrike.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Causal inference with spatio-temporal data: Estimating the effects of airstrikes on insurgent violence in Iraq</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Causal Inference with Spatio-Temporal Data: Estimating the Effects of Airstrikes on Insurgent Violence in Iraq</p>
         <p style="margin: 0;">This paper develops a novel framework for estimating causal effects in complex spatio-temporal settings. Focusing on U.S. airstrikes in Iraq between 2007 and 2008, the authors introduce a method combining Bayesian nonparametric modeling with a potential outcomes approach to account for interference and spatial spillover effects. Their analysis reveals that airstrikes significantly reduced insurgent violence locally, but also induced short-term increases in violence in nearby regions, illustrating the nuanced and dynamic impact of military interventions over space and time.</p>
         <p style="margin: 0;"><a href="https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false"><i class="fa-regular fa-file-pdf"></i>https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false</a> </p>
       </div>
