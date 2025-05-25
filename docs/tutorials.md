@@ -80,5 +80,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/PyMCSpatialGP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">PyMC Spatial GP</p>
+        <p style="margin: 0;">This tutorial from PyMC Labs demonstrates how to model spatial data using Gaussian Processes in PyMC. It walks through defining spatial kernels, modeling spatial variation with a latent GP, and performing posterior predictive checks. It’s ideal for geostatistics, spatial epidemiology, and environmental modeling.</p>
+        <p style="margin: 0;"><a href="https://www.pymc-labs.com/blog-posts/spatial-gaussian-process-01/"><i class="fa-regular fa-file-pdf"></i>https://www.pymc-labs.com/blog-posts/spatial-gaussian-process-01/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
