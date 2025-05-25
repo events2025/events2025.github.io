@@ -332,5 +332,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Connection between climatic change and international food prices.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Connection between climatic change and international food prices: evidence from robust long-range cross-correlation and variable-lag transfer entropy with sliding windows approach</p>
+        <p style="margin: 0;">This paper investigates how fluctuations in the North Atlantic Oscillation (NAO) index, a key climate indicator, affect global food prices. Utilizing advanced statistical methods, including a robust bivariate Hurst exponent and variable-lag transfer entropy within a sliding windows framework, the study analyzes daily data from January 2020 to May 2022. The findings reveal significant positive correlations and causal relationships between NAO index changes and price fluctuations in major agricultural commodities such as corn, wheat, soybeans, and oats, across both short- and long-term periods. These results suggest that the NAO index can serve as a predictive factor for international food price movements, offering valuable insights for policymakers aiming to enhance food security amidst climate variability.</p>
+        <p style="margin: 0;"><a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1"><i class="fa-regular fa-file-pdf"></i>https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
