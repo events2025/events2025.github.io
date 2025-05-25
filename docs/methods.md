@@ -392,5 +392,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/SST.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistics for Spatio-Temporal Data</p>
+        <p style="margin: 0;">This book offers a comprehensive framework for analyzing data that vary across both space and time. Emphasizing hierarchical statistical modeling, the authors integrate spatial and temporal dependencies to address complex real-world phenomena. The text covers foundational concepts in spatial and temporal processes, explores exploratory data analysis techniques, and delves into advanced topics such as hierarchical dynamical spatio-temporal models. Through practical examples and case studies, the book illustrates applications in fields like environmental science, climate studies, and public health, providing readers with tools to model, infer, and predict spatio-temporal dynamics effectively.</p>
+        <p style="margin: 0;"><a href="https://download.e-bookshelf.de/download/0004/0172/80/L-G-0004017280-0009119041.pdf"><i class="fa-regular fa-file-pdf"></i>https://download.e-bookshelf.de/download/0004/0172/80/L-G-0004017280-0009119041.pdf</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
