@@ -813,5 +813,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/worldpop.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">WorldPop Demographic Mapping</p>
+        <p style="margin: 0;">WorldPop provides high-resolution, open-access population data to support research and policy in low- and middle-income countries. The datasets cover age structure, population density, health metrics, and urbanization trends, all mapped at fine spatial scales. This demographic data is vital for development planning, humanitarian response, and epidemiological modeling.</p>
+        <p style="margin: 0;"><a href="https://hub.worldpop.org/project/categories?id=14"><i class="fa-regular fa-file-pdf"></i>https://hub.worldpop.org/project/categories?id=14</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
