@@ -356,5 +356,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Bayesian COVID19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Bayesian machine learning approach for spatio-temporal prediction of COVID-19 cases</p>
+        <p style="margin: 0;">This paper presents a model that integrates neural networks within a Bayesian framework to predict COVID-19 case numbers across different regions and time periods. By incorporating factors such as human mobility, spatial proximity, and temporal correlations, the model effectively captures the complex dynamics of disease spread. Applied to data from 245 health zones in Castilla-Leon, Spain, the approach demonstrates strong predictive performance, highlighting the significant influence of human movement and neighboring infection rates on COVID-19 transmission.</p>
+        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s00477-021-02168-w#"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s00477-021-02168-w#</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
