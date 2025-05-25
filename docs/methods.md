@@ -344,5 +344,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Bayesian neural fields.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Scalable spatiotemporal prediction with Bayesian neural fields</p>
+        <p style="margin: 0;">This paper introduces Bayesian Neural Fields (BayesNF), a statistical model designed for analyzing large-scale spatiotemporal datasets. BayesNF combines deep neural networks with hierarchical Bayesian inference to provide accurate predictions and robust uncertainty quantification. The model has demonstrated improved performance over existing methods in tasks such as forecasting and interpolation across various domains, including climate science and public health. An open-source software implementation is available, optimized for GPU and TPU accelerators via the JAX machine learning platform.</p>
+        <p style="margin: 0;"><a href="https://www.nature.com/articles/s41467-024-51477-5"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41467-024-51477-5</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
