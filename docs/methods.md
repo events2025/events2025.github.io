@@ -368,5 +368,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/DNNST.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparison of Deep Neural Networks and Deep Hierarchical Models for Spatio-Temporal Data</p>
+        <p style="margin: 0;">This paper examines the strengths and limitations of two modeling approaches for complex spatio-temporal processes. It contrasts hierarchical dynamic spatio-temporal models (H-DSTMs), which offer interpretability and uncertainty quantification but can be computationally intensive, with deep neural networks, known for their flexibility and scalability but often lacking probabilistic frameworks. The study explores hybrid models that integrate elements from both paradigms, aiming to leverage their respective advantages for improved modeling of high-dimensional, nonlinear spatio-temporal data.</p>
+        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-019-00361-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-019-00361-7</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
