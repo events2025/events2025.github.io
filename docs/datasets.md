@@ -753,5 +753,29 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/mosaiks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">MOSAICs: Machine Learning for Satellite Imagery</p>
+        <p style="margin: 0;">MOSAICs provides preprocessed satellite imagery and feature embeddings designed for machine learning applications. It allows scalable learning with satellite data, especially for environmental, socio-economic, and infrastructure-related tasks across geographies.</p>
+        <p style="margin: 0;"><a href="https://www.mosaiks.org/"><i class="fa-regular fa-file-pdf"></i>https://www.mosaiks.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/awesome_spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Awesome Spatial Datasets</p>
+        <p style="margin: 0;">This curated collection provides links to high-quality spatial datasets from urban planning, transportation, demography, and environmental monitoring. It’s a valuable resource for geospatial data scientists seeking open access datasets across domains.</p>
+        <p style="margin: 0;"><a href="https://www.spatialedge.co/p/awesome-datasets"><i class="fa-regular fa-file-pdf"></i>https://www.spatialedge.co/p/awesome-datasets</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
