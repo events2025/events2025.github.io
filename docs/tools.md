@@ -128,5 +128,41 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/PyMCSpatialGP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">PyMC Spatial GP</p>
+        <p style="margin: 0;">This tutorial from PyMC Labs demonstrates how to model spatial data using Gaussian Processes in PyMC. It walks through defining spatial kernels, modeling spatial variation with a latent GP, and performing posterior predictive checks. It’s ideal for geostatistics, spatial epidemiology, and environmental modeling.</p>
+        <p style="margin: 0;"><a href="https://www.pymc-labs.com/blog-posts/spatial-gaussian-process-01/"><i class="fa-regular fa-file-pdf"></i>https://www.pymc-labs.com/blog-posts/spatial-gaussian-process-01/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Tick.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Tick Library</p>
+        <p style="margin: 0;">Tick is a Python library for statistical learning with a focus on time-dependent modeling, including Hawkes processes, generalized linear models, and survival analysis. It provides fast solvers and tools for point process simulation and inference, especially suited for financial, criminological, and event-based data.</p>
+        <p style="margin: 0;"><a href="https://x-datainitiative.github.io/tick/"><i class="fa-regular fa-file-pdf"></i>https://x-datainitiative.github.io/tick/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/STPPSimulator.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">STPP Simulator</p>
+        <p style="margin: 0;">This GitHub project provides a framework for simulating spatio-temporal point processes, including Poisson and Hawkes models, on continuous spatial domains over time. It's useful for researchers who want to test inference methods or study synthetic event dynamics in controlled environments.</p>
+        <p style="margin: 0;"><a href="https://github.com/meowoodie/Spatio-Temporal-Point-Process-Simulator"><i class="fa-regular fa-file-pdf"></i>https://github.com/meowoodie/Spatio-Temporal-Point-Process-Simulator</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
