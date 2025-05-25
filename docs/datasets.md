@@ -813,17 +813,5 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/worldpop_provides_high-resolution_open-access_population_data_to_support_research_and_policy_in_low-_and_middle-income_countries_the_datasets_cover_age_structure_population_density_health_metrics_and_urbanization_trends_all_mapped_at_fine_spatial_scales_this_demographic_data_is_vital_for_development_planning_humanitarian_response_and_epidemiological_modeling.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">WorldPop provides high-resolution, open-access population data to support research and policy in low- and middle-income countries. The datasets cover age structure, population density, health metrics, and urbanization trends, all mapped at fine spatial scales. This demographic data is vital for development planning, humanitarian response, and epidemiological modeling.</p>
-        <p style="margin: 0;">/assets/images/thumb/worldpop.jpg</p>
-        <p style="margin: 0;"><a href="Mouad Elhamdi"><i class="fa-regular fa-file-pdf"></i>Mouad Elhamdi</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
 <!-- STOP -->
 </div>
