@@ -777,5 +777,29 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/gallup_world_poll.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Gallup World Poll Public Datasets</p>
+        <p style="margin: 0;">Gallup World Poll offers cross-national survey data on public opinion, well-being, economics, and health. The public datasets support comparative research across more than 160 countries, making them valuable for global development and policy analysis.</p>
+        <p style="margin: 0;"><a href="https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx"><i class="fa-regular fa-file-pdf"></i>https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/cdc_beam.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">CDC Foodborne Outbreak Data (BEAM)</p>
+        <p style="margin: 0;">The CDC’s BEAM Dashboard provides curated data on foodborne disease outbreaks across the United States. It includes temporal and spatial details of outbreaks, pathogen types, and affected demographics, supporting public health and epidemiological research.</p>
+        <p style="margin: 0;"><a href="https://www.cdc.gov/ncezid/dfwed/beam-dashboard.html"><i class="fa-regular fa-file-pdf"></i>https://www.cdc.gov/ncezid/dfwed/beam-dashboard.html</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
