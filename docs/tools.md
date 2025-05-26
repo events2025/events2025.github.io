@@ -152,5 +152,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/stppgc.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">STPPGC</p>
+        <p style="margin: 0;">STPPGC is flexible benchmarking toolkit for streaming Spatio-Temporal Point-Process (STPP) models. BenchSTPP is a modular, research-grade framework for end-to-end development, training, and evaluation of STPP models. It couples declarative YAML configuration with PyTorch Lightning execution, Ray Tune hyper-parameter optimisation, and version-controlled logging to deliver rapid prototyping and rigorous, reproducible benchmarking on streaming event data.</p>
+        <p style="margin: 0;"><a href="https://github.com/YahyaAalaila/STPPGC?tab=readme-ov-file"><i class="fa-regular fa-file-pdf"></i>https://github.com/YahyaAalaila/STPPGC?tab=readme-ov-file</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
