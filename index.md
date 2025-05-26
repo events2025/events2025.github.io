@@ -18,6 +18,7 @@ An event represents any occurrence of interest at a specific point in space and 
 5. 🔵 **Conferences and Journals**: Information about relevant conferences and journals in the field.
 6. 🟣 **Notable Papers and Methods**: Significant publications and methodologies.
 
+📚 Join the conversation: visit the [Space‑Time Causality Reading Group](https://spacetimecausality.github.io/) for regular paper discussions and community meet‑ups.
 
 ## Mission and Scope
 
