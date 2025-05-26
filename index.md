@@ -18,18 +18,19 @@ An event represents any occurrence of interest at a specific point in space and 
 5. 🔵 **Conferences and Journals**: Information about relevant conferences and journals in the field.
 6. 🟣 **Notable Papers and Methods**: Significant publications and methodologies.
 
-📚 Join the conversation: visit the [Space‑Time Causality Reading Group](https://spacetimecausality.github.io/) for regular paper discussions and community meet‑ups.
-
 ## Mission and Scope
 
 Our mission is to lower entrance barriers and improve the quality of benchmarks in event data analysis. We aim to create a comprehensive resource for researchers and practitioners to access tutorials, datasets, tools, and literature in the field.
 
+## 📚 Join the conversation 
+
+Visit the [Space‑Time Causality Reading Group](https://spacetimecausality.github.io/) for regular paper discussions and community meet‑ups.
 
 ## 🤝 Contribute
 
 This project is community-driven. Everyone is welcome to contribute by adding new items to the website. After submission, your contribution will be reviewed and added to the site.
 You can submit via:
-- a [form](docs/contribute.html)
+- A [form](docs/contribute.html)
 - by creating a [Pull Request](https://github.com/events2025/) where you create a new '.csv' file within the data folder (this also allows adding more than one fiel at once). You can also use this option to propose changes in existing entries. 
 
 
