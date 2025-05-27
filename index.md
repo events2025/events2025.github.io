@@ -4,10 +4,10 @@ layout: home
 nav_order: 1
 ---
 
-# 📡 EEL - Events & Environment Library
+# 📡 EEL: Events in Context Library
 
 An event represents any occurrence of interest at a specific point in space and time.
-**🛰️ Events & Environment Library** is a community-driven knowledge base designed to explore event data within their historical, societal, and environmental contexts. Complemented by the literature review [Neural Spatio-Temporal Point Processes](https://arxiv.org/pdf/2502.09341), this project takes a practical, hands-on approach to analyzing and understanding spatio-temporal event patterns.
+**📡 _E_vents in Cont_e_xt _L_ibrary** is a community-driven knowledge base designed to explore event data within their historical, societal, and environmental contexts. Complemented by the literature review [Neural Spatio-Temporal Point Processes](https://arxiv.org/pdf/2502.09341), this project takes a practical, hands-on approach to analyzing and understanding spatio-temporal event patterns.
 
 ## Content
 
