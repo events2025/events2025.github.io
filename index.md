@@ -22,7 +22,7 @@ An event represents any occurrence of interest at a specific point in space and 
 
 Our mission is to lower entrance barriers and improve the quality of benchmarks in event data analysis. We aim to create a comprehensive resource for researchers and practitioners to access tutorials, datasets, tools, and literature in the field.
 
-## 📚 Join the conversation 
+## 📚 Join the Conversation 
 
 Visit the [Space‑Time Causality Reading Group](https://spacetimecausality.github.io/) for regular paper discussions and community meet‑ups.
 
