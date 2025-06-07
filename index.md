@@ -11,12 +11,12 @@ An event represents any occurrence of interest at a specific point in space and 
 
 ## Content
 
-1. 🔴 **Tutorials**: Easy-to-follow guides that introduce users to event processing and showcase interesting datasets of events and contextual data, such as meteorological information.
-2. 🟠 **Websites**: Useful resources to help you get started in the field.
-3. 🟡 **Tools**: Tools ranging from point process analysis to GIS that assist in event data processing.
-4. 🟢 **Datasets**: Collections that can be used to benchmark novel methods or explore new insights.
-5. 🔵 **Conferences and Journals**: Information about relevant conferences and journals in the field.
-6. 🟣 **Notable Papers and Methods**: Significant publications and methodologies.
+1. 🔴 **Tutorials**: Introductory material on spatio-temporal event modeling, covering neural point processes, intensity estimation, and simulation. Suitable for building practical foundations.
+2. 🟠 **Websites**: Links to external resources with datasets, code, and academic projects on event prediction and spatio-temporal modeling.
+3. 🟡 **Tools**: Software libraries, notebooks, and platforms for data preprocessing, model fitting, and visualization in spatio-temporal analysis.
+4. 🟢 **Datasets**: Curated datasets on crime, conflict, protests, and humanitarian events, with rich temporal and geographic detail for event prediction and public safety research.
+5. 🔵 **Conferences and Journals**: Key venues for publishing and tracking research in spatial statistics, GIS, and spatio-temporal modeling.
+6. 🟣 **Notable Papers and Methods**: Influential works on neural temporal point processes and spatio-temporal statistics, highlighting key models and empirical studies.
 
 ## Mission and Scope
 
