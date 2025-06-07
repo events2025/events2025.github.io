@@ -73,7 +73,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/spatio_temporal_point_process_statistics_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-temporal point process statistics: A review</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Point Process Statistics: A Review</p>
         <p style="margin: 0;">This paper, published in November 2016, provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterize certain spatio-temporal point processes.</p>
         <p style="margin: 0;"><a href="https://surl.li/ofjlkm"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ofjlkm</a> </p>
       </div>
@@ -337,7 +337,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/Connection between climatic change and international food prices.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Connection between climatic change and international food prices: evidence from robust long-range cross-correlation and variable-lag transfer entropy with sliding windows approach</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Connection Between Climatic Change and International Food Prices: Evidence from Robust Long-Range Cross-Correlation and Variable-Lag Transfer Entropy with Sliding Windows Approach</p>
         <p style="margin: 0;">This paper investigates how fluctuations in the North Atlantic Oscillation (NAO) index, a key climate indicator, affect global food prices. Utilizing advanced statistical methods, including a robust bivariate Hurst exponent and variable-lag transfer entropy within a sliding windows framework, the study analyzes daily data from January 2020 to May 2022. The findings reveal significant positive correlations and causal relationships between NAO index changes and price fluctuations in major agricultural commodities such as corn, wheat, soybeans, and oats, across both short- and long-term periods. These results suggest that the NAO index can serve as a predictive factor for international food price movements, offering valuable insights for policymakers aiming to enhance food security amidst climate variability.</p>
         <p style="margin: 0;"><a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1"><i class="fa-regular fa-file-pdf"></i>https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1</a> </p>
       </div>
@@ -349,7 +349,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/Bayesian neural fields.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Scalable spatiotemporal prediction with Bayesian neural fields</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Scalable Spatiotemporal Prediction with Bayesian Neural Fields</p>
         <p style="margin: 0;">This paper introduces Bayesian Neural Fields (BayesNF), a statistical model designed for analyzing large-scale spatiotemporal datasets. BayesNF combines deep neural networks with hierarchical Bayesian inference to provide accurate predictions and robust uncertainty quantification. The model has demonstrated improved performance over existing methods in tasks such as forecasting and interpolation across various domains, including climate science and public health. An open-source software implementation is available, optimized for GPU and TPU accelerators via the JAX machine learning platform.</p>
         <p style="margin: 0;"><a href="https://www.nature.com/articles/s41467-024-51477-5"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41467-024-51477-5</a> </p>
       </div>
@@ -361,7 +361,7 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/Bayesian COVID19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Bayesian machine learning approach for spatio-temporal prediction of COVID-19 cases</p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Bayesian Machine Learning Approach for Spatio-Temporal Prediction of COVID-19 Cases</p>
         <p style="margin: 0;">This paper presents a model that integrates neural networks within a Bayesian framework to predict COVID-19 case numbers across different regions and time periods. By incorporating factors such as human mobility, spatial proximity, and temporal correlations, the model effectively captures the complex dynamics of disease spread. Applied to data from 245 health zones in Castilla-Leon, Spain, the approach demonstrates strong predictive performance, highlighting the significant influence of human movement and neighboring infection rates on COVID-19 transmission.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s00477-021-02168-w#"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s00477-021-02168-w#</a> </p>
       </div>
