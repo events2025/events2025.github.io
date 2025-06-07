@@ -57,5 +57,17 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Spatialedge.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">The Spatial Edge</p>
+        <p style="margin: 0;">The Spatial Edge is a weekly blog dedicated to geospatial data science and economics, widely read by professionals and researchers from institutions like NASA, ESA, Google, and leading universities. It features curated research papers, datasets, and in-depth commentary on topics such as nightlights, spatial inequality, and local corruption. The blog also offers practical tutorials and insights designed to support impactful research and real-world applications in geospatial science.</p>
+        <p style="margin: 0;"><a href="https://www.spatialedge.co/"><i class="fa-regular fa-file-pdf"></i>https://www.spatialedge.co/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>

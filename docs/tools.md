@@ -164,5 +164,41 @@ layout: home
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/WorkflowJeoGeeFlow.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Jeo</p>
+        <p style="margin: 0;">Jeo is a foundation model framework developed by DeepMind for embedding geospatial and temporal data into a shared representation space. It supports tasks like land cover classification and change detection by aligning diverse satellite imagery and related datasets. Jeo enables scalable, multimodal learning across different sensor types and geographies, facilitating more accurate and transferable models in geospatial AI.</p>
+        <p style="margin: 0;"><a href="https://github.com/google-deepmind/jeo"><i class="fa-regular fa-file-pdf"></i>https://github.com/google-deepmind/jeo</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/WorkflowJeoGeeFlow.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeeFlow</p>
+        <p style="margin: 0;">GeeFlow is a DeepMind library for generating large-scale geospatial datasets using Google Earth Engine (GEE). It includes utilities, configuration templates, and pipeline scripts to streamline the creation of Earth observation datasets. While not designed for production deployment, GeeFlow is tailored to support geospatial AI research, particularly in conjunction with model training frameworks like Jeo.</p>
+        <p style="margin: 0;"><a href="https://github.com/google-deepmind/geeflow"><i class="fa-regular fa-file-pdf"></i>https://github.com/google-deepmind/geeflow</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/ForestTypology.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Forest Typology</p>
+        <p style="margin: 0;">Forest Typology is an AI-driven initiative by DeepMind, in partnership with the World Resources Institute and Google teams, aimed at mapping and classifying global forest types. The project goes beyond simple forest cover detection by estimating forest composition and identifying biodiversity hotspots and major carbon sinks. It provides forest land cover layers and benchmark datasets to advance research on climate change mitigation and conservation using geospatial AI.</p>
+        <p style="margin: 0;"><a href="https://github.com/google-deepmind/forest_typology"><i class="fa-regular fa-file-pdf"></i>https://github.com/google-deepmind/forest_typology</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
 <!-- STOP -->
 </div>
