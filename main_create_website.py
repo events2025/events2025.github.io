@@ -119,7 +119,8 @@ for markdown_filename, filter_term in files_to_process:
         for section in ['Events','Context','Other']:
             sub_df = df_filt[df_filt['Subsection'] == section]
             if not sub_df.empty:
-                generated += f"\n\n{section}\n\n"
+                #generated += f"\n\n{section}\n\n"
+                generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
                 for _, row in sub_df.iterrows():
                     generated += substitute_placeholders(block, row) + "\n\n"
     else:
