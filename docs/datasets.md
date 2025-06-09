@@ -10,7 +10,7 @@ layout: home
 
 <div style="max-width: 100%;">
   <!-- START -->
-### Events
+Events
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
@@ -338,7 +338,7 @@ layout: home
 
 
 
-### Context
+Context
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
@@ -510,7 +510,7 @@ layout: home
 
 
 
-### Other
+Other
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
