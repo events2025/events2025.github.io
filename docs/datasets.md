@@ -38,8 +38,8 @@ layout: home
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/here_maps.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;"> HERE Maps</p>
-        <p style="margin: 0;">HERE Maps provides world data with longitudes and latitudes and dates for real-time traffic data, including flow, incidents, and congestion details. It gets updated regularly. Requires an API key and offers to get started for free, with usage-based pricing as needs grow.</p>
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;"> Here Maps</p>
+        <p style="margin: 0;">Here Maps provides world data with longitudes and latitudes and dates for real-time traffic data, including flow, incidents, and congestion details. It gets updated regularly. Requires an API key and offers to get started for free, with usage-based pricing as needs grow.</p>
         <p style="margin: 0;"><a href="https://www.here.com/"><i class="fa-regular fa-file-pdf"></i> https://www.here.com/</a></p>
       </div>
     </div>
