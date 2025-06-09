@@ -4,9 +4,31 @@ nav_order: 5
 layout: home
 ---
 
+<!-- inline styles for our subsection headings -->
+<style>
+.dataset-subsection {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  color: #2C6F6F;
+  padding-left: 0.75rem;
+  border-left: 4px solid #2C6F6F;
+  letter-spacing: 0.05em;
+}
+.dataset-subsection::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #C0EBEB;
+  margin-top: 0.5rem;
+}
+</style>
+
 <h1 style="color:rgb(64, 130, 109);">Datasets</h1>
 <br>
-
 
 <div style="max-width: 100%;">
   <!-- START -->
@@ -16,10 +38,9 @@ layout: home
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">((Title))</p>
         <p style="margin: 0;">((Description))</p>
-        <p style="margin: 0;"><a href="((URL))"><i class="fa-regular fa-file-pdf"></i>((URL))</a> </p>
+        <p style="margin: 0;"><a href="((URL))"><i class="fa-regular fa-file-pdf"></i> ((URL))</a></p>
       </div>
     </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
   </div>
   <!-- STOP -->
 </div>
