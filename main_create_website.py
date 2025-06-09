@@ -123,6 +123,9 @@ for markdown_filename, filter_term in files_to_process:
                 generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
                 for _, row in sub_df.iterrows():
                     html = substitute_placeholders(block, row)
+                    # Remove any fixed width/height so images stay at their intrinsic size
+                    html = re.sub(r'width\s*:\s*\d+px\s*;?', '', html)
+                    html = re.sub(r'height\s*:\s*\d+px\s*;?', '', html)
                     url = str(row.get('URL','')).strip()
                     if url:
                         # Wrap the first <img> tag in a link
@@ -136,6 +139,9 @@ for markdown_filename, filter_term in files_to_process:
         # All other pages: flat list
         for _, row in df_filt.iterrows():
             html = substitute_placeholders(block, row)
+            # Remove any fixed width/height so images stay at their intrinsic size
+            html = re.sub(r'width\s*:\s*\d+px\s*;?', '', html)
+            html = re.sub(r'height\s*:\s*\d+px\s*;?', '', html)
             url = str(row.get('URL','')).strip()
             if url:
                 html = re.sub(
