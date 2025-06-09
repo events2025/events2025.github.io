@@ -32,7 +32,7 @@ layout: home
 
 <div style="max-width: 100%;">
   <!-- START -->
-Events
+<p class="dataset-subsection">Events</p>
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
@@ -333,7 +333,7 @@ Events
 
 
 
-Context
+<p class="dataset-subsection">Context</p>
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
@@ -491,7 +491,7 @@ Context
 
 
 
-Other
+<p class="dataset-subsection">Other</p>
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
