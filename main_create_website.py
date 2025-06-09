@@ -86,6 +86,7 @@ def substitute_placeholders(text, row):
     for placeholder in placeholders:
         key = placeholder.strip()
         value = str(row.get(key, ''))
+        # escape backslashes and dollar signs
         value = value.replace('\\', '\\\\').replace('$', '\\$')
         text = text.replace(f'(({placeholder}))', value)
     return text
@@ -110,29 +111,45 @@ for markdown_filename, filter_term in files_to_process:
         continue
     block = md[i1+len(start_c):i2].strip()
 
-    # Filter rows
+    # Filter rows for this section
     df_filt = df[df['Type'].str.lower().str.contains(filter_term.lower(), na=False)]
 
-    # For datasets.md, group by Subsection
     generated = ''
     if markdown_filename == 'datasets.md':
+        # Datasets get grouped by subsection
         for section in ['Events','Context','Other']:
             sub_df = df_filt[df_filt['Subsection'] == section]
             if not sub_df.empty:
-                #generated += f"\n\n{section}\n\n"
                 generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
                 for _, row in sub_df.iterrows():
-                    generated += substitute_placeholders(block, row) + "\n\n"
+                    html = substitute_placeholders(block, row)
+                    url = str(row.get('URL','')).strip()
+                    if url:
+                        # Wrap the first <img> tag in a link
+                        html = re.sub(
+                            r'(<img [^>]*>)',
+                            fr'<a href="{url}">\1</a>',
+                            html
+                        )
+                    generated += html + "\n\n"
     else:
-        # all others: simple flat list
+        # All other pages: flat list
         for _, row in df_filt.iterrows():
-            generated += substitute_placeholders(block, row) + "\n\n"
+            html = substitute_placeholders(block, row)
+            url = str(row.get('URL','')).strip()
+            if url:
+                html = re.sub(
+                    r'(<img [^>]*>)',
+                    fr'<a href="{url}">\1</a>',
+                    html
+                )
+            generated += html + "\n\n"
 
-    # rebuild the file content
+    # Rebuild the file content with the new block
     new_block = f"{start_c}\n{generated.strip()}\n{stop_c}"
     md = md[:i1] + new_block + md[i2+len(stop_c):]
 
-    # write out
+    # Write out the updated markdown
     out_path = f'docs/{markdown_filename}'
     try:
         with open(out_path, 'w', encoding='utf-8') as f:
