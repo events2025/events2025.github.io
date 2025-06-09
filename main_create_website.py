@@ -29,117 +29,115 @@ except Exception as e:
     print(f"An error occurred while reading the CSV file: {e}")
     exit(1)
 
-# df['Image'] = df['Image'].replace('', '/assets/images/logo.jpg').replace(' ', '/assets/images/logo.jpg').fillna('/assets/images/logo.jpg')
-# TODO if "/assets/images/thumb" not in the Image entry, replace it with a cleaned <title>.jpg (no special characters or spaces) where title is the entry in the title column
-# also create the corresponding image (if it does not exists) by copying /assets/images/logo.jpg' to /assets/images/<title>.jpg'
+# --- NEW: classify datasets into subsections ---
+event_keywords   = [
+    'crime','collision','accident','911','police','fire','earthquake',
+    'conflict','hurricane','flood','wildfire','protest','disease','covid',
+    'disaster','traffic','call data'
+]
+context_keywords = [
+    'population','demographics','census','density','land cover','landuse',
+    'elevation','terrain','satellite','road','rail','boundary','admin',
+    'weather','climate','geology','vegetation'
+]
+
+def classify(row):
+    text = (str(row.get('Title','')) + ' ' + str(row.get('Description',''))).lower()
+    if any(kw in text for kw in event_keywords):
+        return 'Events'
+    elif any(kw in text for kw in context_keywords):
+        return 'Context'
+    else:
+        return 'Other'
+
+# Only classify rows whose Type contains 'dataset'
+mask = df['Type'].str.lower().str.contains('dataset', na=False)
+df.loc[mask, 'Subsection'] = df[mask].apply(classify, axis=1)
+
+# Sort globally so that datasets are grouped
+df = df.sort_values(['Subsection','Title']).reset_index(drop=True)
+# --- end classification block ---
 
 # Define a function to clean the title
 def clean_title(title):
-    # Remove special characters and spaces
     title = re.sub(r'[^\w\s-]', '', str(title))
-    # Replace spaces with underscores and convert to lowercase
     title = title.replace(' ', '_').lower()
     return title
 
-# Process each row in the DataFrame
+# Process each row’s image entry
 for idx, row in df.iterrows():
-    image = str(row['Image'])
+    image = str(row.get('Image',''))
     if "assets/images/thumb" not in image:
         title = row['Title']
         cleaned_title = clean_title(title)
         new_image_path = f'assets/images/thumb/{cleaned_title}.jpg'
-        df.at[idx, 'Image'] = "/"+new_image_path
-
-        # Create the image file if it doesn't exist
-        src_image_path = 'assets/images/logo.jpg'
-        dst_image_path = new_image_path
-        if not os.path.exists(dst_image_path):
+        df.at[idx, 'Image'] = "/" + new_image_path
+        src = 'assets/images/logo.jpg'
+        dst = new_image_path
+        if not os.path.exists(dst):
             try:
-                shutil.copy(src_image_path, dst_image_path)
+                shutil.copy(src, dst)
             except Exception as e:
                 print(f"Error copying image for '{title}': {e}")
 
-# Function to replace placeholders with actual values
+# Substitute placeholders in the template
 def substitute_placeholders(text, row):
-    # Find all placeholders in the format ((ColumnName))
     placeholders = re.findall(r'\(\((.*?)\)\)', text)
     for placeholder in placeholders:
-        # Trim any whitespace around the placeholder name
         key = placeholder.strip()
-        # Replace the placeholder with the corresponding value if the column exists
-        if key in row:
-            value = str(row[key])
-            # Escape backslashes and other special characters if necessary
-            value = value.replace('\\', '\\\\').replace('$', '\\$')
-            # Replace the placeholder in the text
-            text = text.replace(f'(({placeholder}))', value)
-        else:
-            # If the column doesn't exist, replace with an empty string or handle as needed
-            text = text.replace(f'(({placeholder}))', '')
+        value = str(row.get(key, ''))
+        value = value.replace('\\', '\\\\').replace('$', '\\$')
+        text = text.replace(f'(({placeholder}))', value)
     return text
 
-# Iterate over each file and its corresponding filter term
+# Iterate over each markdown file
 for markdown_filename, filter_term in files_to_process:
     print(f"Processing {markdown_filename} with filter '{filter_term}'...")
-
-    # Step 1: Read the Markdown template file
-    template_file_path = f'docs/{markdown_filename}.template'
+    template_path = f'docs/{markdown_filename}.template'
     try:
-        with open(template_file_path, 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
+        with open(template_path, 'r', encoding='utf-8') as f:
+            md = f.read()
     except FileNotFoundError:
-        print(f"Template file not found: {template_file_path}. Skipping {markdown_filename}.")
-        continue
-    except Exception as e:
-        print(f"An error occurred while reading {template_file_path}: {e}")
+        print(f"Template not found: {template_path}. Skipping.")
         continue
 
-    # Step 2: Identify the text block between the START and STOP comments
-    start_comment = '<!-- START -->'
-    stop_comment = '<!-- STOP -->'
+    start_c = '<!-- START -->'
+    stop_c = '<!-- STOP -->'
+    i1 = md.find(start_c)
+    i2 = md.find(stop_c, i1)
+    if i1 == -1 or i2 == -1:
+        print(f"No START/STOP in {markdown_filename}. Skipping.")
+        continue
+    block = md[i1+len(start_c):i2].strip()
 
-    start_index = markdown_content.find(start_comment)
-    stop_index = markdown_content.find(stop_comment, start_index)
+    # Filter rows
+    df_filt = df[df['Type'].str.lower().str.contains(filter_term.lower(), na=False)]
 
-    if start_index != -1 and stop_index != -1:
-        # Extract the paramtext block including the start and stop comments
-        paramtext_block = markdown_content[start_index + len(start_comment):stop_index].strip()
+    # For datasets.md, group by Subsection
+    generated = ''
+    if markdown_filename == 'datasets.md':
+        for section in ['Events','Context','Other']:
+            sub_df = df_filt[df_filt['Subsection'] == section]
+            if not sub_df.empty:
+                generated += f"\n\n### {section}\n\n"
+                for _, row in sub_df.iterrows():
+                    generated += substitute_placeholders(block, row) + "\n\n"
     else:
-        print(f"No paramtext block found in {markdown_filename} between '{start_comment}' and '{stop_comment}'. Skipping.")
-        continue
+        # all others: simple flat list
+        for _, row in df_filt.iterrows():
+            generated += substitute_placeholders(block, row) + "\n\n"
 
-    # Step 3: Apply the corresponding filter to the DataFrame
-    filter_pattern = filter_term.lower()
-    df_filtered = df[df['Type'].str.lower().str.contains(filter_pattern, na=False)]
+    # rebuild the file content
+    new_block = f"{start_c}\n{generated.strip()}\n{stop_c}"
+    md = md[:i1] + new_block + md[i2+len(stop_c):]
 
-    # Generate the new content by instantiating the paramtext block for each relevant CSV row
-    generated_blocks = ''
-    for idx, row in df_filtered.iterrows():
-        block = substitute_placeholders(paramtext_block, row)
-        generated_blocks += block + '\n\n'  # Add spacing between blocks if necessary
-
-    # If there are zero entries, set generated_blocks to an empty string
-    if df_filtered.empty:
-        generated_blocks = ''
-
-    # Replace the original paramtext block in the markdown content with the generated content
-    if paramtext_block:
-        # Reconstruct the full paramtext with comments
-        new_paramtext = f"{start_comment}\n{generated_blocks.strip()}\n{stop_comment}"
-        # Replace the old paramtext block with the new one
-        markdown_content = (
-            markdown_content[:start_index]
-            + new_paramtext
-            + markdown_content[stop_index + len(stop_comment):]
-        )
-
-    # Write the updated markdown content back to the file
-    output_markdown_path = f'docs/{markdown_filename}'
+    # write out
+    out_path = f'docs/{markdown_filename}'
     try:
-        with open(output_markdown_path, 'w', encoding='utf-8') as f:
-            f.write(markdown_content)
-        print(f"Successfully updated {output_markdown_path}.")
+        with open(out_path, 'w', encoding='utf-8') as f:
+            f.write(md)
+        print(f"Updated {out_path}")
     except Exception as e:
-        print(f"An error occurred while writing to {output_markdown_path}: {e}")
+        print(f"Error writing {out_path}: {e}")
 
 print("All specified Markdown files have been processed.")
