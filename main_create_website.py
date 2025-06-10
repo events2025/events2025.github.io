@@ -43,21 +43,27 @@ if subsection_col:
     # For datasets, use the existing Subsection values directly
     dataset_mask = df['Type'].str.lower().str.contains('dataset', na=False)
     
-    # Only keep datasets that have 'Context' or 'Events' in their subsection
-    # Filter out any datasets that don't have these values
-    valid_subsections = ['Context', 'Events', 'context', 'events', 'EVENT', 'CONTEXT']
+    # Define the three new context categories
+    context_categories = [
+        'Contexts (Environment & Climate)',
+        'Contexts (Misc Data & APIs)',
+        'Contexts (Population Data & Mobility)'
+    ]
     
-    # For datasets, copy the existing subsection values, standardizing capitalization
+    # Only keep datasets that have valid subsection values
+    # This includes the new context categories and 'Events'
+    valid_subsections = context_categories + ['Events', 'events', 'event', 'EVENT']
+    
+    # For datasets, standardize subsection values
     df.loc[dataset_mask, 'Subsection'] = df.loc[dataset_mask, subsection_col].apply(
-        lambda x: 'Context' if str(x).lower() == 'context' 
-                 else 'Events' if str(x).lower() in ['events', 'event'] 
-                 else str(x)  # Keep original value if it doesn't match standard ones
+        lambda x: 'Events' if str(x).lower() in ['events', 'event'] 
+                 else str(x)  # Keep original value for context categories
     )
     
     print(f"Dataset subsection values found: {df[dataset_mask]['Subsection'].unique()}")
 else:
     print("Warning: No 'Subsection' or 'subsection' column found in CSV.")
-    df['Subsection'] = 'Context'  # Default fallback
+    df['Subsection'] = 'Contexts (Environment & Climate)'  # Default fallback to first context category
 
 # Sort globally so that datasets are grouped by subsection
 df = df.sort_values(['Subsection', 'Title']).reset_index(drop=True)
@@ -120,8 +126,15 @@ for markdown_filename, filter_term in files_to_process:
     # For datasets.md, group by Subsection using the existing subsection column
     generated = ''
     if markdown_filename == 'datasets.md':
-        # Only show Context and Events sections for datasets
-        for section in ['Context', 'Events']:
+        # Show the three context categories and Events sections for datasets
+        sections_to_show = [
+            'Contexts (Environment & Climate)',
+            'Contexts (Misc Data & APIs)',
+            'Contexts (Population Data & Mobility)',
+            'Events'
+        ]
+        
+        for section in sections_to_show:
             sub_df = df_filt[df_filt['Subsection'] == section]
             if not sub_df.empty:
                 generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
