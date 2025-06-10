@@ -39,7 +39,7 @@ layout: home
       <img src="/assets/images/thumb/spatialstatistics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">Spatial Statistics</p>
-        <p style="margin: 0;">This journal publishes research on methodological developments and applications in spatial and spatiotemporal statistics, providing insights into event modeling within spatial contexts.</p>
+        <p style="margin: 0;">This journal publishes research on methodological developments and applications in spatial and spatiotemporal statistics, providing insights into event modeling within spatial Context.</p>
         <p style="margin: 0;"><a href="https://www.sciencedirect.com/journal/spatial-statistics"><i class="fa-regular fa-file-pdf"></i>https://www.sciencedirect.com/journal/spatial-statistics</a> </p>
       </div>
     </div>
