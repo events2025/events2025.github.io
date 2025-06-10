@@ -11,11 +11,11 @@ layout: home
   <!-- START -->
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/maya_okawa_multi_modal_model_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/Bayesian COVID19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Deep Mixture Point Processes: Spatio-temporal Event Prediction with Rich Contextual Information</p>
-        <p style="margin: 0;">This paper, published in June 2021, proposes DMPP (Deep Mixture Point Processes), a point process model for predicting spatio-temporal events with the use of rich contextual information; it incorporates heterogeneous and high-dimensional context available in image and text data. They design the intensity of their point process model as a mixture of kernels, where the mixture weights are modeled by a deep neural network. This allows to automatically learn the complex nonlinear effects of the contextual factors on event occurrence.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/1906.08952"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/1906.08952</a> </p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Bayesian Machine Learning Approach for Spatio-Temporal Prediction of COVID-19 Cases</p>
+        <p style="margin: 0;">This paper presents a model that integrates neural networks within a Bayesian framework to predict COVID-19 case numbers across different regions and time periods. By incorporating factors such as human mobility, spatial proximity, and temporal correlations, the model effectively captures the complex dynamics of disease spread. Applied to data from 245 health zones in Castilla-Leon, Spain, the approach demonstrates strong predictive performance, highlighting the significant influence of human movement and neighboring infection rates on COVID-19 transmission.</p>
+        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s00477-021-02168-w#"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s00477-021-02168-w#</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -23,35 +23,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/DKMPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/classical_stratification_for_disease_spreading.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Integration-free Training for Spatio-temporal Multimodal Covariate Deep Kernel Point Processes</p>
-        <p style="margin: 0;">This paper, published in November 2023, proposes a novel deep spatio-temporal point process model, Deep Kernel Mixture Point Processes (DKMPP), that incorporates multimodal covariate information, utilizes an integration-free method based on score matching, and improves efficiency by adopting a scalable denoising score matching method.</p>
-        <p style="margin: 0;"><a href="https://openreview.net/pdf?id=Yvpenkym8A"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/pdf?id=Yvpenkym8A</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/DeepSTPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Point Process for Learning Spatiotemporal Event Dynamics</p>
-        <p style="margin: 0;">This paper, published in 2023, proposes Deep Spatiotemporal Point Process (DeepSTPP), a deep dynamics model that integrates spatiotemporal point processes. This method can accurately forecast irregularly sampled events over space and time. The key construction is the nonparametric space-time intensity function, governed by a latent process. They used synthetic and real-world data.</p>
-        <p style="margin: 0;"><a href="https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf"><i class="fa-regular fa-file-pdf"></i>https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/neural_spatiotemporal_point_processes_trends_and_challenges.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Spatiotemporal Point Processes: Trends and Challenges</p>
-        <p style="margin: 0;">This paper, published in February 2025, discusses STPPs, probabilistic models for events occurring in continuous space and time; they categorize existing approaches, unify key design choices, explain the challenges of working with this data modality, identify open challenges, and gaps in the literature. They describe the applications possible in various datasets, such as natural disasters, crimes, and traffic.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2502.09341v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2502.09341v1</a> </p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Mathematical, Classical Stratification Modeling Approach to Disentangling the Impact of Weather on Infectious Diseases: A Case Study Using Spatio-Temporally Disaggregated Campylobacter Surveillance Data for England and Wales</p>
+        <p style="margin: 0;">This paper, published in Jan 2024, disentangling the impact of the weather on transmission of infectious diseases is crucial for health protection, preparedness, and prevention while using campylobacteriosis, a bacterial food disease, as a case study where they developed a novel conditional incidence method based on classical stratification. The predicted incidence of campylobacteriosis increased by 1 case per million people for every 5° (Celsius) increase in temperature within the range of 8°-15°.</p>
+        <p style="margin: 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/38236828/"><i class="fa-regular fa-file-pdf"></i>https://pubmed.ncbi.nlm.nih.gov/38236828/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -71,6 +47,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Agricultural insecticides.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Agricultural Insecticides Threaten Surface Waters at the Global Scale</p>
+        <p style="margin: 0;">This study reveals that agricultural insecticides are contaminating surface waters worldwide at levels that pose significant risks to aquatic biodiversity. The research highlights that current regulatory thresholds are often exceeded, leading to substantial declines in aquatic invertebrate populations.</p>
+        <p style="margin: 0;"><a href="https://www.pnas.org/doi/10.1073/pnas.1500232112"><i class="fa-regular fa-file-pdf"></i>https://www.pnas.org/doi/10.1073/pnas.1500232112</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/an_empirical_study_extensive_deep_temporal_point_process.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">An Empirical Study: Extensive Deep Temporal Point Process</p>
@@ -83,11 +71,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/goodness_of_fit_test_paper_500_500.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/behaviour_based_dependency_networks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Goodness-Of-Fit Tests for Spatial Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published in 2025, the state-of-the-art for goodness-of-fit testing for spatial point processes is summarized. Test statistics based on classical functional summary statistics and recent contributions from topological data analysis are considered.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2501.03732v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2501.03732v1</a> </p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Behaviour-Based Dependency Networks Between Places Shape Urban Economic Resilience</p>
+        <p style="margin: 0;">This paper, published December 2024, explains that during disruptions like pandemics, business closures affect not just the businesses themselves but also people's movements, which then impact other businesses. The study uses data from five US cities to measure how businesses depend on each other. It finds that behavior-based relationships improve predictions of business resilience by about 40% compared to distance-based models. Ignoring these relationships can lead to underestimating the spread of disruptions. The research highlights the need to understand human mobility patterns to boost urban economic resilience.</p>
+        <p style="margin: 0;"><a href="https://www.nature.com/articles/s41562-024-02072-7"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41562-024-02072-7</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -95,59 +83,11 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/neural_temporal_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <img src="/assets/images/thumb/airstrike.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Temporal Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published in August 2021, discusses neural TPPs for merging and combining deep learning with temporal point process models. They focus on design choices for this topic, applications, and datasets such as earthquake occurrences; they discuss the open challenges such as the lack of standardized experimental setups and high-quality benchmark datasets, which makes a problematic challenge for the comparison of different neural TPP architectures.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2104.03528"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2104.03528</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spatio_temporal_hawkes_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published in September 2024, provides background on major aspects of Hawkes processes with a focus on simulation methods and estimation techniques among an overview of stochastic processes and the challenges of Hawkes processes.</p>
-        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-024-00653-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-024-00653-7</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spatio_temporal_point_process_statistics_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Point Process Statistics: A Review</p>
-        <p style="margin: 0;">This paper, published in November 2016, provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterize certain spatio-temporal point processes.</p>
-        <p style="margin: 0;"><a href="https://surl.li/ofjlkm"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ofjlkm</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/statistical_deep_learning_for_spatial_and_spatiotemporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical Deep Learning for Spatial and Spatiotemporal Data</p>
-        <p style="margin: 0;">This paper, published in 2023, provides a review of traditional and machine learning spatial and spatial-temporal data with a focus on a variety of hybrid models that integrate statistical models with deep learning models and gives an overview of computational technologies that have proven useful.</p>
-        <p style="margin: 0;"><a href="https://surl.li/tkiigr"><i class="fa-regular fa-file-pdf"></i>https://surl.li/tkiigr</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/classical_stratification_for_disease_spreading.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Mathematical, Classical Stratification Modeling Approach to Disentangling the Impact of Weather on Infectious Diseases: A Case Study Using Spatio-Temporally Disaggregated Campylobacter Surveillance Data for England and Wales</p>
-        <p style="margin: 0;">This paper, published in Jan 2024, disentangling the impact of the weather on transmission of infectious diseases is crucial for health protection, preparedness, and prevention while using campylobacteriosis, a bacterial food disease, as a case study where they developed a novel conditional incidence method based on classical stratification. The predicted incidence of campylobacteriosis increased by 1 case per million people for every 5° (Celsius) increase in temperature within the range of 8°-15°.</p>
-        <p style="margin: 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/38236828/"><i class="fa-regular fa-file-pdf"></i>https://pubmed.ncbi.nlm.nih.gov/38236828/</a> </p>
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Causal Inference with Spatio-Temporal Data: Estimating the Effects of Airstrikes on Insurgent Violence in Iraq</p>
+        <p style="margin: 0;">This paper develops a novel framework for estimating causal effects in complex spatio-temporal settings. Focusing on U.S. airstrikes in Iraq between 2007 and 2008, the authors introduce a method combining Bayesian nonparametric modeling with a potential outcomes approach to account for interference and spatial spillover effects. Their analysis reveals that airstrikes significantly reduced insurgent violence locally, but also induced short-term increases in violence in nearby regions, illustrating the nuanced and dynamic impact of military interventions over space and time.</p>
+        <p style="margin: 0;"><a href="https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false"><i class="fa-regular fa-file-pdf"></i>https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -179,102 +119,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/multi_modality_spatio_temporal forecasting.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning</p>
-        <p style="margin: 0;">This paper, published in May 2024, proposes a novel MoST learning framework via self-supervised learning, namely MoSSL, which aims to uncover latent patterns from temporal, spatial, and modality perspectives while quantifying dynamic heterogeneity. Experiment results on two real-world MoST datasets verify the superiority of this approach compared with the state-of-the-art baselines.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2405.03255"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2405.03255</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spatio-remporal_field_neural_networks_for_air_quality.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Field Neural Networks for Air Quality Inference</p>
-        <p style="margin: 0;">This paper, published in June 2024, highlights the limitation of graph neural networks and makes a first effort to combine two different spatiotemporal perspectives.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2403.02354"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2403.02354</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/conflict_and_forest_loss in_colombia.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Toward Causal Inference for Spatio-Temporal Data: Conflict and Forest Loss in Colombia</p>
-        <p style="margin: 0;">This paper, published in Jan 2022, discusses how armed conflict influences tropical forest loss. In this study, they propose a class of causal models for spatio-temporal stochastic processes, which allows one to formally define and quantify the causal effects.</p>
-        <p style="margin: 0;"><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract"><i class="fa-regular fa-file-pdf"></i>https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/weather_impact_on_social_medial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Worse Weather Amplifies Social Media Activity</p>
-        <p style="margin: 0;">This paper, published in February 2025, highlights if environmental factors alter rates of online social activity. The study was performed in the U.S.A. using Facebook and X (Twitter) data with over 3.5 billion posts. They found that extreme temperatures and added precipitation each independently amplified social media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social media activity.</p>
-        <p style="margin: 0;"><a href="https://journals.sagepub.com/doi/10.1177/09567976241306099"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/doi/10.1177/09567976241306099</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/behaviour_based_dependency_networks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Behaviour-Based Dependency Networks Between Places Shape Urban Economic Resilience</p>
-        <p style="margin: 0;">This paper, published December 2024, explains that during disruptions like pandemics, business closures affect not just the businesses themselves but also people's movements, which then impact other businesses. The study uses data from five US cities to measure how businesses depend on each other. It finds that behavior-based relationships improve predictions of business resilience by about 40% compared to distance-based models. Ignoring these relationships can lead to underestimating the spread of disruptions. The research highlights the need to understand human mobility patterns to boost urban economic resilience.</p>
-        <p style="margin: 0;"><a href="https://www.nature.com/articles/s41562-024-02072-7"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41562-024-02072-7</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/Bayesian COVID19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Bayesian Machine Learning Approach for Spatio-Temporal Prediction of COVID-19 Cases</p>
-        <p style="margin: 0;">This paper presents a model that integrates neural networks within a Bayesian framework to predict COVID-19 case numbers across different regions and time periods. By incorporating factors such as human mobility, spatial proximity, and temporal correlations, the model effectively captures the complex dynamics of disease spread. Applied to data from 245 health zones in Castilla-Leon, Spain, the approach demonstrates strong predictive performance, highlighting the significant influence of human movement and neighboring infection rates on COVID-19 transmission.</p>
-        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s00477-021-02168-w#"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s00477-021-02168-w#</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/Agricultural insecticides.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Agricultural Insecticides Threaten Surface Waters at the Global Scale</p>
-        <p style="margin: 0;">This study reveals that agricultural insecticides are contaminating surface waters worldwide at levels that pose significant risks to aquatic biodiversity. The research highlights that current regulatory thresholds are often exceeded, leading to substantial declines in aquatic invertebrate populations.</p>
-        <p style="margin: 0;"><a href="https://www.pnas.org/doi/10.1073/pnas.1500232112"><i class="fa-regular fa-file-pdf"></i>https://www.pnas.org/doi/10.1073/pnas.1500232112</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/airstrike.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Causal Inference with Spatio-Temporal Data: Estimating the Effects of Airstrikes on Insurgent Violence in Iraq</p>
-        <p style="margin: 0;">This paper develops a novel framework for estimating causal effects in complex spatio-temporal settings. Focusing on U.S. airstrikes in Iraq between 2007 and 2008, the authors introduce a method combining Bayesian nonparametric modeling with a potential outcomes approach to account for interference and spatial spillover effects. Their analysis reveals that airstrikes significantly reduced insurgent violence locally, but also induced short-term increases in violence in nearby regions, illustrating the nuanced and dynamic impact of military interventions over space and time.</p>
-        <p style="margin: 0;"><a href="https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false"><i class="fa-regular fa-file-pdf"></i>https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false</a> </p>
-      </div>
-    </div>
-    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/DNNST.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparison of Deep Neural Networks and Deep Hierarchical Models for Spatio-Temporal Data</p>
@@ -292,6 +136,18 @@ layout: home
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Connection Between Climatic Change and International Food Prices: Evidence from Robust Long-Range Cross-Correlation and Variable-Lag Transfer Entropy with Sliding Windows Approach</p>
         <p style="margin: 0;">This paper investigates how fluctuations in the North Atlantic Oscillation (NAO) index, a key climate indicator, affect global food prices. Utilizing advanced statistical methods, including a robust bivariate Hurst exponent and variable-lag transfer entropy within a sliding windows framework, the study analyzes daily data from January 2020 to May 2022. The findings reveal significant positive correlations and causal relationships between NAO index changes and price fluctuations in major agricultural commodities such as corn, wheat, soybeans, and oats, across both short- and long-term periods. These results suggest that the NAO index can serve as a predictive factor for international food price movements, offering valuable insights for policymakers aiming to enhance food security amidst climate variability.</p>
         <p style="margin: 0;"><a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1"><i class="fa-regular fa-file-pdf"></i>https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/maya_okawa_multi_modal_model_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Deep Mixture Point Processes: Spatio-temporal Event Prediction with Rich Contextual Information</p>
+        <p style="margin: 0;">This paper, published in June 2021, proposes DMPP (Deep Mixture Point Processes), a point process model for predicting spatio-temporal events with the use of rich contextual information; it incorporates heterogeneous and high-dimensional context available in image and text data. They design the intensity of their point process model as a mixture of kernels, where the mixture weights are modeled by a deep neural network. This allows to automatically learn the complex nonlinear effects of the contextual factors on event occurrence.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/1906.08952"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/1906.08952</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -323,11 +179,35 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/goodness_of_fit_test_paper_500_500.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Goodness-Of-Fit Tests for Spatial Point Processes: A Review</p>
+        <p style="margin: 0;">This paper, published in 2025, the state-of-the-art for goodness-of-fit testing for spatial point processes is summarized. Test statistics based on classical functional summary statistics and recent contributions from topological data analysis are considered.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2501.03732v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2501.03732v1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/conflict-logo.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">In Data We Trust? A Comparison of UCDP GED and ACLED Conflict Events Datasets</p>
         <p style="margin: 0;">This paper examines the strengths and weaknesses of two prominent conflict event datasets, the UCDP Georeferenced Event Dataset (UCDP GED) and the Armed Conflict Location and Event Dataset (ACLED), which have facilitated microlevel analyses of civil war dynamics. It discusses differences in scope, definitions, and data collection processes, highlighting issues like UCDP GED’s focus on fatalities and ACLED’s inclusion of non-fatal and non-violent events. The paper uses georeferenced, disaggregated event data, primarily from Africa, detailing specific cases to evaluate coding quality and methodological challenges in both datasets.</p>
         <p style="margin: 0;"><a href="https://journals.sagepub.com/doi/10.1177/0010836711434463"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/doi/10.1177/0010836711434463</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/DKMPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Integration-free Training for Spatio-temporal Multimodal Covariate Deep Kernel Point Processes</p>
+        <p style="margin: 0;">This paper, published in November 2023, proposes a novel deep spatio-temporal point process model, Deep Kernel Mixture Point Processes (DKMPP), that incorporates multimodal covariate information, utilizes an integration-free method based on score matching, and improves efficiency by adopting a scalable denoising score matching method.</p>
+        <p style="margin: 0;"><a href="https://openreview.net/pdf?id=Yvpenkym8A"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/pdf?id=Yvpenkym8A</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -347,11 +227,59 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/multi_modality_spatio_temporal forecasting.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning</p>
+        <p style="margin: 0;">This paper, published in May 2024, proposes a novel MoST learning framework via self-supervised learning, namely MoSSL, which aims to uncover latent patterns from temporal, spatial, and modality perspectives while quantifying dynamic heterogeneity. Experiment results on two real-world MoST datasets verify the superiority of this approach compared with the state-of-the-art baselines.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2405.03255"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2405.03255</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/neuraltpp.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Jump-Diffusion Temporal Point Processes</p>
         <p style="margin: 0;">The paper introduces a framework that models temporal point processes (TPPs) using neural jump-diffusion stochastic differential equations (SDEs).  Motivation: Traditional TPP models often rely on predefined functional forms, which can limit their flexibility in capturing complex event dynamics. To address this limitation, the authors propose reformulating the intensity processes of TPPs as solutions to neural jump-diffusion SDEs. This approach aims to improve the model's capacity to represent intricate temporal patterns without being constrained by specific functional assumptions. Method Description: The proposed framework, termed Neural Jump-Diffusion Temporal Point Process (NJDTPP), models the intensity function of a TPP using a neural jump-diffusion SDE (NJDSDE). In this setup, the SDE's drift, diffusion, and jump coefficients are parameterized by neural networks, allowing the model to learn complex dependencies from data. This design offers theoretical guarantees regarding the existence and uniqueness of solutions to the NJDSDE. Datasets Used: The authors evaluate NJDTPP on both synthetic and real-world datasets: Synthetic Datasets: Poisson Process, Hawkes Process, Self-Correcting Process Real-World Datasets: Retweet Data, Earthquake Records, Taxi Rides, Taobao User Behavior, StackOverflow Activity, MIMIC-II Clinical Database</p>
         <p style="margin: 0;"><a href="https://openreview.net/forum?id=d1P6GtRzuV"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/forum?id=d1P6GtRzuV</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/DeepSTPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Point Process for Learning Spatiotemporal Event Dynamics</p>
+        <p style="margin: 0;">This paper, published in 2023, proposes Deep Spatiotemporal Point Process (DeepSTPP), a deep dynamics model that integrates spatiotemporal point processes. This method can accurately forecast irregularly sampled events over space and time. The key construction is the nonparametric space-time intensity function, governed by a latent process. They used synthetic and real-world data.</p>
+        <p style="margin: 0;"><a href="https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf"><i class="fa-regular fa-file-pdf"></i>https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/neural_spatiotemporal_point_processes_trends_and_challenges.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Spatiotemporal Point Processes: Trends and Challenges</p>
+        <p style="margin: 0;">This paper, published in February 2025, discusses STPPs, probabilistic models for events occurring in continuous space and time; they categorize existing approaches, unify key design choices, explain the challenges of working with this data modality, identify open challenges, and gaps in the literature. They describe the applications possible in various datasets, such as natural disasters, crimes, and traffic.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2502.09341v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2502.09341v1</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/neural_temporal_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Temporal Point Processes: A Review</p>
+        <p style="margin: 0;">This paper, published in August 2021, discusses neural TPPs for merging and combining deep learning with temporal point process models. They focus on design choices for this topic, applications, and datasets such as earthquake occurrences; they discuss the open challenges such as the lack of standardized experimental setups and high-quality benchmark datasets, which makes a problematic challenge for the comparison of different neural TPP architectures.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2104.03528"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2104.03528</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
@@ -383,6 +311,42 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/spatio-remporal_field_neural_networks_for_air_quality.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Field Neural Networks for Air Quality Inference</p>
+        <p style="margin: 0;">This paper, published in June 2024, highlights the limitation of graph neural networks and makes a first effort to combine two different spatiotemporal perspectives.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2403.02354"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2403.02354</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/spatio_temporal_hawkes_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
+        <p style="margin: 0;">This paper, published in September 2024, provides background on major aspects of Hawkes processes with a focus on simulation methods and estimation techniques among an overview of stochastic processes and the challenges of Hawkes processes.</p>
+        <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-024-00653-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-024-00653-7</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/spatio_temporal_point_process_statistics_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Point Process Statistics: A Review</p>
+        <p style="margin: 0;">This paper, published in November 2016, provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterize certain spatio-temporal point processes.</p>
+        <p style="margin: 0;"><a href="https://surl.li/ofjlkm"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ofjlkm</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/STR.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Statistics with R</p>
@@ -395,11 +359,47 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/statistical_deep_learning_for_spatial_and_spatiotemporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical Deep Learning for Spatial and Spatiotemporal Data</p>
+        <p style="margin: 0;">This paper, published in 2023, provides a review of traditional and machine learning spatial and spatial-temporal data with a focus on a variety of hybrid models that integrate statistical models with deep learning models and gives an overview of computational technologies that have proven useful.</p>
+        <p style="margin: 0;"><a href="https://surl.li/tkiigr"><i class="fa-regular fa-file-pdf"></i>https://surl.li/tkiigr</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/SST.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistics for Spatio-Temporal Data</p>
         <p style="margin: 0;">This book offers a comprehensive framework for analyzing data that vary across both space and time. Emphasizing hierarchical statistical modeling, the authors integrate spatial and temporal dependencies to address complex real-world phenomena. The text covers foundational concepts in spatial and temporal processes, explores exploratory data analysis techniques, and delves into advanced topics such as hierarchical dynamical spatio-temporal models. Through practical examples and case studies, the book illustrates applications in fields like environmental science, climate studies, and public health, providing readers with tools to model, infer, and predict spatio-temporal dynamics effectively.</p>
         <p style="margin: 0;"><a href="https://download.e-bookshelf.de/download/0004/0172/80/L-G-0004017280-0009119041.pdf"><i class="fa-regular fa-file-pdf"></i>https://download.e-bookshelf.de/download/0004/0172/80/L-G-0004017280-0009119041.pdf</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/conflict_and_forest_loss in_colombia.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Toward Causal Inference for Spatio-Temporal Data: Conflict and Forest Loss in Colombia</p>
+        <p style="margin: 0;">This paper, published in Jan 2022, discusses how armed conflict influences tropical forest loss. In this study, they propose a class of causal models for spatio-temporal stochastic processes, which allows one to formally define and quantify the causal effects.</p>
+        <p style="margin: 0;"><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract"><i class="fa-regular fa-file-pdf"></i>https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/weather_impact_on_social_medial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Worse Weather Amplifies Social Media Activity</p>
+        <p style="margin: 0;">This paper, published in February 2025, highlights if environmental factors alter rates of online social activity. The study was performed in the U.S.A. using Facebook and X (Twitter) data with over 3.5 billion posts. They found that extreme temperatures and added precipitation each independently amplified social media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social media activity.</p>
+        <p style="margin: 0;"><a href="https://journals.sagepub.com/doi/10.1177/09567976241306099"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/doi/10.1177/09567976241306099</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->

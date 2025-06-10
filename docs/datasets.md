@@ -32,7 +32,7 @@ layout: home
 
 <div style="max-width: 100%;">
   <!-- START -->
-<p class="dataset-subsection">Events</p>
+<p class="dataset-subsection">Other</p>
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
@@ -80,6 +80,28 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/awesome_spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Awesome Spatial Datasets</p>
+        <p style="margin: 0;">This curated collection provides links to high-quality spatial datasets from urban planning, transportation, demography, and environmental monitoring. It’s a valuable resource for geospatial data scientists seeking open access datasets across domains.</p>
+        <p style="margin: 0;"><a href="https://www.spatialedge.co/p/awesome-datasets"><i class="fa-regular fa-file-pdf"></i> https://www.spatialedge.co/p/awesome-datasets</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/beijing_air_pollution.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Beijing Air Quality</p>
+        <p style="margin: 0;">This dataset contains the air quality in Beijing from 12 different country-level locations with dates from 2013 to 2017. It contains measurements for air quality such as CO₂ and O₃. The data was originally retrieved from the UCI Machine Learning Repository.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/beijing_traffic.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Beijing Traffic</p>
@@ -107,6 +129,17 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Chicago Crimes</p>
         <p style="margin: 0;">This events dataset contains the Chicago crimes from 2001 to the present, except for the past 7 days, with date, longitude, and latitude. Freely available.</p>
         <p style="margin: 0;"><a href="https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data"><i class="fa-regular fa-file-pdf"></i> https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
+        <p style="margin: 0;">This events dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude and latitude coordinates. Freely available.</p>
+        <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i> https://citibikenyc.com/system-data</a></p>
       </div>
     </div>
   </div>
@@ -146,388 +179,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/global_animal_disease_information_system.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Animal Disease Information System</p>
-        <p style="margin: 0;">Supports access to global disease information in time, longitude, and latitude coordinates for high-impact animal diseases. Requires free registration.</p>
-        <p style="margin: 0;"><a href="https://empres-i.apps.fao.org/general"><i class="fa-regular fa-file-pdf"></i> https://empres-i.apps.fao.org/general</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/global_database_of_events_language_and_tone_(gdelt).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Database of Events, Language, and Tone (GDELT)</p>
-        <p style="margin: 0;">GDELT provides world data with longitudes and latitudes and dates on events such as protests and violent attacks with context data such as people's emotions from the news. It has historical data dating to 1971 and efforts to further extend it further back to 1800. It gets updated every 15 minutes. Freely available.</p>
-        <p style="margin: 0;"><a href="https://www.gdeltproject.org/"><i class="fa-regular fa-file-pdf"></i> https://www.gdeltproject.org/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/google_health.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Health COVID-19 Open Data Repository</p>
-        <p style="margin: 0;">The Google Health COVID-19 Open Data Repository is a comprehensive collection of up-to-date COVID-19-related information.</p>
-        <p style="margin: 0;"><a href="https://health.google.com/covid-19/open-data/raw-data"><i class="fa-regular fa-file-pdf"></i> https://health.google.com/covid-19/open-data/raw-data</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/mass_mobilization_in_autocracies_database_(MMAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mass Mobilization in Autocracies Database (MMAD)</p>
-        <p style="margin: 0;">MMAD provides event data on protests on a city-level location on a daily basis from 2003 to 2012. Freely available.</p>
-        <p style="margin: 0;"><a href="https://mmadatabase.org/"><i class="fa-regular fa-file-pdf"></i> https://mmadatabase.org/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/meta_hdx.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Meta on Humanitarian Data Exchange (HDX)</p>
-        <p style="margin: 0;">Meta’s HDX profile offers curated datasets that support humanitarian and development efforts globally. These datasets cover topics such as population movements, digital connectivity, and global crises, enabling data-driven decision-making in policy, health, and disaster response.</p>
-        <p style="margin: 0;"><a href="https://data.humdata.org/organization/meta"><i class="fa-regular fa-file-pdf"></i> https://data.humdata.org/organization/meta</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/motor_vehicle_collisions_rashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Motor Vehicle Collisions - Crashes</p>
-        <p style="margin: 0;">Individual events with time, latitude, longitude and marks. Freely available.</p>
-        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"><i class="fa-regular fa-file-pdf"></i> https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/nyc_complaints.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NYC Complaints</p>
-        <p style="margin: 0;">This events dataset includes all crimes reported to the New York City Police Department (NYPD) by date, longitude, and latitude from 2016 to 2025. Freely available.</p>
-        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data"><i class="fa-regular fa-file-pdf"></i> https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/northern_california_earthquake_data_center_(NCEDC).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Northern California Earthquake Data Center (NCEDC)</p>
-        <p style="margin: 0;">NCEDC provides dates, longitude, latitude, and other relevant information about the earthquake events in central and northern California. Some datasets may require special requests for access based on specific terms.</p>
-        <p style="margin: 0;"><a href="https://ncedc.org/"><i class="fa-regular fa-file-pdf"></i> https://ncedc.org/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/Social Conflict Analysis Database (SCAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Social Conflict Analysis Database (SCAD)</p>
-        <p style="margin: 0;">SCAD provides event datasets for protests, riots, and other social conflicts with date, longitude, and latitude from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean. Freely available.</p>
-        <p style="margin: 0;"><a href="https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/"><i class="fa-regular fa-file-pdf"></i> https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/uppsala_conflict_data_progam(UCDP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">The Uppsala Conflict Data Program (UCDP)</p>
-        <p style="margin: 0;">UCDP provides multiple event datasets for armed conflict dates, longitude, and latitude. (UCDP) provides data on organized violence with a history of almost 40 years. Freely available.</p>
-        <p style="margin: 0;"><a href="https://ucdp.uu.se/encyclopedia"><i class="fa-regular fa-file-pdf"></i> https://ucdp.uu.se/encyclopedia</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/USA_COVID_19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA COVID-19</p>
-        <p style="margin: 0;">Contains the COVID-19 events in the USA with date, cases, and deaths on a country-level location from 2020 to 2023.</p>
-        <p style="margin: 0;"><a href="https://github.com/nytimes/covid-19-data"><i class="fa-regular fa-file-pdf"></i> https://github.com/nytimes/covid-19-data</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/usa_traffic_congestion.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Traffic Congestion</p>
-        <p style="margin: 0;">This dataset contains events of traffic congestion with the context of weather severity; it contains the date, longitude, and latitude from 2016 to 2021 for around 3 million records of traffic congestion in the USA, among relevant information such as the severity of the congestion.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/omosaad/events-dataset"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/omosaad/events-dataset</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/science_for_a_changing_world_(USGS).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Geological Survey (USGS)</p>
-        <p style="margin: 0;">The USGS provides information on natural hazard events that occur daily, such as earthquakes and volcanoes. Freely available.</p>
-        <p style="margin: 0;"><a href="https://www.usgs.gov/"><i class="fa-regular fa-file-pdf"></i> https://www.usgs.gov/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1900 to 2023 for around 37 thousand records for the world-recorded earthquakes among relevant information related to the earthquake, such as the depth of the earthquake. This dataset contains nulls in some features but not in longitude, latitude, or date.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
-        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1988 to 2017 for around 800 records for exceptionally bright fireballs that are spectacular enough to be seen over a very wide area in the sky. Only the brightest fireballs are recorded.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/nasa/fireballs"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/nasa/fireballs</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/world_natural_disasters.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Natural Disasters</p>
-        <p style="margin: 0;">This events dataset contains dates, longitudes, and latitudes from 1900 to 2021 for around 16 thousand records of various types of natural disasters in the world, such as droughts, volcanoes, and earthquakes, among relevant information such as the number of people injured, total deaths, and damage costs.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/wolrd_wildfires.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Wildfires</p>
-        <p style="margin: 0;">This events and context dataset contains date, longitude, and latitude from 2000 to 2020 for measuring the light brightness and whether a fire happened or not. Data originally retrieved from NASA's FIRM Earthdata. </p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset</a></p>
-      </div>
-    </div>
-  </div>
-
-
-
-<p class="dataset-subsection">Context</p>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/esri_demographics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Environmental Systems Research Institute (ESRI) Demographics</p>
-        <p style="margin: 0;">Esri offers a vast collection of datasets from population count, income per capita, and more. It contains dates, longitude, and latitude, with dates going back 5 years and more. The date update frequency varies from 1 dataset to another. It requires a subscription or purchase.</p>
-        <p style="margin: 0;"><a href="https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics"><i class="fa-regular fa-file-pdf"></i> https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/germany-population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Germany Population Data (Zensus 2022)</p>
-        <p style="margin: 0;">Population dataset from the German Federal Statistical Office (Destatis), based on the Zensus 2022. Offers detailed demographic distributions by region, gender, and age groups across Germany.</p>
-        <p style="margin: 0;"><a href="https://atlas.zensus2022.de/"><i class="fa-regular fa-file-pdf"></i> https://atlas.zensus2022.de/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/global_human_settlment_layer_(GHSL).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
-        <p style="margin: 0;">GHSL provides open and free context data for assessing human presence on Earth, such as built-up surface data, population data, and temporal data with date, longitude, and latitude. Freely available.</p>
-        <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i> https://human-settlement.emergency.copernicus.eu/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/google_earth_engine.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Earth Engine API</p>
-        <p style="margin: 0;">Google Earth Engine provides a context dataset for planet Earth (climate and weather) with longitude and latitude that goes back as early as 1979 and is updated on a daily basis. Freely available and may need free registration.</p>
-        <p style="margin: 0;"><a href="https://developers.google.com/earth-engine/reference/rest"><i class="fa-regular fa-file-pdf"></i> https://developers.google.com/earth-engine/reference/rest</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/kidsat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">KidSat: Satellite Imagery for Childhood Poverty</p>
-        <p style="margin: 0;">KidSat is a benchmark dataset for mapping childhood poverty using satellite imagery. It links high-resolution visual data with poverty labels across Africa and Latin America, enabling fair benchmarking for ML models.</p>
-        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2407.05986"><i class="fa-regular fa-file-pdf"></i> https://arxiv.org/pdf/2407.05986</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/mosaiks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">MOSAICs: Machine Learning for Satellite Imagery</p>
-        <p style="margin: 0;">MOSAICs provides preprocessed satellite imagery and feature embeddings designed for machine learning applications. It allows scalable learning with satellite data, especially for environmental, socio-economic, and infrastructure-related tasks across geographies.</p>
-        <p style="margin: 0;"><a href="https://www.mosaiks.org/"><i class="fa-regular fa-file-pdf"></i> https://www.mosaiks.org/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/open_meteo.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Open Meteo API</p>
-        <p style="margin: 0;">The Open-Meteo platform provides a comprehensive Historical Weather API that offers access to a vast amount of meteorological data. Some key features: temperature, relative humidity, cloud cover, and wind speed.</p>
-        <p style="margin: 0;"><a href="https://tinyurl.com/322bve8j"><i class="fa-regular fa-file-pdf"></i> https://tinyurl.com/322bve8j</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/OurWorldinData.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Our World in Data</p>
-        <p style="margin: 0;">Our World in Data is an open-access data and research platform that explores the world’s largest problems through empirical evidence. It provides interactive charts, extensive datasets, and in-depth articles on topics such as global health, poverty, education, climate change, energy, and economic development. Developed by researchers at the University of Oxford, the site empowers policymakers, researchers, and the public with high-quality, data-driven insights to understand global progress and challenges.</p>
-        <p style="margin: 0;"><a href="https://ourworldindata.org/"><i class="fa-regular fa-file-pdf"></i> https://ourworldindata.org/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/satbird.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">SatBird: Bird Species Distribution Modeling</p>
-        <p style="margin: 0;">SatBird is a dataset for modeling bird species distributions using satellite imagery and citizen science data (from eBird). It includes more than 2 million observations and multispectral data for 214 bird species across the U.S.</p>
-        <p style="margin: 0;"><a href="https://neurips.cc/virtual/2023/poster/73571"><i class="fa-regular fa-file-pdf"></i> https://neurips.cc/virtual/2023/poster/73571</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/spectus.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spectus</p>
-        <p style="margin: 0;">The Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements. It dates from 2019 and provides real-time data.  Subscription payments are required.</p>
-        <p style="margin: 0;"><a href="https://docs.spectus.ai/"><i class="fa-regular fa-file-pdf"></i> https://docs.spectus.ai/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
-        <p style="margin: 0;">the data was originally retrieved from the U.S. Environmental Protection Agency (EPA).</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/un_refugee.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United Nations High Commissioner for Refugees (UNHCR)</p>
-        <p style="margin: 0;">UNHCR provides data for resettlement statistics, population statistics, and refugee statistics through their APIs.</p>
-        <p style="margin: 0;"><a href="https://www.unhcr.org/"><i class="fa-regular fa-file-pdf"></i> https://www.unhcr.org/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/worldpop.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">WorldPop Demographic Mapping</p>
-        <p style="margin: 0;">WorldPop provides high-resolution, open-access population data to support research and policy in low- and middle-income countries. The datasets cover age structure, population density, health metrics, and urbanization trends, all mapped at fine spatial scales. This demographic data is vital for development planning, humanitarian response, and epidemiological modeling.</p>
-        <p style="margin: 0;"><a href="https://hub.worldpop.org/project/categories?id=14"><i class="fa-regular fa-file-pdf"></i> https://hub.worldpop.org/project/categories?id=14</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/planet_com.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">planet.com</p>
-        <p style="margin: 0;">Planet.com provides daily satellite earth data analytics with 200 satellites; they provide longitude, latitude, and dates and measurements for different planetary variables (soil water, land surface temperature, forest carbon), and it is updated daily. Payments required.</p>
-        <p style="margin: 0;"><a href="https://www.planet.com/"><i class="fa-regular fa-file-pdf"></i> https://www.planet.com/</a></p>
-      </div>
-    </div>
-  </div>
-
-
-
-<p class="dataset-subsection">Other</p>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/awesome_spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Awesome Spatial Datasets</p>
-        <p style="margin: 0;">This curated collection provides links to high-quality spatial datasets from urban planning, transportation, demography, and environmental monitoring. It’s a valuable resource for geospatial data scientists seeking open access datasets across domains.</p>
-        <p style="margin: 0;"><a href="https://www.spatialedge.co/p/awesome-datasets"><i class="fa-regular fa-file-pdf"></i> https://www.spatialedge.co/p/awesome-datasets</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/beijing_air_pollution.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Beijing Air Quality</p>
-        <p style="margin: 0;">This dataset contains the air quality in Beijing from 12 different country-level locations with dates from 2013 to 2017. It contains measurements for air quality such as CO₂ and O₃. The data was originally retrieved from the UCI Machine Learning Repository.</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/citi_bike_trips.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">City Bike Trips</p>
-        <p style="margin: 0;">This events dataset includes records of city bike trips from 2013 to 2025, providing information on trip start and end times, as well as the corresponding longitude and latitude coordinates. Freely available.</p>
-        <p style="margin: 0;"><a href="https://citibikenyc.com/system-data"><i class="fa-regular fa-file-pdf"></i> https://citibikenyc.com/system-data</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/ecotox.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">ECOTOX Knowledgebase</p>
@@ -544,6 +195,17 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Environmental Protection Agency (EPA)</p>
         <p style="margin: 0;">The Environmental Protection Agency (EPA) provides context data related to environmental protection and public health. Key datasets cover areas such as air quality, water quality with geospatial information available, and pollution monitoring. Freely available.</p>
         <p style="margin: 0;"><a href="https://www.epa.gov/"><i class="fa-regular fa-file-pdf"></i> https://www.epa.gov/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/esri_demographics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Environmental Systems Research Institute (ESRI) Demographics</p>
+        <p style="margin: 0;">Esri offers a vast collection of datasets from population count, income per capita, and more. It contains dates, longitude, and latitude, with dates going back 5 years and more. The date update frequency varies from 1 dataset to another. It requires a subscription or purchase.</p>
+        <p style="margin: 0;"><a href="https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics"><i class="fa-regular fa-file-pdf"></i> https://www.esri.com/en-us/arcgis/products/data/data-portfolio/demographics</a></p>
       </div>
     </div>
   </div>
@@ -583,6 +245,50 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/germany-population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Germany Population Data (Zensus 2022)</p>
+        <p style="margin: 0;">Population dataset from the German Federal Statistical Office (Destatis), based on the Zensus 2022. Offers detailed demographic distributions by region, gender, and age groups across Germany.</p>
+        <p style="margin: 0;"><a href="https://atlas.zensus2022.de/"><i class="fa-regular fa-file-pdf"></i> https://atlas.zensus2022.de/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/global_animal_disease_information_system.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Animal Disease Information System</p>
+        <p style="margin: 0;">Supports access to global disease information in time, longitude, and latitude coordinates for high-impact animal diseases. Requires free registration.</p>
+        <p style="margin: 0;"><a href="https://empres-i.apps.fao.org/general"><i class="fa-regular fa-file-pdf"></i> https://empres-i.apps.fao.org/general</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/global_database_of_events_language_and_tone_(gdelt).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Database of Events, Language, and Tone (GDELT)</p>
+        <p style="margin: 0;">GDELT provides world data with longitudes and latitudes and dates on events such as protests and violent attacks with context data such as people's emotions from the news. It has historical data dating to 1971 and efforts to further extend it further back to 1800. It gets updated every 15 minutes. Freely available.</p>
+        <p style="margin: 0;"><a href="https://www.gdeltproject.org/"><i class="fa-regular fa-file-pdf"></i> https://www.gdeltproject.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/global_human_settlment_layer_(GHSL).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Human Settlement Layer (GHSL)</p>
+        <p style="margin: 0;">GHSL provides open and free context data for assessing human presence on Earth, such as built-up surface data, population data, and temporal data with date, longitude, and latitude. Freely available.</p>
+        <p style="margin: 0;"><a href="https://human-settlement.emergency.copernicus.eu/"><i class="fa-regular fa-file-pdf"></i> https://human-settlement.emergency.copernicus.eu/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/global_suicide_rates.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Suicide Rates</p>
@@ -599,6 +305,28 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Global Terrorism Database (GTD)</p>
         <p style="margin: 0;">GTD provides event datasets for terrorism with dates and city-level locations on terrorism from 1970 to 2020 with over 200 thousand records. Requires free registration.</p>
         <p style="margin: 0;"><a href="http://apps.start.umd.edu/gtd/"><i class="fa-regular fa-file-pdf"></i> http://apps.start.umd.edu/gtd/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/google_earth_engine.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Earth Engine API</p>
+        <p style="margin: 0;">Google Earth Engine provides a context dataset for planet Earth (climate and weather) with longitude and latitude that goes back as early as 1979 and is updated on a daily basis. Freely available and may need free registration.</p>
+        <p style="margin: 0;"><a href="https://developers.google.com/earth-engine/reference/rest"><i class="fa-regular fa-file-pdf"></i> https://developers.google.com/earth-engine/reference/rest</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/google_health.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Google Health COVID-19 Open Data Repository</p>
+        <p style="margin: 0;">The Google Health COVID-19 Open Data Repository is a comprehensive collection of up-to-date COVID-19-related information.</p>
+        <p style="margin: 0;"><a href="https://health.google.com/covid-19/open-data/raw-data"><i class="fa-regular fa-file-pdf"></i> https://health.google.com/covid-19/open-data/raw-data</a></p>
       </div>
     </div>
   </div>
@@ -660,6 +388,61 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/kidsat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">KidSat: Satellite Imagery for Childhood Poverty</p>
+        <p style="margin: 0;">KidSat is a benchmark dataset for mapping childhood poverty using satellite imagery. It links high-resolution visual data with poverty labels across Africa and Latin America, enabling fair benchmarking for ML models.</p>
+        <p style="margin: 0;"><a href="https://arxiv.org/pdf/2407.05986"><i class="fa-regular fa-file-pdf"></i> https://arxiv.org/pdf/2407.05986</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/mosaiks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">MOSAICs: Machine Learning for Satellite Imagery</p>
+        <p style="margin: 0;">MOSAICs provides preprocessed satellite imagery and feature embeddings designed for machine learning applications. It allows scalable learning with satellite data, especially for environmental, socio-economic, and infrastructure-related tasks across geographies.</p>
+        <p style="margin: 0;"><a href="https://www.mosaiks.org/"><i class="fa-regular fa-file-pdf"></i> https://www.mosaiks.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/mass_mobilization_in_autocracies_database_(MMAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mass Mobilization in Autocracies Database (MMAD)</p>
+        <p style="margin: 0;">MMAD provides event data on protests on a city-level location on a daily basis from 2003 to 2012. Freely available.</p>
+        <p style="margin: 0;"><a href="https://mmadatabase.org/"><i class="fa-regular fa-file-pdf"></i> https://mmadatabase.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/meta_hdx.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Meta on Humanitarian Data Exchange (HDX)</p>
+        <p style="margin: 0;">Meta’s HDX profile offers curated datasets that support humanitarian and development efforts globally. These datasets cover topics such as population movements, digital connectivity, and global crises, enabling data-driven decision-making in policy, health, and disaster response.</p>
+        <p style="margin: 0;"><a href="https://data.humdata.org/organization/meta"><i class="fa-regular fa-file-pdf"></i> https://data.humdata.org/organization/meta</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/motor_vehicle_collisions_rashes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Motor Vehicle Collisions - Crashes</p>
+        <p style="margin: 0;">Individual events with time, latitude, longitude and marks. Freely available.</p>
+        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"><i class="fa-regular fa-file-pdf"></i> https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/mussel.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Mussel Watch</p>
@@ -676,6 +459,17 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NASA Open Data Portal</p>
         <p style="margin: 0;">The NASA Open Data Portal is a comprehensive resource that provides access to various events and potential context datasets, such as oceanography datasets and more with dates, longitudes, and latitudes. Freely available.</p>
         <p style="margin: 0;"><a href="https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1"><i class="fa-regular fa-file-pdf"></i> https://data.nasa.gov/browse?sortBy=newest&pageSize=20&page=1</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/nyc_complaints.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">NYC Complaints</p>
+        <p style="margin: 0;">This events dataset includes all crimes reported to the New York City Police Department (NYPD) by date, longitude, and latitude from 2016 to 2025. Freely available.</p>
+        <p style="margin: 0;"><a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data"><i class="fa-regular fa-file-pdf"></i> https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data</a></p>
       </div>
     </div>
   </div>
@@ -704,11 +498,88 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/northern_california_earthquake_data_center_(NCEDC).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Northern California Earthquake Data Center (NCEDC)</p>
+        <p style="margin: 0;">NCEDC provides dates, longitude, latitude, and other relevant information about the earthquake events in central and northern California. Some datasets may require special requests for access based on specific terms.</p>
+        <p style="margin: 0;"><a href="https://ncedc.org/"><i class="fa-regular fa-file-pdf"></i> https://ncedc.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/open_meteo.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Open Meteo API</p>
+        <p style="margin: 0;">The Open-Meteo platform provides a comprehensive Historical Weather API that offers access to a vast amount of meteorological data. Some key features: temperature, relative humidity, cloud cover, and wind speed.</p>
+        <p style="margin: 0;"><a href="https://tinyurl.com/322bve8j"><i class="fa-regular fa-file-pdf"></i> https://tinyurl.com/322bve8j</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/OurWorldinData.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Our World in Data</p>
+        <p style="margin: 0;">Our World in Data is an open-access data and research platform that explores the world’s largest problems through empirical evidence. It provides interactive charts, extensive datasets, and in-depth articles on topics such as global health, poverty, education, climate change, energy, and economic development. Developed by researchers at the University of Oxford, the site empowers policymakers, researchers, and the public with high-quality, data-driven insights to understand global progress and challenges.</p>
+        <p style="margin: 0;"><a href="https://ourworldindata.org/"><i class="fa-regular fa-file-pdf"></i> https://ourworldindata.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/satbird.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">SatBird: Bird Species Distribution Modeling</p>
+        <p style="margin: 0;">SatBird is a dataset for modeling bird species distributions using satellite imagery and citizen science data (from eBird). It includes more than 2 million observations and multispectral data for 214 bird species across the U.S.</p>
+        <p style="margin: 0;"><a href="https://neurips.cc/virtual/2023/poster/73571"><i class="fa-regular fa-file-pdf"></i> https://neurips.cc/virtual/2023/poster/73571</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Social Conflict Analysis Database (SCAD).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Social Conflict Analysis Database (SCAD)</p>
+        <p style="margin: 0;">SCAD provides event datasets for protests, riots, and other social conflicts with date, longitude, and latitude from 1990 to 2017 covering all of Africa, Mexico, Central America, and the Caribbean. Freely available.</p>
+        <p style="margin: 0;"><a href="https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/"><i class="fa-regular fa-file-pdf"></i> https://www.strausscenter.org/ccaps-research-areas/social-conflict/database/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/Spatiotemporal Datasets.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spatiotemporal Datasets</p>
         <p style="margin: 0;">This repository collects datasets for network science, deep learning, and general machine learning research. It includes data such as weekly chickenpox cases in Hungary and bicycle deliveries in London.</p>
         <p style="margin: 0;"><a href="https://github.com/benedekrozemberczki/spatiotemporal_datasets?tab=readme-ov-file"><i class="fa-regular fa-file-pdf"></i> https://github.com/benedekrozemberczki/spatiotemporal_datasets?tab=readme-ov-file</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/spectus.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spectus</p>
+        <p style="margin: 0;">The Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements. It dates from 2019 and provides real-time data.  Subscription payments are required.</p>
+        <p style="margin: 0;"><a href="https://docs.spectus.ai/"><i class="fa-regular fa-file-pdf"></i> https://docs.spectus.ai/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/uppsala_conflict_data_progam(UCDP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">The Uppsala Conflict Data Program (UCDP)</p>
+        <p style="margin: 0;">UCDP provides multiple event datasets for armed conflict dates, longitude, and latitude. (UCDP) provides data on organized violence with a history of almost 40 years. Freely available.</p>
+        <p style="margin: 0;"><a href="https://ucdp.uu.se/encyclopedia"><i class="fa-regular fa-file-pdf"></i> https://ucdp.uu.se/encyclopedia</a></p>
       </div>
     </div>
   </div>
@@ -759,11 +630,66 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/USA_COVID_19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA COVID-19</p>
+        <p style="margin: 0;">Contains the COVID-19 events in the USA with date, cases, and deaths on a country-level location from 2020 to 2023.</p>
+        <p style="margin: 0;"><a href="https://github.com/nytimes/covid-19-data"><i class="fa-regular fa-file-pdf"></i> https://github.com/nytimes/covid-19-data</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/usa_gun_violence.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Gun Violence</p>
         <p style="margin: 0;">This events dataset contains the date and country-level locations from 2013 to 2022 for around 472 thousand records for gun violence incidents and mass shootings in the USA. This data was originally retrieved from the Gun Violence Archive organization.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
+        <p style="margin: 0;">the data was originally retrieved from the U.S. Environmental Protection Agency (EPA).</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/usa_traffic_congestion.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Traffic Congestion</p>
+        <p style="margin: 0;">This dataset contains events of traffic congestion with the context of weather severity; it contains the date, longitude, and latitude from 2016 to 2021 for around 3 million records of traffic congestion in the USA, among relevant information such as the severity of the congestion.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/omosaad/events-dataset"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/omosaad/events-dataset</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/un_refugee.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United Nations High Commissioner for Refugees (UNHCR)</p>
+        <p style="margin: 0;">UNHCR provides data for resettlement statistics, population statistics, and refugee statistics through their APIs.</p>
+        <p style="margin: 0;"><a href="https://www.unhcr.org/"><i class="fa-regular fa-file-pdf"></i> https://www.unhcr.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/science_for_a_changing_world_(USGS).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United States Geological Survey (USGS)</p>
+        <p style="margin: 0;">The USGS provides information on natural hazard events that occur daily, such as earthquakes and volcanoes. Freely available.</p>
+        <p style="margin: 0;"><a href="https://www.usgs.gov/"><i class="fa-regular fa-file-pdf"></i> https://www.usgs.gov/</a></p>
       </div>
     </div>
   </div>
@@ -792,11 +718,77 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_earthquakes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Earthquakes</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1900 to 2023 for around 37 thousand records for the world-recorded earthquakes among relevant information related to the earthquake, such as the depth of the earthquake. This dataset contains nulls in some features but not in longitude, latitude, or date.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_fireballs.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Fireballs</p>
+        <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1988 to 2017 for around 800 records for exceptionally bright fireballs that are spectacular enough to be seen over a very wide area in the sky. Only the brightest fireballs are recorded.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/nasa/fireballs"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/nasa/fireballs</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/world_natural_disasters.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Natural Disasters</p>
+        <p style="margin: 0;">This events dataset contains dates, longitudes, and latitudes from 1900 to 2021 for around 16 thousand records of various types of natural disasters in the world, such as droughts, volcanoes, and earthquakes, among relevant information such as the number of people injured, total deaths, and damage costs.</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/world_tsunamis.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Tsunamis</p>
         <p style="margin: 0;">This events dataset contains the date, longitude, and latitude from 1900 to 2023 for around 2 thousand records of tsunamis around the world. It also includes relevant information such as the magnitude of each event and the impact of the tsunami, such as the number of deaths and injuries.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/wolrd_wildfires.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">World Wildfires</p>
+        <p style="margin: 0;">This events and context dataset contains date, longitude, and latitude from 2000 to 2020 for measuring the light brightness and whether a fire happened or not. Data originally retrieved from NASA's FIRM Earthdata. </p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/worldpop.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">WorldPop Demographic Mapping</p>
+        <p style="margin: 0;">WorldPop provides high-resolution, open-access population data to support research and policy in low- and middle-income countries. The datasets cover age structure, population density, health metrics, and urbanization trends, all mapped at fine spatial scales. This demographic data is vital for development planning, humanitarian response, and epidemiological modeling.</p>
+        <p style="margin: 0;"><a href="https://hub.worldpop.org/project/categories?id=14"><i class="fa-regular fa-file-pdf"></i> https://hub.worldpop.org/project/categories?id=14</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/planet_com.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">planet.com</p>
+        <p style="margin: 0;">Planet.com provides daily satellite earth data analytics with 200 satellites; they provide longitude, latitude, and dates and measurements for different planetary variables (soil water, land surface temperature, forest carbon), and it is updated daily. Payments required.</p>
+        <p style="margin: 0;"><a href="https://www.planet.com/"><i class="fa-regular fa-file-pdf"></i> https://www.planet.com/</a></p>
       </div>
     </div>
   </div>
