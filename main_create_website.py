@@ -29,34 +29,30 @@ except Exception as e:
     print(f"An error occurred while reading the CSV file: {e}")
     exit(1)
 
-# --- NEW: classify datasets into subsections ---
-event_keywords   = [
-    'crime','collision','accident','911','police','fire','earthquake',
-    'conflict','hurricane','flood','wildfire','protest','disease','covid',
-    'disaster','traffic','call data'
-]
-context_keywords = [
-    'population','demographics','census','density','land cover','landuse',
-    'elevation','terrain','satellite','road','rail','boundary','admin',
-    'weather','climate','geology','vegetation'
-]
+# --- MODIFIED: Use existing subsection column for datasets ---
+# Clean up the subsection column - handle NaN values and standardize capitalization
+if 'subsection' in df.columns:
+    # Fill NaN values with 'Other' and standardize capitalization
+    df['subsection'] = df['subsection'].fillna('Other')
+    
+    # For datasets only, ensure subsection values are either 'Context' or 'Events' (case-insensitive)
+    dataset_mask = df['Type'].str.lower().str.contains('dataset', na=False)
+    
+    # Standardize subsection values for datasets
+    df.loc[dataset_mask, 'Subsection'] = df.loc[dataset_mask, 'subsection'].apply(
+        lambda x: 'Context' if str(x).lower() in ['context'] 
+                 else 'Events' if str(x).lower() in ['events', 'event'] 
+                 else 'Other'
+    )
+    
+    # For non-datasets, we don't need the Subsection column
+    df.loc[~dataset_mask, 'Subsection'] = 'Other'
+else:
+    print("Warning: 'subsection' column not found in CSV. Adding default 'Other' subsection.")
+    df['Subsection'] = 'Other'
 
-def classify(row):
-    text = (str(row.get('Title','')) + ' ' + str(row.get('Description',''))).lower()
-    if any(kw in text for kw in event_keywords):
-        return 'Events'
-    elif any(kw in text for kw in context_keywords):
-        return 'Context'
-    else:
-        return 'Other'
-
-# Only classify rows whose Type contains 'dataset'
-mask = df['Type'].str.lower().str.contains('dataset', na=False)
-df.loc[mask, 'Subsection'] = df[mask].apply(classify, axis=1)
-
-# Sort globally so that datasets are grouped
-df = df.sort_values(['Subsection','Title']).reset_index(drop=True)
-# --- end classification block ---
+# Sort globally so that datasets are grouped by subsection
+df = df.sort_values(['Subsection', 'Title']).reset_index(drop=True)
 
 # Define a function to clean the title
 def clean_title(title):
@@ -64,7 +60,7 @@ def clean_title(title):
     title = title.replace(' ', '_').lower()
     return title
 
-# Process each row’s image entry
+# Process each row's image entry
 for idx, row in df.iterrows():
     image = str(row.get('Image',''))
     if "assets/images/thumb" not in image:
@@ -113,13 +109,24 @@ for markdown_filename, filter_term in files_to_process:
     # Filter rows
     df_filt = df[df['Type'].str.lower().str.contains(filter_term.lower(), na=False)]
 
-    # For datasets.md, group by Subsection
+    # For datasets.md, group by Subsection using the existing subsection column
     generated = ''
     if markdown_filename == 'datasets.md':
-        for section in ['Events','Context','Other']:
+        # Get unique subsections for datasets, prioritizing Context and Events
+        subsections = df_filt['Subsection'].unique()
+        # Sort to put Context and Events first, then Others
+        subsection_order = []
+        if 'Context' in subsections:
+            subsection_order.append('Context')
+        if 'Events' in subsections:
+            subsection_order.append('Events')
+        for section in sorted(subsections):
+            if section not in ['Context', 'Events']:
+                subsection_order.append(section)
+        
+        for section in subsection_order:
             sub_df = df_filt[df_filt['Subsection'] == section]
             if not sub_df.empty:
-                #generated += f"\n\n{section}\n\n"
                 generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
                 for _, row in sub_df.iterrows():
                     generated += substitute_placeholders(block, row) + "\n\n"
