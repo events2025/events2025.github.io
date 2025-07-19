@@ -119,6 +119,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/mbg.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">MBG (Model‑Based Geostatistics)</p>
+        <p style="margin: 0;">An R package offering spatial machine learning and geostatistical modeling workflows that estimate continuous raster surfaces from point data and summarize uncertainty over regions.</p>
+        <p style="margin: 0;"><a href="https://cran.r-project.org/web/packages/mbg/index.html"><i class="fa-regular fa-file-pdf"></i>https://cran.r-project.org/web/packages/mbg/index.html</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/OpenGeoAI.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">OpenGeoAI</p>
