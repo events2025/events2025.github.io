@@ -15,7 +15,7 @@ layout: home
       <img src="/assets/images/thumb/atlas_of_inequality.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Atlas of Inequality</p>
-        <p style="margin: 0;">The Atlas of Inequality shows the income inequality of people who visit different places in cities around the U.S. It uses aggregated anonymous location data from digital devices to estimate people's incomes and where they spend their time, such as coffee shops, movie theaters, and stores. Their measure of place inequality measures how similar the incomes of those different visitors to the cities are.</p>
+        <p style="margin: 0;">The Atlas of Inequality maps income inequality across U.S. cities using aggregated anonymous location data to estimate visitors' incomes at places like cafes and stores. It measures how similar or different the incomes of visitors to each location are.</p>
         <p style="margin: 0;"><a href="https://inequality.media.mit.edu/"><i class="fa-regular fa-file-pdf"></i>https://inequality.media.mit.edu/</a> </p>
       </div>
     </div>
@@ -63,7 +63,7 @@ layout: home
       <img src="/assets/images/thumb/Spatialedge.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">The Spatial Edge</p>
-        <p style="margin: 0;">The Spatial Edge is a weekly blog dedicated to geospatial data science and economics, widely read by professionals and researchers from institutions like NASA, ESA, Google, and leading universities. It features curated research papers, datasets, and in-depth commentary on topics such as nightlights, spatial inequality, and local corruption. The blog also offers practical tutorials and insights designed to support impactful research and real-world applications in geospatial science.</p>
+        <p style="margin: 0;">The Spatial Edge is a weekly blog on geospatial data science and economics, featuring curated research, datasets, and commentary on topics like nightlights and spatial inequality. It’s read by experts at NASA, Google, and top universities, and includes practical tutorials for real-world applications.</p>
         <p style="margin: 0;"><a href="https://www.spatialedge.co/"><i class="fa-regular fa-file-pdf"></i>https://www.spatialedge.co/</a> </p>
       </div>
     </div>
