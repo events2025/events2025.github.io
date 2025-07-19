@@ -158,7 +158,7 @@ layout: home
       <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Spatial-Kfold</p>
-        <p style="margin: 0;">Spatial-Kfold is a Python library for spatial cross-validation, providing clustering and block resampling methods. It supports Leave Region Out" validation to enhance model generalization and robust feature selection."</p>
+        <p style="margin: 0;">Spatial-Kfold is a Python library for spatial cross-validation, providing clustering and block resampling methods. It supports Leave Region Out validation to enhance model generalization and robust feature selection.</p>
         <p style="margin: 0;"><a href="https://github.com/WalidGharianiEAGLE/spatial-kfold"><i class="fa-regular fa-file-pdf"></i>https://github.com/WalidGharianiEAGLE/spatial-kfold</a> </p>
       </div>
     </div>
