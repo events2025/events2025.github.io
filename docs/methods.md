@@ -350,7 +350,7 @@ layout: home
       <img src="/assets/images/thumb/neuraltpp.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Jump-Diffusion Temporal Point Processes</p>
-        <p style="margin: 0;">This paper proposes Neural Jump-Diffusion Temporal Point Processes (NJDTPP), a framework that models TPP intensity functions using neural jump-diffusion SDEs. By replacing rigid functional forms with neural networks for drift, diffusion, and jumps, it flexibly captures complex event dynamics. The approach is validated on both synthetic and real-world datasets, including social media, seismic, and clinical data.</p>
+        <p style="margin: 0;">The paper introduces NJDTPP, a framework that models TPPs using neural jump-diffusion SDEs to flexibly capture complex event dynamics. Neural networks parameterize the SDE components, and the method is evaluated on synthetic and real-world datasets like earthquakes, retweets, and clinical records.</p>
         <p style="margin: 0;"><a href="https://openreview.net/forum?id=d1P6GtRzuV"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/forum?id=d1P6GtRzuV</a> </p>
       </div>
     </div>
