@@ -74,7 +74,7 @@ layout: home
       <img src="/assets/images/thumb/an_empirical_study_extensive_deep_temporal_point_process.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">An Empirical Study: Extensive Deep Temporal Point Process</p>
-        <p style="margin: 0;">This paper, published in December 2024 discusses neural TPPs, this paper mainly focuses on the temporal point process using deep learning with deep empirical study on the subject.</p>
+        <p style="margin: 0;">This paper explores neural TPPs, this paper focusing mainly on the temporal point process using deep learning with deep empirical study on the subject.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2110.09823"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2110.09823</a> </p>
       </div>
     </div>
