@@ -110,7 +110,7 @@ layout: home
       <img src="/assets/images/thumb/spatio_temporal_hawkes_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Hawkes Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published in September 2024, provides background on major aspects of Hawkes processes with a focus on simulation methods and estimation techniques among an overview of stochastic processes and the challenges of Hawkes processes.</p>
+        <p style="margin: 0;">This paper provides background on major aspects of Hawkes processes with a focus on simulation methods and estimation techniques among an overview of stochastic processes and the challenges of Hawkes processes.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-024-00653-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-024-00653-7</a> </p>
       </div>
     </div>
@@ -122,7 +122,7 @@ layout: home
       <img src="/assets/images/thumb/spatio_temporal_point_process_statistics_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Point Process Statistics: A Review</p>
-        <p style="margin: 0;">This paper, published in November 2016, provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterize certain spatio-temporal point processes.</p>
+        <p style="margin: 0;">This paper provides a review describing statistical models and methods for spatio-temporal data. They define characteristics and statistics to uniquely characterize certain spatio-temporal point processes.</p>
         <p style="margin: 0;"><a href="https://surl.li/ofjlkm"><i class="fa-regular fa-file-pdf"></i>https://surl.li/ofjlkm</a> </p>
       </div>
     </div>
@@ -134,7 +134,7 @@ layout: home
       <img src="/assets/images/thumb/statistical_deep_learning_for_spatial_and_spatiotemporal_data.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistical Deep Learning for Spatial and Spatiotemporal Data</p>
-        <p style="margin: 0;">This paper, published in 2023, provides a review of traditional and machine learning spatial and spatial-temporal data with a focus on a variety of hybrid models that integrate statistical models with deep learning models and gives an overview of computational technologies that have proven useful.</p>
+        <p style="margin: 0;">This paper provides a review of traditional and machine learning spatial and spatial-temporal data with a focus on a variety of hybrid models that integrate statistical models with deep learning models and gives an overview of computational technologies that have proven useful.</p>
         <p style="margin: 0;"><a href="https://surl.li/tkiigr"><i class="fa-regular fa-file-pdf"></i>https://surl.li/tkiigr</a> </p>
       </div>
     </div>
@@ -146,7 +146,7 @@ layout: home
       <img src="/assets/images/thumb/classical_stratification_for_disease_spreading.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Mathematical, Classical Stratification Modeling Approach to Disentangling the Impact of Weather on Infectious Diseases: A Case Study Using Spatio-Temporally Disaggregated Campylobacter Surveillance Data for England and Wales</p>
-        <p style="margin: 0;">This paper, published in Jan 2024, disentangling the impact of the weather on transmission of infectious diseases is crucial for health protection, preparedness, and prevention while using campylobacteriosis, a bacterial food disease, as a case study where they developed a novel conditional incidence method based on classical stratification. The predicted incidence of campylobacteriosis increased by 1 case per million people for every 5° (Celsius) increase in temperature within the range of 8°-15°.</p>
+        <p style="margin: 0;">This paper introduces a conditional incidence method to assess weather's impact on infectious disease transmission, using campylobacteriosis as a case study. It finds a 5°C temperature rise (8°–15°C range) increases incidence by 1 case per million people.</p>
         <p style="margin: 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/38236828/"><i class="fa-regular fa-file-pdf"></i>https://pubmed.ncbi.nlm.nih.gov/38236828/</a> </p>
       </div>
     </div>
@@ -158,7 +158,7 @@ layout: home
       <img src="/assets/images/thumb/child_marriage_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Child Marriage in Conflict Settings: A Geospatial Analysis</p>
-        <p style="margin: 0;">This paper, published in July 2024, highlights the impact of conflict events on the incidence of child marriage. They used georeferenced data on armed conflict and population-level microdata for marriages of more than 2 million women across 56 countries to estimate the impact of the occurrence and severity of conflict events in or before the year of marriage on the incidence of child marriage.</p>
+        <p style="margin: 0;">This paper examines how conflict events influence child marriage, using georeferenced conflict data and microdata from over 2 million women across 56 countries. It estimates the impact of conflict occurrence and severity on child marriage rates around the year of marriage.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s43545-024-00940-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s43545-024-00940-7</a> </p>
       </div>
     </div>
@@ -170,7 +170,7 @@ layout: home
       <img src="/assets/images/thumb/comparative_eval_of_point_process_forecasts.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparative Evaluation of Point Process Forecasts</p>
-        <p style="margin: 0;">This paper, published in July 2023, performs a comparative study. It adapts the concept of consistent scoring functions and proper scoring rules, which are statistically principled tools for the comparative evaluation of predictive performance, to the point process setting and places both new and existing methodology in their framework for a case study on a simulation operational earthquake forecast for Italy.</p>
+        <p style="margin: 0;">This paper adapts consistent scoring functions and proper scoring rules for evaluating predictive performance in point processes. It presents a comparative study within this framework using a simulated earthquake forecast case study for Italy.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2103.11884"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2103.11884</a> </p>
       </div>
     </div>
@@ -182,7 +182,7 @@ layout: home
       <img src="/assets/images/thumb/multi_modality_spatio_temporal forecasting.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning</p>
-        <p style="margin: 0;">This paper, published in May 2024, proposes a novel MoST learning framework via self-supervised learning, namely MoSSL, which aims to uncover latent patterns from temporal, spatial, and modality perspectives while quantifying dynamic heterogeneity. Experiment results on two real-world MoST datasets verify the superiority of this approach compared with the state-of-the-art baselines.</p>
+        <p style="margin: 0;">This paper introduces MoSSL, a self-supervised learning framework for MoST data that captures latent temporal, spatial, and modality patterns while handling dynamic heterogeneity. Experiments on two real-world datasets show its superiority over state-of-the-art baselines.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2405.03255"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2405.03255</a> </p>
       </div>
     </div>
@@ -194,7 +194,7 @@ layout: home
       <img src="/assets/images/thumb/spatio-remporal_field_neural_networks_for_air_quality.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Spatio-Temporal Field Neural Networks for Air Quality Inference</p>
-        <p style="margin: 0;">This paper, published in June 2024, highlights the limitation of graph neural networks and makes a first effort to combine two different spatiotemporal perspectives.</p>
+        <p style="margin: 0;">This paper highlights the limitation of graph neural networks and makes a first effort to combine two different spatiotemporal perspectives.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2403.02354"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2403.02354</a> </p>
       </div>
     </div>
@@ -206,7 +206,7 @@ layout: home
       <img src="/assets/images/thumb/conflict_and_forest_loss in_colombia.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Toward Causal Inference for Spatio-Temporal Data: Conflict and Forest Loss in Colombia</p>
-        <p style="margin: 0;">This paper, published in Jan 2022, discusses how armed conflict influences tropical forest loss. In this study, they propose a class of causal models for spatio-temporal stochastic processes, which allows one to formally define and quantify the causal effects.</p>
+        <p style="margin: 0;">This paper discusses how armed conflict influences tropical forest loss. In this study, they propose a class of causal models for spatio-temporal stochastic processes, which allows one to formally define and quantify the causal effects.</p>
         <p style="margin: 0;"><a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract"><i class="fa-regular fa-file-pdf"></i>https://www.tandfonline.com/doi/full/10.1080/01621459.2021.2013241#abstract</a> </p>
       </div>
     </div>
@@ -218,7 +218,7 @@ layout: home
       <img src="/assets/images/thumb/weather_impact_on_social_medial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Worse Weather Amplifies Social Media Activity</p>
-        <p style="margin: 0;">This paper, published in February 2025, highlights if environmental factors alter rates of online social activity. The study was performed in the U.S.A. using Facebook and X (Twitter) data with over 3.5 billion posts. They found that extreme temperatures and added precipitation each independently amplified social media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social media activity.</p>
+        <p style="margin: 0;">This  paper investigates how environmental factors affect online social activity using over 3.5 billion Facebook and X posts in the U.S. It finds that extreme temperatures and precipitation independently increase social media use, with compounded weather extremes amplifying the effect.</p>
         <p style="margin: 0;"><a href="https://journals.sagepub.com/doi/10.1177/09567976241306099"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/doi/10.1177/09567976241306099</a> </p>
       </div>
     </div>
