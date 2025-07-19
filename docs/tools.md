@@ -14,7 +14,7 @@ layout: home
       <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">BSTPP: Bayesian Spatiotemporal Point Process</p>
-        <p style="margin: 0;">BSTPP is a Python package for Bayesian inference on spatiotemporal point processes. It offers three different models: Log Gaussian Cox, Hawkes, and Cox Hawkes processes. The package includes a flexible pre-trained Variational Autoencoder (VAE) to accelerate posterior inference on Gaussian processes. Users can employ predefined trigger parameterizations or implement custom trigger functions using the extendable Trigger module.</p>
+        <p style="margin: 0;">is a Python package for Bayesian inference on STPPs, supporting LGCP, Hawkes, and Cox-Hawkes models. It features a VAE for fast GP inference and an extendable module for custom or predefined trigger functions.</p>
         <p style="margin: 0;"><a href="https://www.georgemohler.com/_files/ugd/9226cc_a9bc736f02bb41fa92f7021aac6fc0be.pdf"><i class="fa-regular fa-file-pdf"></i>https://www.georgemohler.com/_files/ugd/9226cc_a9bc736f02bb41fa92f7021aac6fc0be.pdf</a> </p>
       </div>
     </div>
@@ -38,7 +38,7 @@ layout: home
       <img src="/assets/images/thumb/ForestTypology.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Forest Typology</p>
-        <p style="margin: 0;">Forest Typology is an AI-driven initiative by DeepMind, in partnership with the World Resources Institute and Google teams, aimed at mapping and classifying global forest types. The project goes beyond simple forest cover detection by estimating forest composition and identifying biodiversity hotspots and major carbon sinks. It provides forest land cover layers and benchmark datasets to advance research on climate change mitigation and conservation using geospatial AI.</p>
+        <p style="margin: 0;">is an AI initiative by DeepMind, WRI, and Google to map and classify global forest types. It estimates forest composition, identifies biodiversity hotspots and carbon sinks, and provides land cover layers and benchmark datasets for climate and conservation research.</p>
         <p style="margin: 0;"><a href="https://github.com/google-deepmind/forest_typology"><i class="fa-regular fa-file-pdf"></i>https://github.com/google-deepmind/forest_typology</a> </p>
       </div>
     </div>
@@ -62,7 +62,7 @@ layout: home
       <img src="/assets/images/thumb/WorkflowJeoGeeFlow.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeeFlow</p>
-        <p style="margin: 0;">GeeFlow is a DeepMind library for generating large-scale geospatial datasets using Google Earth Engine (GEE). It includes utilities, configuration templates, and pipeline scripts to streamline the creation of Earth observation datasets. While not designed for production deployment, GeeFlow is tailored to support geospatial AI research, particularly in conjunction with model training frameworks like Jeo.</p>
+        <p style="margin: 0;">is a DeepMind library for generating large-scale Earth observation datasets using Google Earth Engine. It provides utilities and pipeline scripts to support geospatial AI research, especially for model training with frameworks like Jeo.</p>
         <p style="margin: 0;"><a href="https://github.com/google-deepmind/geeflow"><i class="fa-regular fa-file-pdf"></i>https://github.com/google-deepmind/geeflow</a> </p>
       </div>
     </div>
@@ -74,7 +74,7 @@ layout: home
       <img src="/assets/images/thumb/generative_neural_temporal_point_proces_(gntpp).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Generative Neural Temporal Point Proces (GNTPP)</p>
-        <p style="margin: 0;">This tool introduces a PyTorch implementation of GNTPP in the paper GNTPP: `Exploring Generative Neural Temporal Point Process' (TMLR). This focuses on deep generative models for generating high-quality samples in the context of event occurrence modeling for TPP.</p>
+        <p style="margin: 0;">This tool provides a PyTorch implementation of GNTPP from the paper Exploring Generative Neural Temporal Point Process. It focuses on deep generative models for producing high-quality event samples in temporal point process modeling.</p>
         <p style="margin: 0;"><a href="https://github.com/EDAPINENUT/GNTPP"><i class="fa-regular fa-file-pdf"></i>https://github.com/EDAPINENUT/GNTPP</a> </p>
       </div>
     </div>
@@ -98,7 +98,7 @@ layout: home
       <img src="/assets/images/thumb/GeoStats.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">GeoStats.jl</p>
-        <p style="margin: 0;">GeoStats.jl is an extensible framework for geospatial data science and geostatistical modeling, fully written in Julia. It provides a unified interface for various geostatistical algorithms, including kriging, simulation, and estimation methods. The framework supports advanced geometric processing and is designed for high-performance geospatial computations.</p>
+        <p style="margin: 0;">is a Julia-based framework for geospatial data science and geostatistics, offering a unified interface for kriging, simulation, and estimation. It supports advanced geometry handling and high-performance spatial computations.</p>
         <p style="margin: 0;"><a href="https://github.com/JuliaEarth/GeoStats.jl"><i class="fa-regular fa-file-pdf"></i>https://github.com/JuliaEarth/GeoStats.jl</a> </p>
       </div>
     </div>
@@ -110,7 +110,7 @@ layout: home
       <img src="/assets/images/thumb/WorkflowJeoGeeFlow.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Jeo</p>
-        <p style="margin: 0;">Jeo is a foundation model framework developed by DeepMind for embedding geospatial and temporal data into a shared representation space. It supports tasks like land cover classification and change detection by aligning diverse satellite imagery and related datasets. Jeo enables scalable, multimodal learning across different sensor types and geographies, facilitating more accurate and transferable models in geospatial AI.</p>
+        <p style="margin: 0;">is a foundation model framework by DeepMind for embedding geospatial and temporal data into a shared space. It supports tasks like land cover classification and change detection, enabling scalable, multimodal learning across sensors and regions for geospatial AI.</p>
         <p style="margin: 0;"><a href="https://github.com/google-deepmind/jeo"><i class="fa-regular fa-file-pdf"></i>https://github.com/google-deepmind/jeo</a> </p>
       </div>
     </div>
@@ -134,7 +134,7 @@ layout: home
       <img src="/assets/images/thumb/STPPSimulator.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">STPP Simulator</p>
-        <p style="margin: 0;">This GitHub project provides a framework for simulating spatio-temporal point processes, including Poisson and Hawkes models, on continuous spatial domains over time. It's useful for researchers who want to test inference methods or study synthetic event dynamics in controlled environments.</p>
+        <p style="margin: 0;">This GitHub project offers a framework for simulating spatio-temporal point processes, like Poisson and Hawkes models, over continuous space and time. It’s ideal for testing inference methods and exploring synthetic event dynamics.</p>
         <p style="margin: 0;"><a href="https://github.com/meowoodie/Spatio-Temporal-Point-Process-Simulator"><i class="fa-regular fa-file-pdf"></i>https://github.com/meowoodie/Spatio-Temporal-Point-Process-Simulator</a> </p>
       </div>
     </div>
@@ -146,7 +146,7 @@ layout: home
       <img src="/assets/images/thumb/stppgc.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">STPPGC</p>
-        <p style="margin: 0;">STPPGC is flexible benchmarking toolkit for streaming Spatio-Temporal Point-Process (STPP) models. BenchSTPP is a modular, research-grade framework for end-to-end development, training, and evaluation of STPP models. It couples declarative YAML configuration with PyTorch Lightning execution, Ray Tune hyper-parameter optimisation, and version-controlled logging to deliver rapid prototyping and rigorous, reproducible benchmarking on streaming event data.</p>
+        <p style="margin: 0;">is a benchmarking toolkit for streaming STPP models. Its BenchSTPP framework supports end-to-end development with YAML configs, PyTorch Lightning, Ray Tune, and version-controlled logging for fast, reproducible prototyping and evaluation.</p>
         <p style="margin: 0;"><a href="https://github.com/YahyaAalaila/STPPGC?tab=readme-ov-file"><i class="fa-regular fa-file-pdf"></i>https://github.com/YahyaAalaila/STPPGC?tab=readme-ov-file</a> </p>
       </div>
     </div>
@@ -170,7 +170,7 @@ layout: home
       <img src="/assets/images/thumb/Spatstat.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Spatstat</p>
-        <p style="margin: 0;">Spatstat is a comprehensive R package for analyzing spatial point patterns. It supports exploratory data analysis, model fitting (e.g., Poisson, Cox, Gibbs processes), spatial covariates, and simulation. The package handles irregular windows, marks, and inhomogeneous patterns, making it widely used in ecological, epidemiological, and environmental applications.</p>
+        <p style="margin: 0;">is a comprehensive R package for spatial point pattern analysis, offering tools for EDA, model fitting (Poisson, Cox, Gibbs), and simulation. It handles irregular windows and marked or inhomogeneous patterns, widely used in ecology, epidemiology, and environmental studies.</p>
         <p style="margin: 0;"><a href="https://spatstat.org/"><i class="fa-regular fa-file-pdf"></i>https://spatstat.org/</a> </p>
       </div>
     </div>
@@ -182,7 +182,7 @@ layout: home
       <img src="/assets/images/thumb/Tick.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Tick Library</p>
-        <p style="margin: 0;">Tick is a Python library for statistical learning with a focus on time-dependent modeling, including Hawkes processes, generalized linear models, and survival analysis. It provides fast solvers and tools for point process simulation and inference, especially suited for financial, criminological, and event-based data.</p>
+        <p style="margin: 0;">is a Python library for time-dependent modeling, featuring fast solvers for Hawkes processes, GLMs, and survival analysis. It supports simulation and inference, making it ideal for financial, criminological, and event-based data.</p>
         <p style="margin: 0;"><a href="https://x-datainitiative.github.io/tick/"><i class="fa-regular fa-file-pdf"></i>https://x-datainitiative.github.io/tick/</a> </p>
       </div>
     </div>
@@ -194,7 +194,7 @@ layout: home
       <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">mlr3spatiotempcv</p>
-        <p style="margin: 0;">mlr3spatiotempcv is an R package that extends the mlr3 machine learning framework with spatiotemporal resampling methods. It integrates various spatiotemporal partitioning strategies, facilitating model assessment, selection, and hyperparameter tuning for spatial and spatiotemporal data. The package provides a consistent interface for implementing state-of-the-art resampling techniques, aiding in the development of robust predictive models.</p>
+        <p style="margin: 0;">is an R package extending mlr3 with spatiotemporal resampling strategies. It supports model evaluation, selection, and tuning for spatial data through a unified interface for advanced resampling techniques.</p>
         <p style="margin: 0;"><a href="https://www.jstatsoft.org/article/view/v111i07"><i class="fa-regular fa-file-pdf"></i>https://www.jstatsoft.org/article/view/v111i07</a> </p>
       </div>
     </div>
