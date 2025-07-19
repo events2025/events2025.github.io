@@ -23,6 +23,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Intro to GIS with Python.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Intro to GIS with Python</p>
+        <p style="margin: 0;">This step‑by‑step tutorial introduces geospatial data analysis using Python and open‑source tools, covering GIS fundamentals, map visualization, and spatial operations.</p>
+        <p style="margin: 0;"><a href="https://github.com/giswqs/intro-gispro"><i class="fa-regular fa-file-pdf"></i>https://github.com/giswqs/intro-gispro</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/learning_with_temporal_point_processes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">Learning with Temporal Point Processes</p>
