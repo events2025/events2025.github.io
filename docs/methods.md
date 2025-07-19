@@ -86,7 +86,7 @@ layout: home
       <img src="/assets/images/thumb/goodness_of_fit_test_paper_500_500.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Goodness-Of-Fit Tests for Spatial Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published in 2025, the state-of-the-art for goodness-of-fit testing for spatial point processes is summarized. Test statistics based on classical functional summary statistics and recent contributions from topological data analysis are considered.</p>
+        <p style="margin: 0;">This paper reviews state-of-the-art goodness-of-fit tests for spatial point processes, covering classical functional summary statistics and recent methods from topological data analysis.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2501.03732v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2501.03732v1</a> </p>
       </div>
     </div>
@@ -98,7 +98,7 @@ layout: home
       <img src="/assets/images/thumb/neural_temporal_point_processes_a_review.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Temporal Point Processes: A Review</p>
-        <p style="margin: 0;">This paper, published in August 2021, discusses neural TPPs for merging and combining deep learning with temporal point process models. They focus on design choices for this topic, applications, and datasets such as earthquake occurrences; they discuss the open challenges such as the lack of standardized experimental setups and high-quality benchmark datasets, which makes a problematic challenge for the comparison of different neural TPP architectures.</p>
+        <p style="margin: 0;">This paper examines neural TPPs, focusing on design choices, applications, and key challenges such as the lack of standardized benchmarks and experimental setups for fair model comparison.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2104.03528"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2104.03528</a> </p>
       </div>
     </div>
