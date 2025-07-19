@@ -230,7 +230,7 @@ layout: home
       <img src="/assets/images/thumb/behaviour_based_dependency_networks.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Behaviour-Based Dependency Networks Between Places Shape Urban Economic Resilience</p>
-        <p style="margin: 0;">This paper, published December 2024, explains that during disruptions like pandemics, business closures affect not just the businesses themselves but also people's movements, which then impact other businesses. The study uses data from five US cities to measure how businesses depend on each other. It finds that behavior-based relationships improve predictions of business resilience by about 40% compared to distance-based models. Ignoring these relationships can lead to underestimating the spread of disruptions. The research highlights the need to understand human mobility patterns to boost urban economic resilience.</p>
+        <p style="margin: 0;">This paper shows how business closures during disruptions affect human mobility and neighboring businesses. Using data from five U.S. cities, it finds behavior-based relationships improve resilience predictions by approximately 40% over distance-based models, emphasizing the role of mobility in urban economic resilience.</p>
         <p style="margin: 0;"><a href="https://www.nature.com/articles/s41562-024-02072-7"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41562-024-02072-7</a> </p>
       </div>
     </div>
@@ -242,7 +242,7 @@ layout: home
       <img src="/assets/images/thumb/Bayesian COVID19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Bayesian Machine Learning Approach for Spatio-Temporal Prediction of COVID-19 Cases</p>
-        <p style="margin: 0;">This paper presents a model that integrates neural networks within a Bayesian framework to predict COVID-19 case numbers across different regions and time periods. By incorporating factors such as human mobility, spatial proximity, and temporal correlations, the model effectively captures the complex dynamics of disease spread. Applied to data from 245 health zones in Castilla-Leon, Spain, the approach demonstrates strong predictive performance, highlighting the significant influence of human movement and neighboring infection rates on COVID-19 transmission.</p>
+        <p style="margin: 0;">This paper proposes a Bayesian neural network model for predicting COVID-19 cases across regions and time, incorporating mobility, spatial proximity, and temporal correlations. Tested on data from 245 zones in Castilla-Leon, Spain, it shows strong predictive performance and highlights the role of human movement and local transmission.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s00477-021-02168-w#"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s00477-021-02168-w#</a> </p>
       </div>
     </div>
@@ -266,7 +266,7 @@ layout: home
       <img src="/assets/images/thumb/airstrike.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Causal Inference with Spatio-Temporal Data: Estimating the Effects of Airstrikes on Insurgent Violence in Iraq</p>
-        <p style="margin: 0;">This paper develops a novel framework for estimating causal effects in complex spatio-temporal settings. Focusing on U.S. airstrikes in Iraq between 2007 and 2008, the authors introduce a method combining Bayesian nonparametric modeling with a potential outcomes approach to account for interference and spatial spillover effects. Their analysis reveals that airstrikes significantly reduced insurgent violence locally, but also induced short-term increases in violence in nearby regions, illustrating the nuanced and dynamic impact of military interventions over space and time.</p>
+        <p style="margin: 0;">This paper introduces a framework for estimating causal effects in complex spatio-temporal settings, combining Bayesian nonparametrics with a potential outcomes approach. Applied to U.S. airstrikes in Iraq (2007–2008), it finds local reductions in violence but short-term spillover increases nearby, highlighting spatial dynamics of intervention impact.</p>
         <p style="margin: 0;"><a href="https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false"><i class="fa-regular fa-file-pdf"></i>https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false</a> </p>
       </div>
     </div>
@@ -278,7 +278,7 @@ layout: home
       <img src="/assets/images/thumb/DNNST.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Comparison of Deep Neural Networks and Deep Hierarchical Models for Spatio-Temporal Data</p>
-        <p style="margin: 0;">This paper examines the strengths and limitations of two modeling approaches for complex spatio-temporal processes. It contrasts hierarchical dynamic spatio-temporal models (H-DSTMs), which offer interpretability and uncertainty quantification but can be computationally intensive, with deep neural networks, known for their flexibility and scalability but often lacking probabilistic frameworks. The study explores hybrid models that integrate elements from both paradigms, aiming to leverage their respective advantages for improved modeling of high-dimensional, nonlinear spatio-temporal data.</p>
+        <p style="margin: 0;">This paper compares hierarchical dynamic spatio-temporal models (H-DSTMs) and deep neural networks for modeling complex spatio-temporal processes. It discusses trade-offs between interpretability and scalability, and explores hybrid models that combine their strengths for high-dimensional, nonlinear data.</p>
         <p style="margin: 0;"><a href="https://link.springer.com/article/10.1007/s13253-019-00361-7"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/article/10.1007/s13253-019-00361-7</a> </p>
       </div>
     </div>
@@ -290,7 +290,7 @@ layout: home
       <img src="/assets/images/thumb/Connection between climatic change and international food prices.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Connection Between Climatic Change and International Food Prices: Evidence from Robust Long-Range Cross-Correlation and Variable-Lag Transfer Entropy with Sliding Windows Approach</p>
-        <p style="margin: 0;">This paper investigates how fluctuations in the North Atlantic Oscillation (NAO) index, a key climate indicator, affect global food prices. Utilizing advanced statistical methods, including a robust bivariate Hurst exponent and variable-lag transfer entropy within a sliding windows framework, the study analyzes daily data from January 2020 to May 2022. The findings reveal significant positive correlations and causal relationships between NAO index changes and price fluctuations in major agricultural commodities such as corn, wheat, soybeans, and oats, across both short- and long-term periods. These results suggest that the NAO index can serve as a predictive factor for international food price movements, offering valuable insights for policymakers aiming to enhance food security amidst climate variability.</p>
+        <p style="margin: 0;">This paper analyzes the impact of North Atlantic Oscillation (NAO) index fluctuations on global food prices using daily data (Jan 2020–May 2022). Applying advanced statistical methods, it finds significant short- and long-term correlations and causal links between NAO changes and major crop prices, highlighting NAO's predictive value for food security planning.</p>
         <p style="margin: 0;"><a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1"><i class="fa-regular fa-file-pdf"></i>https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00482-1</a> </p>
       </div>
     </div>
@@ -374,7 +374,7 @@ layout: home
       <img src="/assets/images/thumb/Bayesian neural fields.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Scalable Spatiotemporal Prediction with Bayesian Neural Fields</p>
-        <p style="margin: 0;">This paper introduces Bayesian Neural Fields (BayesNF), a statistical model designed for analyzing large-scale spatiotemporal datasets. BayesNF combines deep neural networks with hierarchical Bayesian inference to provide accurate predictions and robust uncertainty quantification. The model has demonstrated improved performance over existing methods in tasks such as forecasting and interpolation across various domains, including climate science and public health. An open-source software implementation is available, optimized for GPU and TPU accelerators via the JAX machine learning platform.</p>
+        <p style="margin: 0;">This paper presents Bayesian Neural Fields (BayesNF), a model that integrates deep neural networks with hierarchical Bayesian inference for large-scale spatiotemporal data. BayesNF offers accurate predictions with uncertainty quantification and outperforms existing methods in domains like climate and public health. It is implemented in JAX with GPU/TPU support.</p>
         <p style="margin: 0;"><a href="https://www.nature.com/articles/s41467-024-51477-5"><i class="fa-regular fa-file-pdf"></i>https://www.nature.com/articles/s41467-024-51477-5</a> </p>
       </div>
     </div>
@@ -398,7 +398,7 @@ layout: home
       <img src="/assets/images/thumb/SST.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Statistics for Spatio-Temporal Data</p>
-        <p style="margin: 0;">This book offers a comprehensive framework for analyzing data that vary across both space and time. Emphasizing hierarchical statistical modeling, the authors integrate spatial and temporal dependencies to address complex real-world phenomena. The text covers foundational concepts in spatial and temporal processes, explores exploratory data analysis techniques, and delves into advanced topics such as hierarchical dynamical spatio-temporal models. Through practical examples and case studies, the book illustrates applications in fields like environmental science, climate studies, and public health, providing readers with tools to model, infer, and predict spatio-temporal dynamics effectively.</p>
+        <p style="margin: 0;">This book provides a comprehensive guide to modeling data across space and time using hierarchical statistical methods. It covers foundational concepts, exploratory techniques, and advanced spatio-temporal models, with practical applications in environmental science, climate studies, and public health.</p>
         <p style="margin: 0;"><a href="https://download.e-bookshelf.de/download/0004/0172/80/L-G-0004017280-0009119041.pdf"><i class="fa-regular fa-file-pdf"></i>https://download.e-bookshelf.de/download/0004/0172/80/L-G-0004017280-0009119041.pdf</a> </p>
       </div>
     </div>
