@@ -14,7 +14,7 @@ layout: home
       <img src="/assets/images/thumb/maya_okawa_multi_modal_model_paper.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Deep Mixture Point Processes: Spatio-temporal Event Prediction with Rich Contextual Information</p>
-        <p style="margin: 0;">This paper, published in June 2021, proposes DMPP (Deep Mixture Point Processes), a point process model for predicting spatio-temporal events with the use of rich contextual information; it incorporates heterogeneous and high-dimensional context available in image and text data. They design the intensity of their point process model as a mixture of kernels, where the mixture weights are modeled by a deep neural network. This allows to automatically learn the complex nonlinear effects of the contextual factors on event occurrence.</p>
+        <p style="margin: 0;">This paper introduces DMPP (Deep Mixture Point Processes), a model for predicting spatio-temporal events using high-dimensional context from images and text. It models intensity as a kernel mixture with weights learned by a neural network to capture complex contextual effects.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/1906.08952"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/1906.08952</a> </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ layout: home
       <img src="/assets/images/thumb/DKMPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Integration-free Training for Spatio-temporal Multimodal Covariate Deep Kernel Point Processes</p>
-        <p style="margin: 0;">This paper, published in November 2023, proposes a novel deep spatio-temporal point process model, Deep Kernel Mixture Point Processes (DKMPP), that incorporates multimodal covariate information, utilizes an integration-free method based on score matching, and improves efficiency by adopting a scalable denoising score matching method.</p>
+        <p style="margin: 0;">This paper presents DKMPP, a deep STPP model that integrates multimodal covariates and uses scalable denoising score matching for efficient, integration-free training.</p>
         <p style="margin: 0;"><a href="https://openreview.net/pdf?id=Yvpenkym8A"><i class="fa-regular fa-file-pdf"></i>https://openreview.net/pdf?id=Yvpenkym8A</a> </p>
       </div>
     </div>
@@ -38,7 +38,7 @@ layout: home
       <img src="/assets/images/thumb/DeepSTPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Point Process for Learning Spatiotemporal Event Dynamics</p>
-        <p style="margin: 0;">This paper, published in 2023, proposes Deep Spatiotemporal Point Process (DeepSTPP), a deep dynamics model that integrates spatiotemporal point processes. This method can accurately forecast irregularly sampled events over space and time. The key construction is the nonparametric space-time intensity function, governed by a latent process. They used synthetic and real-world data.</p>
+        <p style="margin: 0;">This paper introduces DeepSTPP, a deep dynamics model for forecasting irregular spatiotemporal events using a nonparametric space-time intensity function governed by a latent process. </p>
         <p style="margin: 0;"><a href="https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf"><i class="fa-regular fa-file-pdf"></i>https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf</a> </p>
       </div>
     </div>
@@ -50,7 +50,7 @@ layout: home
       <img src="/assets/images/thumb/neural_spatiotemporal_point_processes_trends_and_challenges.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Spatiotemporal Point Processes: Trends and Challenges</p>
-        <p style="margin: 0;">This paper, published in February 2025, discusses STPPs, probabilistic models for events occurring in continuous space and time; they categorize existing approaches, unify key design choices, explain the challenges of working with this data modality, identify open challenges, and gaps in the literature. They describe the applications possible in various datasets, such as natural disasters, crimes, and traffic.</p>
+        <p style="margin: 0;">This paper reviews STPPs categorizing existing models, unifying key design choices, and highlighting challenges and open problems. It also outlines applications across domains like natural disasters, crime, and traffic.</p>
         <p style="margin: 0;"><a href="https://arxiv.org/pdf/2502.09341v1"><i class="fa-regular fa-file-pdf"></i>https://arxiv.org/pdf/2502.09341v1</a> </p>
       </div>
     </div>
@@ -62,7 +62,7 @@ layout: home
       <img src="/assets/images/thumb/a_review-of_self_exciting_spatio_temporalpoint_processes_and_their_applications.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Review of Self-Exciting Spatio-Temporal Point Processes and Their Applications</p>
-        <p style="margin: 0;">This paper, published in August 2018, the basic theory, survey-related estimation, and inference techniques, highlights several key applications and suggests directions for future research. and highlights self-exciting models when spatio-temporal point processes can be divided into clusters of events triggered by common causes.</p>
+        <p style="margin: 0;">This paper reviews the theory, estimation, and inference of STPPs, emphasizing self-exciting models where events cluster around common causes. It also highlights key applications and future research directions.</p>
         <p style="margin: 0;"><a href="https://surl.li/oekoqa"><i class="fa-regular fa-file-pdf"></i>https://surl.li/oekoqa</a> </p>
       </div>
     </div>
