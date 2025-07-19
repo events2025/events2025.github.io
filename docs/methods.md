@@ -147,7 +147,7 @@ layout: home
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">A Mathematical, Classical Stratification Modeling Approach to Disentangling the Impact of Weather on Infectious Diseases: A Case Study Using Spatio-Temporally Disaggregated Campylobacter Surveillance Data for England and Wales</p>
         <p style="margin: 0;">This paper introduces a conditional incidence method to assess weather's impact on infectious disease transmission, using campylobacteriosis as a case study. It finds a 5°C temperature rise (8°–15°C range) increases incidence by 1 case per million people.</p>
-        <p style="margin: 0;"><a href="https://pubmed.ncbi.nlm.nih.gov/38236828/"><i class="fa-regular fa-file-pdf"></i>https://pubmed.ncbi.nlm.nih.gov/38236828/</a> </p>
+        <p style="margin: 0;"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011714"><i class="fa-regular fa-file-pdf"></i>https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011714</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
