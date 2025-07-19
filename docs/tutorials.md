@@ -38,7 +38,7 @@ layout: home
       <img src="/assets/images/thumb/NYC Motor Vehicle Collisions.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(194 30 86); font-size: 1.3em; font-weight: bold;">NYC Motor Vehicle Collisions</p>
-        <p style="margin: 0;">This tutorial explores motor vehicle collision data in New York City with the goal of identifying trends and patterns that could inform traffic safety measures and urban planning. It leverages data visualization tools, such as heatmaps and time-series plots, to analyze collision distributions across time and space and to highlight high-risk zones. The dataset used includes detailed records of motor vehicle collisions, providing information on dates, times, locations, contributing factors, and the impact on individuals involved, including injuries and fatalities.</p>
+        <p style="margin: 0;">This tutorial analyzes NYC collision data with heatmaps and time‑series plots to reveal temporal and spatial crash patterns, informing safety and planning.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/code/skhiearth/nyc-motor-vehicle-collisions"><i class="fa-regular fa-file-pdf"></i>https://www.kaggle.com/code/skhiearth/nyc-motor-vehicle-collisions</a> </p>
       </div>
     </div>

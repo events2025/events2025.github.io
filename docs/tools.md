@@ -26,7 +26,7 @@ layout: home
       <img src="/assets/images/thumb/EasyTPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">EasyTPP</p>
-        <p style="margin: 0;">EasyTPP is a comprehensive benchmarking tool designed to advance research in temporal point processes (TPPs), which are crucial for modeling continuous-time event sequences across domains like healthcare, finance, and social networks. The motivation behind EasyTPP is to address the lack of a standardized framework, which impedes fair comparison, reproducibility, and progress in TPP research. The tool offers a unified interface for datasets, an array of evaluation methods, implementations of popular neural TPP models, and modular components for building and extending new models, supporting both PyTorch and TensorFlow frameworks. Some of the included datasets are synthetic Hawkes process data, Amazon user reviews, NYC taxi events, Taobao user clicks, Retweet sequences, and StackOverflow badges.</p>
+        <p style="margin: 0;">EasyTPP is a benchmarking framework for temporal point processes (TPP), unifying datasets, evaluation methods, and implementations (PyTorch/TensorFlow) of popular neural TPP models.</p>
         <p style="margin: 0;"><a href="https://github.com/ant-research/EasyTemporalPointProcess"><i class="fa-regular fa-file-pdf"></i>https://github.com/ant-research/EasyTemporalPointProcess</a> </p>
       </div>
     </div>

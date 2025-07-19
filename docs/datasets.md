@@ -337,17 +337,6 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/uk_biobank.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">UK Biobank</p>
-        <p style="margin: 0;">The UK Biobank is a comprehensive biomedical research resource containing health information from 500,000 participants. Requires a special request per dataset and is typically granted to approved researchers after an application and approval process.</p>
-        <p style="margin: 0;"><a href="https://www.ukbiobank.ac.uk/"><i class="fa-regular fa-file-pdf"></i> https://www.ukbiobank.ac.uk/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/USA_COVID_19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA COVID-19</p>
@@ -412,17 +401,6 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spectus</p>
         <p style="margin: 0;">The Spectus API provides context data for human mobility analytics with longitude and latitude and density measurements. It dates from 2019 and provides real-time data.  Subscription payments are required.</p>
         <p style="margin: 0;"><a href="https://docs.spectus.ai/"><i class="fa-regular fa-file-pdf"></i> https://docs.spectus.ai/</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
-        <p style="margin: 0;">the data was originally retrieved from the U.S. Environmental Protection Agency (EPA).</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a></p>
       </div>
     </div>
   </div>
@@ -686,11 +664,33 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/uk_biobank.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">UK Biobank</p>
+        <p style="margin: 0;">The UK Biobank is a comprehensive biomedical research resource containing health information from 500,000 participants. Requires a special request per dataset and is typically granted to approved researchers after an application and approval process.</p>
+        <p style="margin: 0;"><a href="https://www.ukbiobank.ac.uk/"><i class="fa-regular fa-file-pdf"></i> https://www.ukbiobank.ac.uk/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/usa_gun_violence.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Gun Violence</p>
         <p style="margin: 0;">This events dataset contains the date and country-level locations from 2013 to 2022 for around 472 thousand records for gun violence incidents and mass shootings in the USA. This data was originally retrieved from the Gun Violence Archive organization.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
+        <p style="margin: 0;">the data was originally retrieved from the U.S. Environmental Protection Agency (EPA).</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a></p>
       </div>
     </div>
   </div>
