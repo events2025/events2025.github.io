@@ -568,7 +568,7 @@ layout: home
       <img src="/assets/images/thumb/humanitarian_data_exchange_(HDX).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Humanitarian Data Exchange (HDX)</p>
-        <p style="margin: 0;">HDX offers a vast collection of humanitarian datasets, such as crisis data, and contains dates, longitude, and latitude. It includes varying historical depths. Some datasets provide information spanning several years, while others focus on more recent data. Freely available with some data needing a request for access.</p>
+        <p style="margin: 0;">HDX provides a wide range of humanitarian datasets with spatial and temporal information, including crisis data of varying historical depth. Most datasets are freely available, though some require access requests.</p>
         <p style="margin: 0;"><a href="https://data.humdata.org/"><i class="fa-regular fa-file-pdf"></i> https://data.humdata.org/</a></p>
       </div>
     </div>
