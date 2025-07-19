@@ -27,7 +27,7 @@ layout: home
       <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">GIScience</p>
-        <p style="margin: 0;">The International Conference on Geographic Information Science (GIScience) is a leading biennial event that brings together global researchers from geography, computer science, cognitive science, and related fields to advance foundational and applied research in spatial data analysis, geovisualization, spatial cognition, GeoAI, and geosimulation. It features peer-reviewed papers, workshops, and poster sessions, fostering interdisciplinary collaboration and shaping the future of geographic information science.</p>
+        <p style="margin: 0;">The International Conference on Geographic Information Science (GIScience) is a top biennial event uniting global researchers to advance spatial analysis, geovisualization, GeoAI, and geosimulation. It features peer-reviewed papers, workshops, and posters, promoting interdisciplinary collaboration.</p>
         <p style="margin: 0;"><a href="https://giscience2025.org/"><i class="fa-regular fa-file-pdf"></i>https://giscience2025.org/</a> </p>
       </div>
     </div>
