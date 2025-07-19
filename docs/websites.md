@@ -39,7 +39,7 @@ layout: home
       <img src="/assets/images/thumb/Websites-LLMsforTS.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">Large (Language) Models and Foundation Models (LLM, LM, FM) for Time Series and Spatio-Temporal Data</p>
-        <p style="margin: 0;">This github repository offers a curated list of resources on large language and foundation models for temporal data, including time series, spatio-temporal, and event data, aiming to systematically summarize recent advancements in this field.</p>
+        <p style="margin: 0;">This GitHub repository compiles resources on large language and foundation models for temporal, spatio-temporal, and event data, offering a structured overview of recent developments in the field.</p>
         <p style="margin: 0;"><a href="https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM"><i class="fa-regular fa-file-pdf"></i>https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM</a> </p>
       </div>
     </div>

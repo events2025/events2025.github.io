@@ -326,7 +326,7 @@ layout: home
       <img src="/assets/images/thumb/conflict-logo.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">In Data We Trust? A Comparison of UCDP GED and ACLED Conflict Events Datasets</p>
-        <p style="margin: 0;">This paper examines the strengths and weaknesses of two prominent conflict event datasets, the UCDP Georeferenced Event Dataset (UCDP GED) and the Armed Conflict Location and Event Dataset (ACLED), which have facilitated microlevel analyses of civil war dynamics. It discusses differences in scope, definitions, and data collection processes, highlighting issues like UCDP GED’s focus on fatalities and ACLED’s inclusion of non-fatal and non-violent events. The paper uses georeferenced, disaggregated event data, primarily from Africa, detailing specific cases to evaluate coding quality and methodological challenges in both datasets.</p>
+        <p style="margin: 0;">This paper compares two major conflict event datasets UCDP GED and ACLED highlighting differences in scope, definitions, and data collection. Focusing on African case studies, it evaluates coding quality and methodological challenges, including UCDP’s fatality focus versus ACLED’s broader event inclusion.</p>
         <p style="margin: 0;"><a href="https://journals.sagepub.com/doi/10.1177/0010836711434463"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/doi/10.1177/0010836711434463</a> </p>
       </div>
     </div>

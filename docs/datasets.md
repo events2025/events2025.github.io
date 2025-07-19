@@ -355,7 +355,7 @@ layout: home
       <img src="/assets/images/thumb/Disaster Ninja.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Disaster Ninja</p>
-        <p style="margin: 0;">Disaster Ninja is a geospatial tool developed by Kontur Inc. to assist in disaster management by providing information on recent natural disasters, visualizing mapping gaps, and facilitating connections with local contributors for ground truth verification. It integrates various datasets, including population density, OpenStreetMap data, and active contributor information, enabling humanitarian organizations to efficiently prepare and prioritize mapping tasks</p>
+        <p style="margin: 0;">Disaster Ninja, is a geospatial tool for disaster management that visualizes recent natural disasters, mapping gaps, and contributor activity. It integrates datasets like population density and OpenStreetMap to help humanitarian organizations prioritize and coordinate mapping efforts.</p>
         <p style="margin: 0;"><a href="https://disaster.ninja/"><i class="fa-regular fa-file-pdf"></i> https://disaster.ninja/</a></p>
       </div>
     </div>
