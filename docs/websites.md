@@ -63,7 +63,7 @@ layout: home
       <img src="/assets/images/thumb/Spatialedge.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 95, 31); font-size: 1.3em; font-weight: bold;">The Spatial Edge</p>
-        <p style="margin: 0;">The Spatial Edge is a weekly blog on geospatial data science and economics, featuring curated research, datasets, and commentary on topics like nightlights and spatial inequality. It’s read by experts at NASA, Google, and top universities, and includes practical tutorials for real-world applications.</p>
+        <p style="margin: 0;">The Spatial Edge is a weekly blog on geospatial data science and economics, featuring curated research, datasets, and commentary on topics like nightlights and spatial inequality. It includes practical tutorials for real-world applications.</p>
         <p style="margin: 0;"><a href="https://www.spatialedge.co/"><i class="fa-regular fa-file-pdf"></i>https://www.spatialedge.co/</a> </p>
       </div>
     </div>
