@@ -36,11 +36,35 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/COSIT.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">Conference on Spatial Information Theory</p>
+        <p style="margin: 0;">The conference focuses on the theoretical aspects of geographic information science, improving the fundamental understanding of spatial information, which ranges from cognitive modeling to formal representation.</p>
+        <p style="margin: 0;"><a href="https://geosensor.net/"><i class="fa-regular fa-file-pdf"></i>https://geosensor.net/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">GIScience</p>
         <p style="margin: 0;">The International Conference on Geographic Information Science (GIScience) is a top biennial event uniting global researchers to advance spatial analysis, geovisualization, GeoAI, and geosimulation. It features peer-reviewed papers, workshops, and posters, promoting interdisciplinary collaboration.</p>
         <p style="margin: 0;"><a href="https://giscience2025.org/"><i class="fa-regular fa-file-pdf"></i>https://giscience2025.org/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/geomed.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">GeoMed Conference</p>
+        <p style="margin: 0;">An international conference at the intersection of geospatial science and medical/health applications, promoting cross-disciplinary research on environment, space, and health outcomes.</p>
+        <p style="margin: 0;"><a href="https://geomed-conference.com/"><i class="fa-regular fa-file-pdf"></i>https://geomed-conference.com/</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
