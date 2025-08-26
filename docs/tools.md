@@ -71,6 +71,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/geemap.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Geemap</p>
+        <p style="margin: 0;">is a Python package for interactive geospatial analysis and visualization with Google Earth Engine. It offers powerful features like automated code conversion and split-panel maps. With extensive documentation and examples, it serves as an ideal toolkit for exploring Earth Engine data.</p>
+        <p style="margin: 0;"><a href="https://github.com/gee-community/geemap"><i class="fa-regular fa-file-pdf"></i>https://github.com/gee-community/geemap</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/generative_neural_temporal_point_proces_(gntpp).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(255, 191, 0); font-size: 1.3em; font-weight: bold;">Generative Neural Temporal Point Proces (GNTPP)</p>
