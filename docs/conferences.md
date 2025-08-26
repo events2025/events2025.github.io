@@ -48,6 +48,18 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/urbananalytics.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">Environment and Planning B: Urban Analytics and City Science</p>
+        <p style="margin: 0;">This journal focuses on quantitative urban research, city analytics, geospatial modeling, and computational methods for urban systems.</p>
+        <p style="margin: 0;"><a href="https://journals.sagepub.com/home/epb"><i class="fa-regular fa-file-pdf"></i>https://journals.sagepub.com/home/epb</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/spatial.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">GIScience</p>
@@ -65,6 +77,18 @@ layout: home
         <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">GeoMed Conference</p>
         <p style="margin: 0;">An international conference at the intersection of geospatial science and medical/health applications, promoting cross-disciplinary research on environment, space, and health outcomes.</p>
         <p style="margin: 0;"><a href="https://geomed-conference.com/"><i class="fa-regular fa-file-pdf"></i>https://geomed-conference.com/</a> </p>
+      </div>
+    </div>
+    <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/jabes.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: darkblue; font-size: 1.3em; font-weight: bold;">Journal of Agricultural, Biological and Environmental Statistics</p>
+        <p style="margin: 0;">This journal focuses on statistical methodologies and their applications in agriculture, biology, and environmental sciences, connecting theoretical concepts with practical data analysis. It is particularly relevant for event modeling.</p>
+        <p style="margin: 0;"><a href="https://link.springer.com/journal/13253"><i class="fa-regular fa-file-pdf"></i>https://link.springer.com/journal/13253</a> </p>
       </div>
     </div>
     <!-- <div style="color: lightgray; align-self: flex-start; margin-left: 10px; white-space: nowrap; font-size: 200%;">2022</div>  -->
