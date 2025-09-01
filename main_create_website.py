@@ -3,106 +3,111 @@ import re
 import os
 import shutil
 
-# Define the mapping between Markdown files and their corresponding filter terms
+# Which markdown gets which CSV
 files_to_process = [
-    ('websites.md', 'website'),
-    ('datasets.md', 'dataset'),
-    ('tools.md', 'tool'),
-    ('conferences.md', 'conference'),
-    ('methods.md', 'method'),
-    ('tutorials.md', 'tutorial')
+    ('websites.md', 'data/websites.csv'),
+    ('datasets.md', 'data/datasets.csv'),
+    ('tools.md', 'data/tools.csv'),
+    ('tutorials.md', 'data/tutorials.csv'),
+    ('methods.md', 'data/papers_methods.csv'),
+    ('conferences.md', 'data/venues_conference_journals.csv'),
 ]
 
-# Path to the CSV file
-csv_file_path = 'data/Add Item to "Events in Context" Knowledge Base.csv'
-
-# Read the CSV file once
-try:
-    df = pd.read_csv(csv_file_path, encoding='utf-8')
-except FileNotFoundError:
-    print(f"CSV file not found at path: {csv_file_path}")
-    exit(1)
-except pd.errors.EmptyDataError:
-    print("CSV file is empty.")
-    exit(1)
-except Exception as e:
-    print(f"An error occurred while reading the CSV file: {e}")
-    exit(1)
-
-# --- MODIFIED: Use existing Subsection column for datasets ---
-# Check if Subsection column exists (try both cases)
-subsection_col = None
-if 'Subsection' in df.columns:
-    subsection_col = 'Subsection'
-elif 'subsection' in df.columns:
-    subsection_col = 'subsection'
-
-if subsection_col:
-    print(f"Found subsection column: {subsection_col}")
-    
-    # For datasets, use the existing Subsection values directly
-    dataset_mask = df['Type'].str.lower().str.contains('dataset', na=False)
-    
-    # Define the three new context categories
-    context_categories = [
-        'Contexts (Environment & Climate)',
-        'Contexts (Misc Data & APIs)',
-        'Contexts (Population Data & Mobility)'
-    ]
-    
-    # Only keep datasets that have valid subsection values
-    # This includes the new context categories and 'Events'
-    valid_subsections = context_categories + ['Events', 'events', 'event', 'EVENT']
-    
-    # For datasets, standardize subsection values
-    df.loc[dataset_mask, 'Subsection'] = df.loc[dataset_mask, subsection_col].apply(
-        lambda x: 'Events' if str(x).lower() in ['events', 'event'] 
-                 else str(x)  # Keep original value for context categories
-    )
-    
-    print(f"Dataset subsection values found: {df[dataset_mask]['Subsection'].unique()}")
-else:
-    print("Warning: No 'Subsection' or 'subsection' column found in CSV.")
-    df['Subsection'] = 'Contexts (Environment & Climate)'  # Default fallback to first context category
-
-# Sort globally so that datasets are grouped by subsection
-df = df.sort_values(['Subsection', 'Title']).reset_index(drop=True)
-
-# Define a function to clean the title
-def clean_title(title):
+# Helpers
+def clean_title(title: str) -> str:
     title = re.sub(r'[^\w\s-]', '', str(title))
-    title = title.replace(' ', '_').lower()
-    return title
+    return title.replace(' ', '_').lower()
 
-# Process each row's image entry
-for idx, row in df.iterrows():
-    image = str(row.get('Image',''))
-    if "assets/images/thumb" not in image:
-        title = row['Title']
-        cleaned_title = clean_title(title)
-        new_image_path = f'assets/images/thumb/{cleaned_title}.jpg'
-        df.at[idx, 'Image'] = "/" + new_image_path
-        src = 'assets/images/logo.jpg'
-        dst = new_image_path
-        if not os.path.exists(dst):
-            try:
-                shutil.copy(src, dst)
-            except Exception as e:
-                print(f"Error copying image for '{title}': {e}")
-
-# Substitute placeholders in the template
-def substitute_placeholders(text, row):
+def substitute_placeholders(text: str, row: pd.Series) -> str:
     placeholders = re.findall(r'\(\((.*?)\)\)', text)
     for placeholder in placeholders:
         key = placeholder.strip()
         value = str(row.get(key, ''))
+        # escape a couple latex-y chars so templates don't break
         value = value.replace('\\', '\\\\').replace('$', '\\$')
         text = text.replace(f'(({placeholder}))', value)
     return text
 
-# Iterate over each markdown file
-for markdown_filename, filter_term in files_to_process:
-    print(f"Processing {markdown_filename} with filter '{filter_term}'...")
+def ensure_image_thumb(row: pd.Series) -> str:
+    """Ensure Image points to /assets/images/thumb/<cleaned>.jpg, copying a default if missing."""
+    os.makedirs('assets/images/thumb', exist_ok=True)
+    img = str(row.get('Image', ''))
+    if "assets/images/thumb" in img:
+        # normalize to leading slash
+        return img if img.startswith("/") else "/" + img
+    title = row.get('Title', 'item')
+    cleaned = clean_title(title)
+    new_rel = f"assets/images/thumb/{cleaned}.jpg"
+    new_abs = new_rel  # same repo relative path
+    src = 'assets/images/logo.jpg'   # default placeholder image
+    if not os.path.exists(new_abs):
+        try:
+            shutil.copy(src, new_abs)
+        except Exception as e:
+            print(f"Error copying default image for '{title}': {e}")
+    return "/" + new_rel
+
+# Render each markdown from its CSV
+for markdown_filename, csv_path in files_to_process:
+    print(f"\n==> Building {markdown_filename} from {csv_path}")
+
+    # Read the CSV for this page
+    try:
+        df = pd.read_csv(csv_path, encoding='utf-8')
+    except FileNotFoundError:
+        print(f"CSV not found: {csv_path}. Skipping {markdown_filename}.")
+        continue
+    except pd.errors.EmptyDataError:
+        print(f"CSV is empty: {csv_path}. Skipping {markdown_filename}.")
+        continue
+    except Exception as e:
+        print(f"Error reading {csv_path}: {e}. Skipping {markdown_filename}.")
+        continue
+
+    # Normalize required columns minimally (do NOT rename — templates expect exact keys)
+    # Fill missing Image with generated thumb; sort for stable output
+    if 'Title' not in df.columns:
+        print(f"Warning: 'Title' column missing in {csv_path}. Output order may be arbitrary.")
+        df['_TitleSort'] = range(len(df))
+        sort_cols = ['_TitleSort']
+    else:
+        sort_cols = ['Title']
+
+    # Datasets-specific handling for Subsection grouping
+    if markdown_filename == 'datasets.md':
+        # ensure Subsection exists
+        subsection_col = 'Subsection' if 'Subsection' in df.columns else ('subsection' if 'subsection' in df.columns else None)
+        if subsection_col is None:
+            print("Warning: No 'Subsection' column found; defaulting to 'Contexts (Environment & Climate)'.")
+            df['Subsection'] = 'Contexts (Environment & Climate)'
+        elif subsection_col != 'Subsection':
+            df['Subsection'] = df[subsection_col]
+
+        # Standardize dataset subsections (keep 3 contexts + Events)
+        context_categories = [
+            'Contexts (Environment & Climate)',
+            'Contexts (Misc Data & APIs)',
+            'Contexts (Population Data & Mobility)',
+        ]
+        df['Subsection'] = df['Subsection'].apply(
+            lambda x: 'Events' if str(x).strip().lower() in {'event', 'events'} else str(x)
+        )
+
+        # Sort by Subsection then Title
+        sort_cols = (['Subsection'] + sort_cols) if 'Title' in df.columns else ['Subsection']
+
+    # Ensure Image column exists and populate thumbs
+    if 'Image' not in df.columns:
+        df['Image'] = ''
+    df['Image'] = df.apply(ensure_image_thumb, axis=1)
+
+    # Sorting
+    try:
+        df = df.sort_values(sort_cols).reset_index(drop=True)
+    except Exception:
+        pass  # if sort columns are inconsistent, just keep original order
+
+    # Load template
     template_path = f'docs/{markdown_filename}.template'
     try:
         with open(template_path, 'r', encoding='utf-8') as f:
@@ -116,40 +121,32 @@ for markdown_filename, filter_term in files_to_process:
     i1 = md.find(start_c)
     i2 = md.find(stop_c, i1)
     if i1 == -1 or i2 == -1:
-        print(f"No START/STOP in {markdown_filename}. Skipping.")
+        print(f"No START/STOP markers in {markdown_filename}. Skipping.")
         continue
     block = md[i1+len(start_c):i2].strip()
 
-    # Filter rows
-    df_filt = df[df['Type'].str.lower().str.contains(filter_term.lower(), na=False)]
-
-    # For datasets.md, group by Subsection using the existing subsection column
+    # Build generated content
     generated = ''
     if markdown_filename == 'datasets.md':
-        # Show the three context categories and Events sections for datasets
         sections_to_show = [
             'Contexts (Environment & Climate)',
             'Contexts (Misc Data & APIs)',
             'Contexts (Population Data & Mobility)',
-            'Events'
+            'Events',
         ]
-        
         for section in sections_to_show:
-            sub_df = df_filt[df_filt['Subsection'] == section]
+            sub_df = df[df['Subsection'] == section] if 'Subsection' in df.columns else pd.DataFrame([])
             if not sub_df.empty:
                 generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
                 for _, row in sub_df.iterrows():
                     generated += substitute_placeholders(block, row) + "\n\n"
     else:
-        # all others: simple flat list
-        for _, row in df_filt.iterrows():
+        for _, row in df.iterrows():
             generated += substitute_placeholders(block, row) + "\n\n"
 
-    # rebuild the file content
+    # Rebuild and write out page
     new_block = f"{start_c}\n{generated.strip()}\n{stop_c}"
     md = md[:i1] + new_block + md[i2+len(stop_c):]
-
-    # write out
     out_path = f'docs/{markdown_filename}'
     try:
         with open(out_path, 'w', encoding='utf-8') as f:
@@ -158,4 +155,4 @@ for markdown_filename, filter_term in files_to_process:
     except Exception as e:
         print(f"Error writing {out_path}: {e}")
 
-print("All specified Markdown files have been processed.")
+print("\nAll pages processed.")
