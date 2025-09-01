@@ -9,8 +9,8 @@ files_to_process = [
     ('datasets.md', 'data/datasets.csv'),
     ('tools.md', 'data/tools.csv'),
     ('tutorials.md', 'data/tutorials.csv'),
-    ('methods.md', 'data/papers_methods.csv'),
-    ('conferences.md', 'data/venues_conference_journals.csv'),
+    ('methods.md', 'data/papers_methods.csv'),  # Papers & Methods
+    ('conferences.md', 'data/venues_conferences_journals.csv'),  # single combined file
 ]
 
 # Helpers
@@ -20,38 +20,50 @@ def clean_title(title: str) -> str:
 
 def substitute_placeholders(text: str, row: pd.Series) -> str:
     placeholders = re.findall(r'\(\((.*?)\)\)', text)
+    out = text
     for placeholder in placeholders:
         key = placeholder.strip()
         value = str(row.get(key, ''))
-        # escape a couple latex-y chars so templates don't break
         value = value.replace('\\', '\\\\').replace('$', '\\$')
-        text = text.replace(f'(({placeholder}))', value)
-    return text
+        out = out.replace(f'(({placeholder}))', value)
+    return out
 
 def ensure_image_thumb(row: pd.Series) -> str:
     """Ensure Image points to /assets/images/thumb/<cleaned>.jpg, copying a default if missing."""
     os.makedirs('assets/images/thumb', exist_ok=True)
-    img = str(row.get('Image', ''))
-    if "assets/images/thumb" in img:
-        # normalize to leading slash
-        return img if img.startswith("/") else "/" + img
+    img = str(row.get('Image', '')).strip()
+    if 'assets/images/thumb' in img:
+        return img if img.startswith('/') else '/' + img
     title = row.get('Title', 'item')
     cleaned = clean_title(title)
-    new_rel = f"assets/images/thumb/{cleaned}.jpg"
-    new_abs = new_rel  # same repo relative path
+    new_rel = f'assets/images/thumb/{cleaned}.jpg'
     src = 'assets/images/logo.jpg'   # default placeholder image
-    if not os.path.exists(new_abs):
+    if not os.path.exists(new_rel):
         try:
-            shutil.copy(src, new_abs)
+            shutil.copy(src, new_rel)
         except Exception as e:
             print(f"Error copying default image for '{title}': {e}")
-    return "/" + new_rel
+    return '/' + new_rel
 
-# Render each markdown from its CSV
+def _parse_year(y):
+    try:
+        return int(str(y)[:4])
+    except Exception:
+        return None
+
+def _standardize_subsection(x):
+    s = str(x).strip().lower()
+    if 'conference' in s or s == 'conf' or s == 'conferences':
+        return 'conference'
+    if 'journal' in s or s == 'journals':
+        return 'journal'
+    return s if s in ('conference', 'journal') else 'journal'  # default
+
+# Render each markdown from its CSV 
 for markdown_filename, csv_path in files_to_process:
     print(f"\n==> Building {markdown_filename} from {csv_path}")
 
-    # Read the CSV for this page
+    # Read CSV
     try:
         df = pd.read_csv(csv_path, encoding='utf-8')
     except FileNotFoundError:
@@ -64,48 +76,18 @@ for markdown_filename, csv_path in files_to_process:
         print(f"Error reading {csv_path}: {e}. Skipping {markdown_filename}.")
         continue
 
-    # Normalize required columns minimally (do NOT rename — templates expect exact keys)
-    # Fill missing Image with generated thumb; sort for stable output
-    if 'Title' not in df.columns:
-        print(f"Warning: 'Title' column missing in {csv_path}. Output order may be arbitrary.")
-        df['_TitleSort'] = range(len(df))
-        sort_cols = ['_TitleSort']
-    else:
-        sort_cols = ['Title']
-
-    # Datasets-specific handling for Subsection grouping
-    if markdown_filename == 'datasets.md':
-        # ensure Subsection exists
-        subsection_col = 'Subsection' if 'Subsection' in df.columns else ('subsection' if 'subsection' in df.columns else None)
-        if subsection_col is None:
-            print("Warning: No 'Subsection' column found; defaulting to 'Contexts (Environment & Climate)'.")
-            df['Subsection'] = 'Contexts (Environment & Climate)'
-        elif subsection_col != 'Subsection':
-            df['Subsection'] = df[subsection_col]
-
-        # Standardize dataset subsections (keep 3 contexts + Events)
-        context_categories = [
-            'Contexts (Environment & Climate)',
-            'Contexts (Misc Data & APIs)',
-            'Contexts (Population Data & Mobility)',
-        ]
-        df['Subsection'] = df['Subsection'].apply(
-            lambda x: 'Events' if str(x).strip().lower() in {'event', 'events'} else str(x)
-        )
-
-        # Sort by Subsection then Title
-        sort_cols = (['Subsection'] + sort_cols) if 'Title' in df.columns else ['Subsection']
-
-    # Ensure Image column exists and populate thumbs
+    # Ensure columns exist
     if 'Image' not in df.columns:
         df['Image'] = ''
-    df['Image'] = df.apply(ensure_image_thumb, axis=1)
+    if 'Title' not in df.columns:
+        df['Title'] = ''
+    if 'URL' not in df.columns:
+        df['URL'] = ''
+    if 'Description' not in df.columns:
+        df['Description'] = ''
 
-    # Sorting
-    try:
-        df = df.sort_values(sort_cols).reset_index(drop=True)
-    except Exception:
-        pass  # if sort columns are inconsistent, just keep original order
+    # Populate/normalize images
+    df['Image'] = df.apply(ensure_image_thumb, axis=1)
 
     # Load template
     template_path = f'docs/{markdown_filename}.template'
@@ -125,9 +107,14 @@ for markdown_filename, csv_path in files_to_process:
         continue
     block = md[i1+len(start_c):i2].strip()
 
-    # Build generated content
     generated = ''
+
+    # Per-page grouping logic
     if markdown_filename == 'datasets.md':
+        subsection_col = 'Subsection' if 'Subsection' in df.columns else None
+        if subsection_col is None:
+            print("Warning: No 'Subsection' in datasets.csv; defaulting to 'Contexts (Environment & Climate)'.")
+            df['Subsection'] = 'Contexts (Environment & Climate)'
         sections_to_show = [
             'Contexts (Environment & Climate)',
             'Contexts (Misc Data & APIs)',
@@ -135,16 +122,57 @@ for markdown_filename, csv_path in files_to_process:
             'Events',
         ]
         for section in sections_to_show:
-            sub_df = df[df['Subsection'] == section] if 'Subsection' in df.columns else pd.DataFrame([])
+            sub_df = df[df['Subsection'] == section].copy()
             if not sub_df.empty:
+                sub_df = sub_df.sort_values(['Title']).reset_index(drop=True)
                 generated += f"\n\n<p class=\"dataset-subsection\">{section}</p>\n\n"
                 for _, row in sub_df.iterrows():
                     generated += substitute_placeholders(block, row) + "\n\n"
+
+    elif markdown_filename == 'methods.md':
+        # Group by Year from old → new
+        if 'Year' not in df.columns:
+            df['Year'] = ''
+        df['_YearInt'] = df['Year'].apply(_parse_year)
+        # Sort by Year ascending, then Title
+        df = df.sort_values(by=['_YearInt', 'Title'], ascending=[True, True])
+        # Known years
+        years = [y for y in df['_YearInt'].dropna().unique()]
+        for y in years:
+            sub_df = df[df['_YearInt'] == y].copy()
+            if not sub_df.empty:
+                generated += f"\n\n<p class=\"paper-year\">{int(y)}</p>\n\n"
+                for _, row in sub_df.iterrows():
+                    generated += substitute_placeholders(block, row) + "\n\n"
+        # Unknown year bucket
+        unk_df = df[df['_YearInt'].isna()].copy()
+        if not unk_df.empty:
+            generated += "\n\n<p class=\"paper-year\">Unknown Year</p>\n\n"
+            unk_df = unk_df.sort_values(['Title']).reset_index(drop=True)
+            for _, row in unk_df.iterrows():
+                generated += substitute_placeholders(block, row) + "\n\n"
+
+    elif markdown_filename == 'conferences.md':
+        # Group by Subsection ∈ {conference, journal}
+        if 'Subsection' not in df.columns:
+            df['Subsection'] = 'journal'
+        df['Subsection'] = df['Subsection'].apply(_standardize_subsection)
+        order = ['conference', 'journal']
+        labels = {'conference': 'Conferences', 'journal': 'Journals'}
+        for sec in order:
+            sub_df = df[df['Subsection'] == sec].copy()
+            if not sub_df.empty:
+                sub_df = sub_df.sort_values(['Title']).reset_index(drop=True)
+                generated += f"\n\n<p class=\"venue-subsection\">{labels[sec]}</p>\n\n"
+                for _, row in sub_df.iterrows():
+                    generated += substitute_placeholders(block, row) + "\n\n"
     else:
+        # Default: simple stream in Title order
+        df = df.sort_values(['Title']).reset_index(drop=True)
         for _, row in df.iterrows():
             generated += substitute_placeholders(block, row) + "\n\n"
 
-    # Rebuild and write out page
+    # Write out
     new_block = f"{start_c}\n{generated.strip()}\n{stop_c}"
     md = md[:i1] + new_block + md[i2+len(stop_c):]
     out_path = f'docs/{markdown_filename}'
