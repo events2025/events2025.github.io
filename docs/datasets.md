@@ -407,11 +407,33 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
+        <p style="margin: 0;">the data was originally retrieved from the U.S. Environmental Protection Agency (EPA).</p>
+        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/un_refugee.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">United Nations High Commissioner for Refugees (UNHCR)</p>
         <p style="margin: 0;">UNHCR provides data for resettlement statistics, population statistics, and refugee statistics through their APIs.</p>
         <p style="margin: 0;"><a href="https://www.unhcr.org/"><i class="fa-regular fa-file-pdf"></i> https://www.unhcr.org/</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/worldpop.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">WorldPop Demographic Mapping</p>
+        <p style="margin: 0;">WorldPop provides high-resolution, open-access population data to support research and policy in low- and middle-income countries. The datasets cover age structure, population density, health metrics, and urbanization trends, all mapped at fine spatial scales. This demographic data is vital for development planning, humanitarian response, and epidemiological modeling.</p>
+        <p style="margin: 0;"><a href="https://hub.worldpop.org/project/categories?id=14"><i class="fa-regular fa-file-pdf"></i> https://hub.worldpop.org/project/categories?id=14</a></p>
       </div>
     </div>
   </div>
@@ -653,6 +675,17 @@ layout: home
 
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
+      <img src="/assets/images/thumb/Spatiotemporal Datasets.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">Spatiotemporal Datasets</p>
+        <p style="margin: 0;">This repository collects datasets for network science, deep learning, and general machine learning research. It includes data such as weekly chickenpox cases in Hungary and bicycle deliveries in London.</p>
+        <p style="margin: 0;"><a href="https://github.com/benedekrozemberczki/spatiotemporal_datasets?tab=readme-ov-file"><i class="fa-regular fa-file-pdf"></i> https://github.com/benedekrozemberczki/spatiotemporal_datasets?tab=readme-ov-file</a></p>
+      </div>
+    </div>
+  </div>
+
+<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
+    <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/uppsala_conflict_data_progam(UCDP).jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">The Uppsala Conflict Data Program (UCDP)</p>
@@ -680,17 +713,6 @@ layout: home
         <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Gun Violence</p>
         <p style="margin: 0;">This events dataset contains the date and country-level locations from 2013 to 2022 for around 472 thousand records for gun violence incidents and mass shootings in the USA. This data was originally retrieved from the Gun Violence Archive organization.</p>
         <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/emmanuelfwerr/gun-violence-incidents-in-the-usa</a></p>
-      </div>
-    </div>
-  </div>
-
-<div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
-    <div style="display: flex; align-items: stretch;">
-      <img src="/assets/images/thumb/usa_population.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
-      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-        <p style="margin: 0; color: rgb(64, 130, 109); font-size: 1.3em; font-weight: bold;">USA Population</p>
-        <p style="margin: 0;">the data was originally retrieved from the U.S. Environmental Protection Agency (EPA).</p>
-        <p style="margin: 0;"><a href="https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021"><i class="fa-regular fa-file-pdf"></i> https://www.kaggle.com/datasets/mohamedmagdy11/usa-county-population-total-20162021</a></p>
       </div>
     </div>
   </div>
