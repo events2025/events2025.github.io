@@ -155,10 +155,10 @@ for markdown_filename, csv_path in files_to_process:
     elif markdown_filename == 'conferences.md':
         # Group by Subsection ∈ {conference, journal}
         if 'Subsection' not in df.columns:
-            df['Subsection'] = 'journal'
+            df['Subsection'] = 'Journal'
         df['Subsection'] = df['Subsection'].apply(_standardize_subsection)
-        order = ['conference', 'journal']
-        labels = {'conference': 'Conferences', 'journal': 'Journals'}
+        order = ['Conference', 'Journal']
+        labels = {'Conference': 'Conferences', 'Journal': 'Journals'}
         for sec in order:
             sub_df = df[df['Subsection'] == sec].copy()
             if not sub_df.empty:
