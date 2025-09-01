@@ -254,7 +254,7 @@ layout: home
       <img src="/assets/images/thumb/DeepSTPP.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
       <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
         <p style="margin: 0; color: purple; font-size: 1.3em; font-weight: bold;">Neural Point Process for Learning Spatiotemporal Event Dynamics</p>
-        <p style="margin: 0;">This paper introduces DeepSTPP, a deep dynamics model for forecasting irregular spatiotemporal events using a nonparametric space-time intensity function governed by a latent process. </p>
+        <p style="margin: 0;">This paper introduces DeepSTPP, a deep dynamics model for forecasting irregular spatiotemporal events using a nonparametric space-time intensity function governed by a latent process.</p>
         <p style="margin: 0;"><a href="https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf"><i class="fa-regular fa-file-pdf"></i>https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf</a> </p>
       </div>
     </div>
