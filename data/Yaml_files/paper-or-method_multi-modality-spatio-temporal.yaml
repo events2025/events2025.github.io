@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:20:43 PM GMT+1
+Type: 🟣 Paper or Method
+Title: Multi-Modality Spatio-Temporal Forecasting via Self-Supervised Learning
+URL: https://arxiv.org/pdf/2405.03255
+Description: This paper introduces MoSSL, a self-supervised learning framework for
+  MoST data that captures latent temporal, spatial, and modality patterns while handling
+  dynamic heterogeneity. Experiments on two real-world datasets show its superiority
+  over state-of-the-art baselines.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/multi_modality_spatio_temporal forecasting.jpg
+Subsection: Spatio-Temporal Correlations

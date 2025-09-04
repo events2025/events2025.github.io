@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:21:26 PM GMT+1
+Type: 🔴 Tutorial
+Title: Bayesian Modelling and Probabilistic Programming with Numpyro, and Deep Generative
+  Surrogates for Epidemiology
+URL: https://elizavetasemenova.github.io/prob-epi/01_intro.html
+Description: This tutorial explores Bayesian modeling topics using NumPyro, covering
+  inference, hierarchical models, spatial Gaussian processes, ODEs, and agent-based
+  models for disease transmission.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/numpyro_figure.jpg
+Subsection: .nan

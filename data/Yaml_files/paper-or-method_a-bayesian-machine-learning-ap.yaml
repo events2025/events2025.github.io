@@ -1,0 +1,12 @@
+Timestamp: 2025/09/04 7:21:00 PM GMT+1
+Type: 🟣 Paper or Method
+Title: A Bayesian Machine Learning Approach for Spatio-Temporal Prediction of COVID-19
+  Cases
+URL: https://link.springer.com/article/10.1007/s00477-021-02168-w#
+Description: This paper proposes a Bayesian neural network model for predicting COVID-19
+  cases across regions and time, incorporating mobility, spatial proximity, and temporal
+  correlations. Tested on data from 245 zones in Castilla-Leon, Spain, it shows strong
+  predictive performance and highlights the role of human movement and local transmission.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/Bayesian COVID19.jpg
+Subsection: .nan

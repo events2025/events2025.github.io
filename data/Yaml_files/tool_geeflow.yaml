@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:18 PM GMT+1
+Type: 🟡 Tool
+Title: GeeFlow
+URL: https://github.com/google-deepmind/geeflow
+Description: is a DeepMind library for generating large-scale Earth observation datasets
+  using Google Earth Engine. It provides utilities and pipeline scripts to support
+  geospatial AI research, especially for model training with frameworks like Jeo.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/WorkflowJeoGeeFlow.jpg
+Subsection: .nan

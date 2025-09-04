@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:19:47 PM GMT+1
+Type: 🟢 Dataset
+Title: World Fireballs
+URL: https://www.kaggle.com/datasets/nasa/fireballs
+Description: This events dataset contains the date, longitude, and latitude from 1988
+  to 2017 for around 800 records for exceptionally bright fireballs that are spectacular
+  enough to be seen over a very wide area in the sky. Only the brightest fireballs
+  are recorded.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/world_fireballs.jpg
+Subsection: Events

@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:20:12 PM GMT+1
+Type: 🟢 Dataset
+Title: Beijing Traffic
+URL: https://github.com/deepkashiwa20/Urban_Concept_Drift/tree/main
+Description: This dataset contains traffic speeds at 5-minute granularity for 3126
+  roadway segments in Beijing between 2022/05/12 and 2022/07/25 and contains 3126
+  streets.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/beijing_traffic.jpg
+Subsection: Events

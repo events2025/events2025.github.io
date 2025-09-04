@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:10 PM GMT+1
+Type: 🟡 Tool
+Title: 'BSTPP: Bayesian Spatiotemporal Point Process'
+URL: https://www.georgemohler.com/_files/ugd/9226cc_a9bc736f02bb41fa92f7021aac6fc0be.pdf
+Description: is a Python package for Bayesian inference on STPPs, supporting LGCP,
+  Hawkes, and Cox-Hawkes models. It features a VAE for fast GP inference and an extendable
+  module for custom or predefined trigger functions.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/spatial.jpg
+Subsection: .nan

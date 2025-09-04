@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:19:39 PM GMT+1
+Type: 🟢 Dataset
+Title: USA Traffic Congestion
+URL: https://www.kaggle.com/datasets/omosaad/events-dataset
+Description: This dataset contains events of traffic congestion with the context of
+  weather severity; it contains the date, longitude, and latitude from 2016 to 2021
+  for around 3 million records of traffic congestion in the USA, among relevant information
+  such as the severity of the congestion.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/usa_traffic_congestion.jpg
+Subsection: Events

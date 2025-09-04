@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:21:13 PM GMT+1
+Type: 🟡 Tool
+Title: Spatstat
+URL: https://spatstat.org/
+Description: is a comprehensive R package for spatial point pattern analysis, offering
+  tools for EDA, model fitting (Poisson, Cox, Gibbs), and simulation. It handles irregular
+  windows and marked or inhomogeneous patterns, widely used in ecology, epidemiology,
+  and environmental studies.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/Spatstat.jpg
+Subsection: .nan

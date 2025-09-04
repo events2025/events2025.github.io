@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:21:29 PM GMT+1
+Type: 🔴 Tutorial
+Title: PyMC Spatial GP
+URL: https://www.pymc-labs.com/blog-posts/spatial-gaussian-process-01/
+Description: This PyMC Labs tutorial shows how to model spatial data using Gaussian
+  Processes in PyMC, covering spatial kernels, latent GPs, and posterior predictive
+  checks, which are valuable for applications in geostatistics, epidemiology, and
+  environmental modeling.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/PyMCSpatialGP.jpg
+Subsection: .nan

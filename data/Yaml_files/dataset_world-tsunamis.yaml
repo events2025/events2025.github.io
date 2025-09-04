@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:19:44 PM GMT+1
+Type: 🟢 Dataset
+Title: World Tsunamis
+URL: https://www.kaggle.com/datasets/harshalhonde/tsunami-events-dataset-1900-present
+Description: This events dataset contains the date, longitude, and latitude from 1900
+  to 2023 for around 2 thousand records of tsunamis around the world. It also includes
+  relevant information such as the magnitude of each event and the impact of the tsunami,
+  such as the number of deaths and injuries.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/world_tsunamis.jpg
+Subsection: Events

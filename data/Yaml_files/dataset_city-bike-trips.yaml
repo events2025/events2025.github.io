@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:19:40 PM GMT+1
+Type: 🟢 Dataset
+Title: City Bike Trips
+URL: https://citibikenyc.com/system-data
+Description: This events dataset includes records of city bike trips from 2013 to
+  2025, providing information on trip start and end times, as well as the corresponding
+  longitude and latitude coordinates. Freely available.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/citi_bike_trips.jpg
+Subsection: Events

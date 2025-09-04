@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:12 PM GMT+1
+Type: 🟡 Tool
+Title: mlr3spatiotempcv
+URL: https://www.jstatsoft.org/article/view/v111i07
+Description: is an R package extending mlr3 with spatiotemporal resampling strategies.
+  It supports model evaluation, selection, and tuning for spatial data through a unified
+  interface for advanced resampling techniques.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/spatial.jpg
+Subsection: .nan

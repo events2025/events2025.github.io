@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:19:42 PM GMT+1
+Type: 🟢 Dataset
+Title: World Airplane Crashes
+URL: https://www.kaggle.com/datasets/aiaiaidavid/airplane-crash-fatalities-since-1908-dv-03032020?select=Airplane_Crashes_and_Fatalities_Since_1908_DV_03032020.csv
+Description: This events dataset contains the date and country-level locations of
+  the incident for around 5 thousand records from 1908 to 2020, along with relevant
+  information such as casualties and the operator (whether private or something else).
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/world_airplane_crashes.jpg
+Subsection: Events

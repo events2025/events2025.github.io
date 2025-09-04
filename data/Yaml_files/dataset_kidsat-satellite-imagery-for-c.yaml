@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:20:23 PM GMT+1
+Type: 🟢 Dataset
+Title: 'KidSat: Satellite Imagery for Childhood Poverty'
+URL: https://arxiv.org/pdf/2407.05986
+Description: KidSat is a benchmark dataset for mapping childhood poverty using satellite
+  imagery. It links high-resolution visual data with poverty labels across Africa
+  and Latin America, enabling fair benchmarking for ML models.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/kidsat.jpg
+Subsection: Contexts (Misc Data & APIs)

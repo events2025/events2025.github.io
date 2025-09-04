@@ -1,0 +1,13 @@
+Timestamp: 2025/09/04 7:20:57 PM GMT+1
+Type: 🟣 Paper or Method
+Title: 'Causal Inference with Spatio-Temporal Data: Estimating the Effects of Airstrikes
+  on Insurgent Violence in Iraq'
+URL: https://academic.oup.com/jrsssb/article/84/5/1969/7072904?login=false
+Description: This paper introduces a framework for estimating causal effects in complex
+  spatio-temporal settings, combining Bayesian nonparametrics with a potential outcomes
+  approach. Applied to U.S. airstrikes in Iraq (2007–2008), it finds local reductions
+  in violence but short-term spillover increases nearby, highlighting spatial dynamics
+  of intervention impact.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/airstrike.jpg
+Subsection: .nan

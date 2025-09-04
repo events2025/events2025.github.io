@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:20:32 PM GMT+1
+Type: 🟣 Paper or Method
+Title: Neural Jump-Diffusion Temporal Point Processes
+URL: https://openreview.net/forum?id=d1P6GtRzuV
+Description: The paper introduces NJDTPP, a framework that models TPPs using neural
+  jump-diffusion SDEs to flexibly capture complex event dynamics. Neural networks
+  parameterize the SDE components, and the method is evaluated on synthetic and real-world
+  datasets like earthquakes, retweets, and clinical records.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/neuraltpp.jpg
+Subsection: .nan

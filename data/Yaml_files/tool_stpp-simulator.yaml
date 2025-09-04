@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:15 PM GMT+1
+Type: 🟡 Tool
+Title: STPP Simulator
+URL: https://github.com/meowoodie/Spatio-Temporal-Point-Process-Simulator
+Description: This GitHub project offers a framework for simulating spatio-temporal
+  point processes, like Poisson and Hawkes models, over continuous space and time.
+  It’s ideal for testing inference methods and exploring synthetic event dynamics.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/STPPSimulator.jpg
+Subsection: .nan

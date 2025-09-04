@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:14 PM GMT+1
+Type: 🟡 Tool
+Title: Tick Library
+URL: https://x-datainitiative.github.io/tick/
+Description: is a Python library for time-dependent modeling, featuring fast solvers
+  for Hawkes processes, GLMs, and survival analysis. It supports simulation and inference,
+  making it ideal for financial, criminological, and event-based data.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/Tick.jpg
+Subsection: .nan

@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:05 PM GMT+1
+Type: 🟡 Tool
+Title: Spatial-Kfold
+URL: https://github.com/WalidGharianiEAGLE/spatial-kfold
+Description: Spatial-Kfold is a Python library for spatial cross-validation, providing
+  clustering and block resampling methods. It supports Leave Region Out validation
+  to enhance model generalization and robust feature selection.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/spatial.jpg
+Subsection: .nan

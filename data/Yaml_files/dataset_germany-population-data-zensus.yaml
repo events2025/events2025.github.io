@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:20:22 PM GMT+1
+Type: 🟢 Dataset
+Title: Germany Population Data (Zensus 2022)
+URL: https://atlas.zensus2022.de/
+Description: Population dataset from the German Federal Statistical Office (Destatis),
+  based on the Zensus 2022. Offers detailed demographic distributions by region, gender,
+  and age groups across Germany.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/germany-population.jpg
+Subsection: Contexts (Population Data & Mobility)

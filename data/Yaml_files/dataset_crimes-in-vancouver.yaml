@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:19:24 PM GMT+1
+Type: 🟢 Dataset
+Title: Crimes in Vancouver
+URL: https://www.kaggle.com/datasets/wosaku/crime-in-vancouver
+Description: Includes individual crime events with time (minute, hour, day, month,
+  year) and latitude and longitude from 2003 to 2017 with 530 thousand records. The
+  data was originally retrieved from city of Vancouver open data portal.
+Contributor Id: Sumantrak Mukherjee
+Image: /assets/images/thumb/crimes_in_vancouver.jpg
+Subsection: Events

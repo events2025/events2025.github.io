@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:21:17 PM GMT+1
+Type: 🟡 Tool
+Title: Jeo
+URL: https://github.com/google-deepmind/jeo
+Description: is a foundation model framework by DeepMind for embedding geospatial
+  and temporal data into a shared space. It supports tasks like land cover classification
+  and change detection, enabling scalable, multimodal learning across sensors and
+  regions for geospatial AI.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/WorkflowJeoGeeFlow.jpg
+Subsection: .nan

@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:19:46 PM GMT+1
+Type: 🟢 Dataset
+Title: World Natural Disasters
+URL: https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis
+Description: This events dataset contains dates, longitudes, and latitudes from 1900
+  to 2021 for around 16 thousand records of various types of natural disasters in
+  the world, such as droughts, volcanoes, and earthquakes, among relevant information
+  such as the number of people injured, total deaths, and damage costs.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/world_natural_disasters.jpg
+Subsection: Events

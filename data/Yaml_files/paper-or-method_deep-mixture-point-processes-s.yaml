@@ -1,0 +1,12 @@
+Timestamp: 2025/09/04 7:20:49 PM GMT+1
+Type: 🟣 Paper or Method
+Title: 'Deep Mixture Point Processes: Spatio-temporal Event Prediction with Rich Contextual
+  Information'
+URL: https://arxiv.org/pdf/1906.08952
+Description: This paper introduces DMPP (Deep Mixture Point Processes), a model for
+  predicting spatio-temporal events using high-dimensional context from images and
+  text. It models intensity as a kernel mixture with weights learned by a neural network
+  to capture complex contextual effects.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/maya_okawa_multi_modal_model_paper.jpg
+Subsection: Neural Methods

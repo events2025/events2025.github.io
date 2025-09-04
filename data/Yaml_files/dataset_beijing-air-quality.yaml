@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:20:13 PM GMT+1
+Type: 🟢 Dataset
+Title: Beijing Air Quality
+URL: https://www.kaggle.com/datasets/sid321axn/beijing-multisite-airquality-data-set
+Description: This dataset contains the air quality in Beijing from 12 different country-level
+  locations with dates from 2013 to 2017. It contains measurements for air quality
+  such as CO₂ and O₃. The data was originally retrieved from the UCI Machine Learning
+  Repository.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/beijing_air_pollution.jpg
+Subsection: Contexts (Environment & Climate)

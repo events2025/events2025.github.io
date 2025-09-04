@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:08 PM GMT+1
+Type: 🟡 Tool
+Title: Generative Neural Temporal Point Proces (GNTPP)
+URL: https://github.com/EDAPINENUT/GNTPP
+Description: This tool provides a PyTorch implementation of GNTPP from the paper Exploring
+  Generative Neural Temporal Point Process. It focuses on deep generative models for
+  producing high-quality event samples in temporal point process modeling.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/generative_neural_temporal_point_proces_(gntpp).jpg
+Subsection: .nan

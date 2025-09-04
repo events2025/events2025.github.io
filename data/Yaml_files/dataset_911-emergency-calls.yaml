@@ -1,0 +1,9 @@
+Timestamp: 2025/09/04 7:19:37 PM GMT+1
+Type: 🟢 Dataset
+Title: 911 Emergency Calls
+URL: https://www.kaggle.com/datasets/sachinpatil1280/911-emergency-calls?select=911.csv
+Description: This events dataset contains the date, longitude, and latitude for 911
+  emergency calls from 2015 to 2016 for around 99 thousand records.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/911_emergency_calls.jpg
+Subsection: Events

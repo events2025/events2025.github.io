@@ -1,0 +1,12 @@
+Timestamp: 2025/09/04 7:20:59 PM GMT+1
+Type: 🟣 Paper or Method
+Title: Scalable Spatiotemporal Prediction with Bayesian Neural Fields
+URL: https://www.nature.com/articles/s41467-024-51477-5
+Description: This paper presents Bayesian Neural Fields (BayesNF), a model that integrates
+  deep neural networks with hierarchical Bayesian inference for large-scale spatiotemporal
+  data. BayesNF offers accurate predictions with uncertainty quantification and outperforms
+  existing methods in domains like climate and public health. It is implemented in
+  JAX with GPU/TPU support.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/Bayesian neural fields.jpg
+Subsection: .nan

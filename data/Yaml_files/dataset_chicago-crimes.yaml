@@ -1,0 +1,9 @@
+Timestamp: 2025/09/04 7:19:29 PM GMT+1
+Type: 🟢 Dataset
+Title: Chicago Crimes
+URL: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data
+Description: This events dataset contains the Chicago crimes from 2001 to the present,
+  except for the past 7 days, with date, longitude, and latitude. Freely available.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/chicago_crimes.jpg
+Subsection: Events

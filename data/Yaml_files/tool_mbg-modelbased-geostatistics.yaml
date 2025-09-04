@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:21 PM GMT+1
+Type: 🟡 Tool
+Title: MBG (Model‑Based Geostatistics)
+URL: https://cran.r-project.org/web/packages/mbg/index.html
+Description: An R package offering spatial machine learning and geostatistical modeling
+  workflows that estimate continuous raster surfaces from point data and summarize
+  uncertainty over regions.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/mbg.jpg
+Subsection: .nan

@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:20:17 PM GMT+1
+Type: 🟢 Dataset
+Title: 'SatBird: Bird Species Distribution Modeling'
+URL: https://neurips.cc/virtual/2023/poster/73571
+Description: SatBird is a dataset for modeling bird species distributions using satellite
+  imagery and citizen science data (from eBird). It includes more than 2 million observations
+  and multispectral data for 214 bird species across the U.S.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/satbird.jpg
+Subsection: Contexts (Environment & Climate)

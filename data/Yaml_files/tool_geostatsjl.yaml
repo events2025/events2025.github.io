@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:11 PM GMT+1
+Type: 🟡 Tool
+Title: GeoStats.jl
+URL: https://github.com/JuliaEarth/GeoStats.jl
+Description: is a Julia-based framework for geospatial data science and geostatistics,
+  offering a unified interface for kriging, simulation, and estimation. It supports
+  advanced geometry handling and high-performance spatial computations.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/GeoStats.jpg
+Subsection: .nan

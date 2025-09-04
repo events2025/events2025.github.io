@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:19:25 PM GMT+1
+Type: 🟢 Dataset
+Title: New York City Shootings
+URL: https://www.kaggle.com/datasets/thaddeussegura/new-york-city-shooting-dataset
+Description: This events dataset contains the date, longitude, and latitude for New
+  York City shootings from 2006 to 2019 for around 22 thousand records, including
+  relevant information about the incident, such as the shooter (age, gender, race).
+  The data was originally retrieved from NYC OpenData.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/new_york_city_shootings.jpg
+Subsection: Events

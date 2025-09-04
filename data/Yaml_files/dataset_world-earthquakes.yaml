@@ -1,0 +1,12 @@
+Timestamp: 2025/09/04 7:19:43 PM GMT+1
+Type: 🟢 Dataset
+Title: World Earthquakes
+URL: https://www.kaggle.com/datasets/jahaidulislam/significant-earthquake-dataset-1900-2023
+Description: This events dataset contains the date, longitude, and latitude from 1900
+  to 2023 for around 37 thousand records for the world-recorded earthquakes among
+  relevant information related to the earthquake, such as the depth of the earthquake.
+  This dataset contains nulls in some features but not in longitude, latitude, or
+  date.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/world_earthquakes.jpg
+Subsection: Events

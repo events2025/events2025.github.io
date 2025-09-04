@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:20:55 PM GMT+1
+Type: 🟣 Paper or Method
+Title: 'PriorVAE: Encoding Spatial Priors with VAEs for Small-Area Estimation'
+URL: https://arxiv.org/pdf/2110.10422
+Description: PriorVAE introduces a novel approach to spatial modeling by using variational
+  autoencoders to approximate Gaussian process priors. This method enables efficient
+  Bayesian inference for small-area estimation tasks, reducing computational complexity
+  while maintaining accuracy.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/prior vae.jpg
+Subsection: .nan

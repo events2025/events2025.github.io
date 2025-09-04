@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:20:27 PM GMT+1
+Type: 🟢 Dataset
+Title: CDC Foodborne Outbreak Data (BEAM)
+URL: https://www.cdc.gov/ncezid/dfwed/beam-dashboard.html
+Description: The CDC’s BEAM Dashboard provides curated data on foodborne disease outbreaks
+  across the United States. It includes temporal and spatial details of outbreaks,
+  pathogen types, and affected demographics, supporting public health and epidemiological
+  research.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/cdc_beam.jpg
+Subsection: Contexts (Misc Data & APIs)

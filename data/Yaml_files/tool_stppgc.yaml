@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:16 PM GMT+1
+Type: 🟡 Tool
+Title: STPPGC
+URL: https://github.com/YahyaAalaila/STPPGC?tab=readme-ov-file
+Description: is a benchmarking toolkit for streaming STPP models. Its BenchSTPP framework
+  supports end-to-end development with YAML configs, PyTorch Lightning, Ray Tune,
+  and version-controlled logging for fast, reproducible prototyping and evaluation.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/stppgc.jpg
+Subsection: .nan

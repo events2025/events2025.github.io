@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:21:25 PM GMT+1
+Type: 🔴 Tutorial
+Title: Neural TPP Model
+URL: https://shchur.github.io/blog/2021/tpp2-neural-tpps/
+Description: 'This tutorial introduces Neural Temporal Point Processes, explaining
+  how to parameterize TPPs with neural networks, derive their likelihood function,
+  and train models in PyTorch using the corresponding loss. '
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/neuraltpp.jpg
+Subsection: .nan

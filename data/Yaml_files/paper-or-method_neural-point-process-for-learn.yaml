@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:20:50 PM GMT+1
+Type: 🟣 Paper or Method
+Title: Neural Point Process for Learning Spatiotemporal Event Dynamics
+URL: https://proceedings.mlr.press/v168/zhou22a/zhou22a.pdf
+Description: This paper introduces DeepSTPP, a deep dynamics model for forecasting
+  irregular spatiotemporal events using a nonparametric space-time intensity function
+  governed by a latent process.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/DeepSTPP.jpg
+Subsection: Neural Methods

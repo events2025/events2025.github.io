@@ -1,0 +1,11 @@
+Timestamp: 2025/09/04 7:21:27 PM GMT+1
+Type: 🔴 Tutorial
+Title: Sentinelsat Package
+URL: https://medium.com/@gabrielagodinho/querying-and-downloading-sentinel-satellite-data-with-python-80573e4b16f5
+Description: This tutorial explores the use of the Sentinelsat Python package for
+  using different satellites for retrieving various forms of data, such as all weather
+  data, land-surface temperature, and ocean color and land color with longitude and
+  latitude locations.
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/sentinelsat_package.jpg
+Subsection: .nan

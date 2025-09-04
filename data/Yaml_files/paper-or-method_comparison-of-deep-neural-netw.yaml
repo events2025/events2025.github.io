@@ -1,0 +1,12 @@
+Timestamp: 2025/09/04 7:21:01 PM GMT+1
+Type: 🟣 Paper or Method
+Title: Comparison of Deep Neural Networks and Deep Hierarchical Models for Spatio-Temporal
+  Data
+URL: https://link.springer.com/article/10.1007/s13253-019-00361-7
+Description: This paper compares hierarchical dynamic spatio-temporal models (H-DSTMs)
+  and deep neural networks for modeling complex spatio-temporal processes. It discusses
+  trade-offs between interpretability and scalability, and explores hybrid models
+  that combine their strengths for high-dimensional, nonlinear data.
+Contributor Id: Mouad Elhamdi
+Image: /assets/images/thumb/DNNST.jpg
+Subsection: .nan

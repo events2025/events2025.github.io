@@ -1,0 +1,10 @@
+Timestamp: 2025/09/04 7:19:48 PM GMT+1
+Type: 🟢 Dataset
+Title: World Wildfires
+URL: https://www.kaggle.com/datasets/ransakaravihara/h2oai-wildfire-bushfire-challenge-dataset
+Description: 'This events and context dataset contains date, longitude, and latitude
+  from 2000 to 2020 for measuring the light brightness and whether a fire happened
+  or not. Data originally retrieved from NASA''s FIRM Earthdata. '
+Contributor Id: Abdelrahman Ezzeldin Nagib
+Image: /assets/images/thumb/wolrd_wildfires.jpg
+Subsection: Events
