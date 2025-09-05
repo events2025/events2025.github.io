@@ -3,7 +3,7 @@ import re
 import yaml
 
 # --- Config kept minimal (paths are fixed) ---
-MASTER_CSV_PATH = 'data/Add Item to "Events in Context" Knowledge Base_1.csv'
+MASTER_CSV_PATH = 'data/Add Item to "Events in Context" Knowledge Base.csv'
 
 # Which markdown gets which Type (normalized). Same structure as your original mapping.
 files_to_process = [
