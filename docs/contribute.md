@@ -50,7 +50,7 @@ Examples: `dataset_usa-covid-19.yaml`, `methods_neural-tpp.yaml`
 - `conference` or `journal`
 
 ## 🖼 Image guidelines
-- Place thumbnails under `/assets/images/thumb/` (PNG or JPG).  
+- Place thumbnails under `/assets/images/thumb/` (JPG).  
 - Name suggestion: `<title_slug>.jpg` (all lowercase, hyphens).
 
 ---
