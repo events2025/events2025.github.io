@@ -106,21 +106,9 @@ for markdown_filename, want_type in files_to_process:
                     generated += substitute_placeholders(block, row) + "\n\n"
 
     elif markdown_filename == 'methods.md':
-        df['_YearInt'] = df['Year'].apply(_parse_year)
-        df = df.sort_values(by=['_YearInt','Title'], ascending=[True,True])
-        years = [y for y in df['_YearInt'].dropna().unique()]
-        for y in years:
-            sub_df = df[df['_YearInt'] == y].copy()
-            if not sub_df.empty:
-                generated += f"\n\n<p class=\"paper-year\">{int(y)}</p>\n\n"
-                for _, row in sub_df.iterrows():
-                    generated += substitute_placeholders(block, row) + "\n\n"
-        unk_df = df[df['_YearInt'].isna()].copy()
-        if not unk_df.empty:
-            generated += "\n\n<p class=\"paper-year\">Unknown Year</p>\n\n"
-            unk_df = unk_df.sort_values(['Title']).reset_index(drop=True)
-            for _, row in unk_df.iterrows():
-                generated += substitute_placeholders(block, row) + "\n\n"
+        df = df.sort_values(['Title']).reset_index(drop=True)
+        for _, row in df.iterrows():
+            generated += substitute_placeholders(block, row) + "\n\n"
 
     elif markdown_filename == 'conferences.md':
         df['Subsection'] = df['Subsection'].apply(_standardize_subsection)
