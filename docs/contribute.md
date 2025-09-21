@@ -35,10 +35,6 @@ Examples: `dataset_usa-covid-19.yaml`, `methods_neural-tpp.yaml`
 - `Image` — path under `/assets/images/thumb/...` (optional but recommended)
 - `Subsection` — see rules below
 
-## 🧪 Optional fields (use if relevant)
-- `Year` — for papers/methods (e.g., `2023`)
-- `Keywords` — short comma-separated list
-
 ## 🧭 Subsection rules
 **Datasets:**  
 - `Contexts (Environment & Climate)`  
