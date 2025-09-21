@@ -32,8 +32,6 @@ layout: home
 
 <div style="max-width: 100%;">
   <!-- START -->
-<p class="paper-year">Unknown Year</p>
-
 <div style="display: flex; justify-content: space-between; align-items: stretch; margin-bottom: 20px;">
     <div style="display: flex; align-items: stretch;">
       <img src="/assets/images/thumb/Bayesian COVID19.jpg" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
