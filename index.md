@@ -28,13 +28,15 @@ Visit the [Space‑Time Causality Reading Group](https://spacetimecausality.gi
 
 ## 🤝 Contribute
 
-This project is community-driven. Everyone is welcome to contribute by adding new items to the website. After submission, your contribution will be reviewed and added to the site.
-You can submit via:
-- A [form](docs/contribute.html)
-- by creating a [Pull Request](https://github.com/events2025/) where you create a new '.csv' file within the data folder (this also allows adding more than one fiel at once). You can also use this option to propose changes in existing entries. 
+We welcome contributions!
 
+- Add a **YAML file** under `data/Yaml_files/` (one item per file).  
+- Follow the schema in **[Contribute](/docs/contribute)** (required fields, subsections, examples).  
+- (If adding an image) place a thumbnail in `assets/images/thumb/` and reference it in `Image`.  
+- Open a **Pull Request**; the site auto-builds from YAML after merge.  
+- Prefer PRs; if needed, open an Issue and paste your YAML in a fenced code block.
 
-If you want to report, please raise an issue on [GitHub](https://github.com/events2025/).
+If you want to report a problem, please open an Issue on **[GitHub](https://github.com/events2025/)**.
 
 
 ## Funding
