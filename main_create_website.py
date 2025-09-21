@@ -1,21 +1,15 @@
-import pandas as pd
-import re
-import yaml
+import re, glob, yaml, pandas as pd
 
-# --- Config kept minimal (paths are fixed) ---
-MASTER_CSV_PATH = 'data/Add Item to "Events in Context" Knowledge Base.csv'
-
-# Which markdown gets which Type (normalized). Same structure as your original mapping.
+# Which markdown page consumes which normalized Type
 files_to_process = [
     ('websites.md',  'website'),
     ('datasets.md',  'dataset'),
     ('tools.md',     'tool'),
     ('tutorials.md', 'tutorial'),
-    ('methods.md',   'paper or method'),          # Papers & Methods
-    ('conferences.md','conference or journal'),   # Conferences + Journals
+    ('methods.md',   'paper or method'),
+    ('conferences.md','conference or journal'),
 ]
 
-# --- Helpers (same shape as your code) ---
 def clean_title(title: str) -> str:
     title = re.sub(r'[^\w\s-]', '', str(title))
     return title.replace(' ', '_').lower()
@@ -30,38 +24,18 @@ def substitute_placeholders(text: str, row: pd.Series) -> str:
         out = out.replace(f'(({placeholder}))', value)
     return out
 
-def ensure_image_thumb(row: pd.Series) -> str:
-    """
-    Minimal: do NOT create/copy anything.
-    If Image already points to assets/images/thumb, keep it (normalize leading slash).
-    Else, point to /assets/images/thumb/<cleaned title>.jpg
-    """
-    img = str(row.get('Image', '')).strip()
-    if 'assets/images/thumb' in img:
-        return img if img.startswith('/') else '/' + img
-    cleaned = clean_title(row.get('Title', 'item'))
-    return f'/assets/images/thumb/{cleaned}.jpg'
-
 def _parse_year(y):
-    try:
-        return int(str(y)[:4])
-    except Exception:
-        return None
+    try: return int(str(y)[:4])
+    except Exception: return None
 
 def _standardize_subsection(x):
     s = str(x).strip().lower()
-    if 'conference' in s or s == 'conf' or s == 'conferences':
-        return 'conference'
-    if 'journal' in s or s == 'journals':
-        return 'journal'
-    return s if s in ('conference', 'journal') else 'journal'  # default
+    if 'conference' in s or s in ('conf','conferences'): return 'conference'
+    if 'journal' in s or s == 'journals': return 'journal'
+    return s if s in ('conference','journal') else 'journal'
 
 def _normalize_type(s: str) -> str:
-    """
-    Strip emoji/punct, lowercase, and bucket to match files_to_process types.
-    """
-    if s is None:
-        return ''
+    if s is None: return ''
     t = re.sub(r'[^\w\s-]', ' ', str(s)).lower()
     t = re.sub(r'\s+', ' ', t).strip()
     if 'website' in t: return 'website'
@@ -72,37 +46,29 @@ def _normalize_type(s: str) -> str:
     if 'conference' in t or 'journal' in t: return 'conference or journal'
     return t
 
-def _simplify_for_filename(text: str, max_len: int = 30) -> str:
-    if text is None:
-        return 'unknown'
-    t = str(text).strip().lower()
-    t = re.sub(r'[^\w\s\-_]', '', t)
-    t = re.sub(r'\s+', '-', t).strip('-_')
-    return (t[:max_len] or 'unknown')
+# --- Load all YAML rows ---
+rows = []
+for path in sorted(glob.glob('data/Yaml_files/*.yaml')):
+    with open(path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f) or {}
+        rows.append(data)
 
-# --- Load the single master CSV ---
-try:
-    df_master = pd.read_csv(MASTER_CSV_PATH, encoding='utf-8')
-except FileNotFoundError:
-    raise SystemExit(f"CSV not found: {MASTER_CSV_PATH}")
-except pd.errors.EmptyDataError:
-    raise SystemExit(f"CSV is empty: {MASTER_CSV_PATH}")
-except Exception as e:
-    raise SystemExit(f"Error reading {MASTER_CSV_PATH}: {e}")
+if not rows:
+    raise SystemExit("No YAML files found under data/Yaml_files/")
 
-# Ensure expected columns exist (like your original)
-for c in ('Image','Title','URL','Description'):
+df_master = pd.DataFrame(rows)
+
+# Ensure expected columns exist
+for c in ('Image','Title','URL','Description','Subsection','Type','Year'):
     if c not in df_master.columns:
         df_master[c] = ''
 
-# Normalize images and Type
-df_master['Image'] = df_master.apply(ensure_image_thumb, axis=1)
+# Normalize type
 df_master['_NormType'] = df_master['Type'].apply(_normalize_type)
 
-# --- Render each markdown page from the master CSV, filtering by Type ---
+# --- Render each markdown page from YAML, filtering by type ---
 for markdown_filename, want_type in files_to_process:
-    print(f"\n==> Building {markdown_filename} from master CSV (type == {want_type})")
-
+    print(f"\n==> Building {markdown_filename} from YAML (type == {want_type})")
     df = df_master[df_master['_NormType'] == want_type].copy()
 
     # Load template
@@ -114,10 +80,8 @@ for markdown_filename, want_type in files_to_process:
         print(f"Template not found: {template_path}. Skipping {markdown_filename}.")
         continue
 
-    start_c = '<!-- START -->'
-    stop_c = '<!-- STOP -->'
-    i1 = md.find(start_c)
-    i2 = md.find(stop_c, i1)
+    start_c, stop_c = '<!-- START -->', '<!-- STOP -->'
+    i1, i2 = md.find(start_c), md.find(stop_c, md.find(start_c))
     if i1 == -1 or i2 == -1:
         print(f"No START/STOP markers in {markdown_filename}. Skipping.")
         continue
@@ -125,11 +89,8 @@ for markdown_filename, want_type in files_to_process:
 
     generated = ''
 
-    # Per-page grouping logic (unchanged from your code)
     if markdown_filename == 'datasets.md':
-        if 'Subsection' not in df.columns:
-            print("Warning: No 'Subsection' in master CSV; defaulting to 'Contexts (Environment & Climate)'.")
-            df['Subsection'] = 'Contexts (Environment & Climate)'
+        if 'Subsection' not in df.columns: df['Subsection'] = 'Contexts (Environment & Climate)'
         sections_to_show = [
             'Contexts (Environment & Climate)',
             'Contexts (Misc Data & APIs)',
@@ -145,10 +106,8 @@ for markdown_filename, want_type in files_to_process:
                     generated += substitute_placeholders(block, row) + "\n\n"
 
     elif markdown_filename == 'methods.md':
-        if 'Year' not in df.columns:
-            df['Year'] = ''
         df['_YearInt'] = df['Year'].apply(_parse_year)
-        df = df.sort_values(by=['_YearInt', 'Title'], ascending=[True, True])
+        df = df.sort_values(by=['_YearInt','Title'], ascending=[True,True])
         years = [y for y in df['_YearInt'].dropna().unique()]
         for y in years:
             sub_df = df[df['_YearInt'] == y].copy()
@@ -164,8 +123,6 @@ for markdown_filename, want_type in files_to_process:
                 generated += substitute_placeholders(block, row) + "\n\n"
 
     elif markdown_filename == 'conferences.md':
-        if 'Subsection' not in df.columns:
-            df['Subsection'] = 'journal'
         df['Subsection'] = df['Subsection'].apply(_standardize_subsection)
         order = ['conference', 'journal']
         labels = {'conference': 'Conferences', 'journal': 'Journals'}
@@ -177,33 +134,15 @@ for markdown_filename, want_type in files_to_process:
                 for _, row in sub_df.iterrows():
                     generated += substitute_placeholders(block, row) + "\n\n"
     else:
-        # Default: simple stream in Title order
         df = df.sort_values(['Title']).reset_index(drop=True)
         for _, row in df.iterrows():
             generated += substitute_placeholders(block, row) + "\n\n"
 
-    # Write out
+    # Write page
     new_block = f"{start_c}\n{generated.strip()}\n{stop_c}"
     md = md[:i1] + new_block + md[i2+len(stop_c):]
     out_path = f'docs/{markdown_filename}'
-    try:
-        with open(out_path, 'w', encoding='utf-8') as f:
-            f.write(md)
-        print(f"Updated {out_path}")
-    except Exception as e:
-        print(f"Error writing {out_path}: {e}")
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(md)
 
-print("\nAll pages processed from master CSV.")
-
-# --- YAML: one file per row under data/Yaml_files/ ---
-print("\n==> Writing per-row YAML files")
-CANON = ["Timestamp","Type","Title","URL","Description","Contributor Id","Image","Subsection"]
-for _, row in df_master.iterrows():
-    type_part  = _simplify_for_filename(row.get("Type", "unknown"),  max_len=30)
-    title_part = _simplify_for_filename(row.get("Title", "unknown"), max_len=30)
-    yaml_path = f"data/Yaml_files/{type_part}_{title_part}.yaml"
-    data = {k: row.get(k, "") for k in CANON}
-    with open(yaml_path, "w", encoding="utf-8") as f:
-        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
-
-print("YAML rows written to data/Yaml_files/")
+print("\nAll pages processed from YAML.")
