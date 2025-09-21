@@ -13,7 +13,7 @@ layout: home
 
 ---
 
-## ✅ Accepted **Type** values
+## ✅ Accepted Type values
 - `Dataset`
 - `Website`
 - `Tool`
