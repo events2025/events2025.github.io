@@ -6,7 +6,6 @@ layout: home
 
 # 🤝 Contribute (Add Item)
 
-**TL;DR**
 1) Fork the repo → add a YAML file under `data/Yaml_files/`.  
 2) Follow the schema below.  
 3) Open a Pull Request. The site builds automatically.
